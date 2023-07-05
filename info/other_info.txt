@@ -314,6 +314,7 @@
 /home/opensearch/opensearch/opensearch-2.8.0/data/nodes/0/indices/52jDw6cJQDW7IKaMlLSP-Q/0/translog/translog.ckp	88	
 /home/opensearch/opensearch/opensearch-2.8.0/data/nodes/0/indices/52jDw6cJQDW7IKaMlLSP-Q/0/translog/translog-3.tlog	55	
 /home/opensearch/opensearch/opensearch-2.8.0/data/nodes/0/indices/xqbFvFIcQLyfcCRP0zYDhw/_state/state-6.st	931	
+/home/opensearch/opensearch/opensearch-2.8.0/data/nodes/0/indices/xqbFvFIcQLyfcCRP0zYDhw/0/index/_13ee.cfe	479	
 /home/opensearch/opensearch/opensearch-2.8.0/data/nodes/0/indices/xqbFvFIcQLyfcCRP0zYDhw/0/index/_yi3.fdx	4359	
 /home/opensearch/opensearch/opensearch-2.8.0/data/nodes/0/indices/xqbFvFIcQLyfcCRP0zYDhw/0/index/_12fh.kdd	282911	
 /home/opensearch/opensearch/opensearch-2.8.0/data/nodes/0/indices/xqbFvFIcQLyfcCRP0zYDhw/0/index/_13ct_Lucene90_0.tmd	3043	
@@ -321,7 +322,9 @@
 /home/opensearch/opensearch/opensearch-2.8.0/data/nodes/0/indices/xqbFvFIcQLyfcCRP0zYDhw/0/index/_11ea.nvm	643	
 /home/opensearch/opensearch/opensearch-2.8.0/data/nodes/0/indices/xqbFvFIcQLyfcCRP0zYDhw/0/index/_11ea_Lucene90_0.dvd	27179	
 /home/opensearch/opensearch/opensearch-2.8.0/data/nodes/0/indices/xqbFvFIcQLyfcCRP0zYDhw/0/index/_11r6.cfs	15921	
+/home/opensearch/opensearch/opensearch-2.8.0/data/nodes/0/indices/xqbFvFIcQLyfcCRP0zYDhw/0/index/_13ef.si	346	
 /home/opensearch/opensearch/opensearch-2.8.0/data/nodes/0/indices/xqbFvFIcQLyfcCRP0zYDhw/0/index/_12fh.fdt	2100374	
+/home/opensearch/opensearch/opensearch-2.8.0/data/nodes/0/indices/xqbFvFIcQLyfcCRP0zYDhw/0/index/_13ee.si	346	
 /home/opensearch/opensearch/opensearch-2.8.0/data/nodes/0/indices/xqbFvFIcQLyfcCRP0zYDhw/0/index/_11ea.fdx	3657	
 /home/opensearch/opensearch/opensearch-2.8.0/data/nodes/0/indices/xqbFvFIcQLyfcCRP0zYDhw/0/index/_11ea.kdm	263	
 /home/opensearch/opensearch/opensearch-2.8.0/data/nodes/0/indices/xqbFvFIcQLyfcCRP0zYDhw/0/index/_12fh.fdx	5299	
@@ -335,6 +338,7 @@
 /home/opensearch/opensearch/opensearch-2.8.0/data/nodes/0/indices/xqbFvFIcQLyfcCRP0zYDhw/0/index/_13ct_Lucene90_0.dvd	85584	
 /home/opensearch/opensearch/opensearch-2.8.0/data/nodes/0/indices/xqbFvFIcQLyfcCRP0zYDhw/0/index/_12fh.si	601	
 /home/opensearch/opensearch/opensearch-2.8.0/data/nodes/0/indices/xqbFvFIcQLyfcCRP0zYDhw/0/index/_yi3.kdi	1049	
+/home/opensearch/opensearch/opensearch-2.8.0/data/nodes/0/indices/xqbFvFIcQLyfcCRP0zYDhw/0/index/_13ed.cfs	15132	
 /home/opensearch/opensearch/opensearch-2.8.0/data/nodes/0/indices/xqbFvFIcQLyfcCRP0zYDhw/0/index/_13ct_Lucene90_0.doc	23191	
 /home/opensearch/opensearch/opensearch-2.8.0/data/nodes/0/indices/xqbFvFIcQLyfcCRP0zYDhw/0/index/_13ct_Lucene90_0.dvm	4136	
 /home/opensearch/opensearch/opensearch-2.8.0/data/nodes/0/indices/xqbFvFIcQLyfcCRP0zYDhw/0/index/_12fh_Lucene90_0.tmd	3432	
@@ -352,9 +356,11 @@
 /home/opensearch/opensearch/opensearch-2.8.0/data/nodes/0/indices/xqbFvFIcQLyfcCRP0zYDhw/0/index/_13ct.fdx	1264	
 /home/opensearch/opensearch/opensearch-2.8.0/data/nodes/0/indices/xqbFvFIcQLyfcCRP0zYDhw/0/index/_13ct.fnm	6199	
 /home/opensearch/opensearch/opensearch-2.8.0/data/nodes/0/indices/xqbFvFIcQLyfcCRP0zYDhw/0/index/_11r5.cfe	479	
+/home/opensearch/opensearch/opensearch-2.8.0/data/nodes/0/indices/xqbFvFIcQLyfcCRP0zYDhw/0/index/_13ed.cfe	479	
 /home/opensearch/opensearch/opensearch-2.8.0/data/nodes/0/indices/xqbFvFIcQLyfcCRP0zYDhw/0/index/_yi3.fnm	6027	
 /home/opensearch/opensearch/opensearch-2.8.0/data/nodes/0/indices/xqbFvFIcQLyfcCRP0zYDhw/0/index/_11ea_Lucene90_0.dvm	3691	
 /home/opensearch/opensearch/opensearch-2.8.0/data/nodes/0/indices/xqbFvFIcQLyfcCRP0zYDhw/0/index/_yi3.si	584	
+/home/opensearch/opensearch/opensearch-2.8.0/data/nodes/0/indices/xqbFvFIcQLyfcCRP0zYDhw/0/index/_13ed.si	346	
 /home/opensearch/opensearch/opensearch-2.8.0/data/nodes/0/indices/xqbFvFIcQLyfcCRP0zYDhw/0/index/_12fh_Lucene90_0.tim	1152458	
 /home/opensearch/opensearch/opensearch-2.8.0/data/nodes/0/indices/xqbFvFIcQLyfcCRP0zYDhw/0/index/_12fh_Lucene90_0.dvm	5424	
 /home/opensearch/opensearch/opensearch-2.8.0/data/nodes/0/indices/xqbFvFIcQLyfcCRP0zYDhw/0/index/_13ct.kdd	11509	
@@ -379,9 +385,11 @@
 /home/opensearch/opensearch/opensearch-2.8.0/data/nodes/0/indices/xqbFvFIcQLyfcCRP0zYDhw/0/index/_13ct.kdm	263	
 /home/opensearch/opensearch/opensearch-2.8.0/data/nodes/0/indices/xqbFvFIcQLyfcCRP0zYDhw/0/index/_12fh.fdm	202	
 /home/opensearch/opensearch/opensearch-2.8.0/data/nodes/0/indices/xqbFvFIcQLyfcCRP0zYDhw/0/index/_12fh.fnm	8644	
+/home/opensearch/opensearch/opensearch-2.8.0/data/nodes/0/indices/xqbFvFIcQLyfcCRP0zYDhw/0/index/_13ef.cfs	13537	
 /home/opensearch/opensearch/opensearch-2.8.0/data/nodes/0/indices/xqbFvFIcQLyfcCRP0zYDhw/0/index/_yi3.fdt	1627895	
 /home/opensearch/opensearch/opensearch-2.8.0/data/nodes/0/indices/xqbFvFIcQLyfcCRP0zYDhw/0/index/_yi3.kdm	272	
 /home/opensearch/opensearch/opensearch-2.8.0/data/nodes/0/indices/xqbFvFIcQLyfcCRP0zYDhw/0/index/_13ec.si	383	
+/home/opensearch/opensearch/opensearch-2.8.0/data/nodes/0/indices/xqbFvFIcQLyfcCRP0zYDhw/0/index/_13ef.cfe	479	
 /home/opensearch/opensearch/opensearch-2.8.0/data/nodes/0/indices/xqbFvFIcQLyfcCRP0zYDhw/0/index/_yi3.kdd	251437	
 /home/opensearch/opensearch/opensearch-2.8.0/data/nodes/0/indices/xqbFvFIcQLyfcCRP0zYDhw/0/index/_yi3_Lucene90_0.doc	119727	
 /home/opensearch/opensearch/opensearch-2.8.0/data/nodes/0/indices/xqbFvFIcQLyfcCRP0zYDhw/0/index/_13ct.nvd	7659	
@@ -389,6 +397,7 @@
 /home/opensearch/opensearch/opensearch-2.8.0/data/nodes/0/indices/xqbFvFIcQLyfcCRP0zYDhw/0/index/_13ct_Lucene90_0.tip	2291	
 /home/opensearch/opensearch/opensearch-2.8.0/data/nodes/0/indices/xqbFvFIcQLyfcCRP0zYDhw/0/index/_11ea_Lucene90_0.tmd	3001	
 /home/opensearch/opensearch/opensearch-2.8.0/data/nodes/0/indices/xqbFvFIcQLyfcCRP0zYDhw/0/index/_11q8.cfe	479	
+/home/opensearch/opensearch/opensearch-2.8.0/data/nodes/0/indices/xqbFvFIcQLyfcCRP0zYDhw/0/index/_13ee.cfs	15140	
 /home/opensearch/opensearch/opensearch-2.8.0/data/nodes/0/indices/xqbFvFIcQLyfcCRP0zYDhw/0/index/_yi3_Lucene90_0.pos	55554	
 /home/opensearch/opensearch/opensearch-2.8.0/data/nodes/0/indices/xqbFvFIcQLyfcCRP0zYDhw/0/index/_yi3_Lucene90_0.tim	950981	
 /home/opensearch/opensearch/opensearch-2.8.0/data/nodes/0/indices/xqbFvFIcQLyfcCRP0zYDhw/0/index/_yi3_Lucene90_0.tip	25848	
@@ -396,9 +405,9 @@
 /home/opensearch/opensearch/opensearch-2.8.0/data/nodes/0/indices/xqbFvFIcQLyfcCRP0zYDhw/0/index/_yi3_Lucene90_0.dvm	3935	
 /home/opensearch/opensearch/opensearch-2.8.0/data/nodes/0/indices/xqbFvFIcQLyfcCRP0zYDhw/0/index/_yi3_Lucene90_0.dvd	557512	
 /home/opensearch/opensearch/opensearch-2.8.0/data/nodes/0/indices/xqbFvFIcQLyfcCRP0zYDhw/0/_state/state-0.st	125	
-/home/opensearch/opensearch/opensearch-2.8.0/data/nodes/0/indices/xqbFvFIcQLyfcCRP0zYDhw/0/_state/retention-leases-656.st	185	
+/home/opensearch/opensearch/opensearch-2.8.0/data/nodes/0/indices/xqbFvFIcQLyfcCRP0zYDhw/0/_state/retention-leases-657.st	185	
 /home/opensearch/opensearch/opensearch-2.8.0/data/nodes/0/indices/xqbFvFIcQLyfcCRP0zYDhw/0/translog/translog.ckp	88	
-/home/opensearch/opensearch/opensearch-2.8.0/data/nodes/0/indices/xqbFvFIcQLyfcCRP0zYDhw/0/translog/translog-5.tlog	2385016	
+/home/opensearch/opensearch/opensearch-2.8.0/data/nodes/0/indices/xqbFvFIcQLyfcCRP0zYDhw/0/translog/translog-5.tlog	2387810	
 /home/opensearch/opensearch/opensearch-2.8.0/data/nodes/0/indices/tITbcJlhQAqpQTIEe6vXgw/_state/state-1.st	1989	
 /home/opensearch/opensearch/opensearch-2.8.0/data/nodes/0/indices/tITbcJlhQAqpQTIEe6vXgw/0/index/_0.cfs	1384907	
 /home/opensearch/opensearch/opensearch-2.8.0/data/nodes/0/indices/tITbcJlhQAqpQTIEe6vXgw/0/index/_0.cfe	479	
@@ -472,6 +481,7 @@
 /home/opensearch/opensearch/opensearch-2.8.0/.git/objects/95/3c792af16e822e174269d9dd1cd670b88b7c76	145	
 /home/opensearch/opensearch/opensearch-2.8.0/.git/objects/95/8406b6bdcd70b176e80087e97e9412f2f765e4	1759	
 /home/opensearch/opensearch/opensearch-2.8.0/.git/objects/95/c1874b1840c5593021056fcd17123c66422f7c	8731	
+/home/opensearch/opensearch/opensearch-2.8.0/.git/objects/95/caebfaf64f3ac59a2ecd4762cc0e0078ce8a27	160	
 /home/opensearch/opensearch/opensearch-2.8.0/.git/objects/5a/ae184341b6b3ddb03cb96bbc659cbae51bc73a	174	
 /home/opensearch/opensearch/opensearch-2.8.0/.git/objects/5a/e01e4e335d668113c6d8f073033dcf5c85c84f	661	
 /home/opensearch/opensearch/opensearch-2.8.0/.git/objects/5a/2d18977a7951ea94597faa07b9a6c94c6f09fd	662	
@@ -639,6 +649,7 @@
 /home/opensearch/opensearch/opensearch-2.8.0/.git/objects/68/ea186714e9432114d3400a0adcfaba511fcfbb	662	
 /home/opensearch/opensearch/opensearch-2.8.0/.git/objects/c2/106d3a7dc27fc1e5de32c7d68edc8a4e0e9dbf	2058	
 /home/opensearch/opensearch/opensearch-2.8.0/.git/objects/c2/1382f5c94cea15ca4b9931610e32ca84fa56f7	13974	
+/home/opensearch/opensearch/opensearch-2.8.0/.git/objects/c2/52177b740c0b264d6b7da8be83aec5a1c1f558	624	
 /home/opensearch/opensearch/opensearch-2.8.0/.git/objects/6e/583da7147e762f5ebb9789b23257d3aeef4694	1027	
 /home/opensearch/opensearch/opensearch-2.8.0/.git/objects/6e/38bdf6b519ae624b960c54ac25fb23884fa858	35	
 /home/opensearch/opensearch/opensearch-2.8.0/.git/objects/6e/7d55ce345f6a1f1518964e2e2aabff90deb2f0	28831	
@@ -683,6 +694,7 @@
 /home/opensearch/opensearch/opensearch-2.8.0/.git/objects/4f/163848b0b1daeebb81295a652a6a9528717440	29374	
 /home/opensearch/opensearch/opensearch-2.8.0/.git/objects/4f/235e9f4295458298288f7b21eca2758ad04676	623	
 /home/opensearch/opensearch/opensearch-2.8.0/.git/objects/4f/72b16424b67d0e5258de66e2554ef8967a6e35	154	
+/home/opensearch/opensearch/opensearch-2.8.0/.git/objects/4f/217664bf34b13586ad04f4668c0fb5ec78d173	474	
 /home/opensearch/opensearch/opensearch-2.8.0/.git/objects/cd/aa1acb2930bff36dce3622b207ed8d9dc40290	1404	
 /home/opensearch/opensearch/opensearch-2.8.0/.git/objects/cd/10ccce5a609f712556f8b979349220739167b0	66	
 /home/opensearch/opensearch/opensearch-2.8.0/.git/objects/f3/c53278db6d44698c24e1b453a9026c8ec85d9b	792	
@@ -699,6 +711,7 @@
 /home/opensearch/opensearch/opensearch-2.8.0/.git/objects/bc/8302762ccb307ed53b018b175032ce05cb91f8	153	
 /home/opensearch/opensearch/opensearch-2.8.0/.git/objects/92/4bce872c81f22b5366713386c80dac630e914d	5418	
 /home/opensearch/opensearch/opensearch-2.8.0/.git/objects/92/b4a9dccabe506c74d50e41a152db41fa25f5e6	624	
+/home/opensearch/opensearch/opensearch-2.8.0/.git/objects/92/cbca4ed850538079f1ddc33d968550f5eee0c3	154	
 /home/opensearch/opensearch/opensearch-2.8.0/.git/objects/37/90b7a47aa32b9a71a2c1346e6b018c43c3cc8b	4740	
 /home/opensearch/opensearch/opensearch-2.8.0/.git/objects/37/607acc2967c2c4062343e933e9dca4d70d54c4	810	
 /home/opensearch/opensearch/opensearch-2.8.0/.git/objects/37/88215aefcb6165a13de38675273bda808e41f5	154	
@@ -762,6 +775,7 @@
 /home/opensearch/opensearch/opensearch-2.8.0/.git/objects/65/344b36f41dd6e9fdf8dbeb43a0711f729661ef	22491	
 /home/opensearch/opensearch/opensearch-2.8.0/.git/objects/65/2d88577d47135a024dae041b833b21e3068ea6	154	
 /home/opensearch/opensearch/opensearch-2.8.0/.git/objects/65/743c067d0cfbae9a3e56b179c4f133f79eb9a3	1102207	
+/home/opensearch/opensearch/opensearch-2.8.0/.git/objects/65/052d999f7659a626e5b713e5931b1bf9ed4ca6	154	
 /home/opensearch/opensearch/opensearch-2.8.0/.git/objects/46/9d180a4b50fd162b63e3136d667f42b35ad1d3	589	
 /home/opensearch/opensearch/opensearch-2.8.0/.git/objects/46/22e21d0023a0a4c726a6b09acc9beda280b47a	662	
 /home/opensearch/opensearch/opensearch-2.8.0/.git/objects/46/52a9b7b6c19b0e74379474b47f4aea95847109	662	
@@ -832,6 +846,7 @@
 /home/opensearch/opensearch/opensearch-2.8.0/.git/objects/b4/19a0a11157fbe2e77e0934ab2756a1799d9f42	154	
 /home/opensearch/opensearch/opensearch-2.8.0/.git/objects/b4/a99286329712acd77e9eec0ebcf1cb5c822ec3	10383	
 /home/opensearch/opensearch/opensearch-2.8.0/.git/objects/b4/95547bb0a22bb683d4b2fd5cd1866bb3da11ec	12384	
+/home/opensearch/opensearch/opensearch-2.8.0/.git/objects/b4/9de8a5924ba88954c924017e5382fa131575e9	61	
 /home/opensearch/opensearch/opensearch-2.8.0/.git/objects/20/f5b2a5c1b82abb8c2078e499a90d8a2eddd89a	241	
 /home/opensearch/opensearch/opensearch-2.8.0/.git/objects/20/d6f3c2a7cba09111d59ab5db29a043d9f8363f	47	
 /home/opensearch/opensearch/opensearch-2.8.0/.git/objects/6a/eec177130e4bb342568aced20c4f1fd2172577	474	
@@ -914,7 +929,9 @@
 /home/opensearch/opensearch/opensearch-2.8.0/.git/objects/e7/cd0091115a3552fbdbd31c4518278f22171210	154	
 /home/opensearch/opensearch/opensearch-2.8.0/.git/objects/82/9d15a08ccdf750f681e6887ae8033f2230d2e8	116	
 /home/opensearch/opensearch/opensearch-2.8.0/.git/objects/82/0368b0fb986a21e86f621940c1e9b7dd00b814	153	
+/home/opensearch/opensearch/opensearch-2.8.0/.git/objects/82/ebb227397c8de9d91fc6db66ac19b0daefb818	227	
 /home/opensearch/opensearch/opensearch-2.8.0/.git/objects/c4/94e718a1029c1a12d3a78ef65db7039a298465	53	
+/home/opensearch/opensearch/opensearch-2.8.0/.git/objects/c4/f2550b96709c2512713d5efe76b3659ba836ff	473	
 /home/opensearch/opensearch/opensearch-2.8.0/.git/objects/78/a685ca40b48cebde32c1a8d943842900b01489	350	
 /home/opensearch/opensearch/opensearch-2.8.0/.git/objects/78/8baf2c492701412da2f08fed008428d2dd4dfc	342	
 /home/opensearch/opensearch/opensearch-2.8.0/.git/objects/78/cfa73d978d7ecaa6105c178b4ce627f1396a75	623	
@@ -939,6 +956,7 @@
 /home/opensearch/opensearch/opensearch-2.8.0/.git/objects/34/d74ef23df6a81a80648e5e803ae378f2e498f4	85	
 /home/opensearch/opensearch/opensearch-2.8.0/.git/objects/34/fa1101e422611f22b181d302e36445510793ce	390	
 /home/opensearch/opensearch/opensearch-2.8.0/.git/objects/34/aee378f0fcabd872be90e87bc97c5a8055d0f1	35	
+/home/opensearch/opensearch/opensearch-2.8.0/.git/objects/34/c1d296159d42e8bfbec928eddbb2d6a2d55dea	2643	
 /home/opensearch/opensearch/opensearch-2.8.0/.git/objects/b6/7deca837458025c684d8bda20a8d78efa1a97a	86	
 /home/opensearch/opensearch/opensearch-2.8.0/.git/objects/a2/a7a69ee67050137cf05c62f3fb73ac2273bac7	67	
 /home/opensearch/opensearch/opensearch-2.8.0/.git/objects/a2/fe752d943bf42ed7864ebd36a929ba161344a7	27742	
@@ -950,6 +968,7 @@
 /home/opensearch/opensearch/opensearch-2.8.0/.git/objects/16/a96f543fc584d8b147a6a9c29bf425398f3111	26951	
 /home/opensearch/opensearch/opensearch-2.8.0/.git/objects/9b/6cb003c86737cb983783b12873565fa5ec7eaa	132	
 /home/opensearch/opensearch/opensearch-2.8.0/.git/objects/9b/3e62b9417187e379029ed5e906ce1f0add9414	35	
+/home/opensearch/opensearch/opensearch-2.8.0/.git/objects/9b/603b0d2e4163ffe3d3bc4c104e91e8d3b22950	1105508	
 /home/opensearch/opensearch/opensearch-2.8.0/.git/objects/b9/5c18f51182dd33fc3340eca8da217c98706eae	99	
 /home/opensearch/opensearch/opensearch-2.8.0/.git/objects/b9/fa3ecd08c2d8ce6a21a4e58140ec05949b65b9	33	
 /home/opensearch/opensearch/opensearch-2.8.0/.git/objects/b9/7671b4ef7444410b17015fa2d18961104f53fb	10475	
@@ -988,6 +1007,7 @@
 /home/opensearch/opensearch/opensearch-2.8.0/.git/objects/6f/0ef0f9d54c8e05535f390543165c50867413a0	35184	
 /home/opensearch/opensearch/opensearch-2.8.0/.git/objects/6f/68f6e01f3052a2d45b9321445b0aa31c199578	1101707	
 /home/opensearch/opensearch/opensearch-2.8.0/.git/objects/6f/c7da86601603a8ad9389d435ba03cbf23a9b5d	60	
+/home/opensearch/opensearch/opensearch-2.8.0/.git/objects/6f/416ec21586c07c070d51b5e06bd92464c4e6e2	38258	
 /home/opensearch/opensearch/opensearch-2.8.0/.git/objects/2e/04f2b308dac3687fae073c939cb55e1eea6b57	154	
 /home/opensearch/opensearch/opensearch-2.8.0/.git/objects/2e/2ee28da526faa341dccd8e25dfa59c57465582	624	
 /home/opensearch/opensearch/opensearch-2.8.0/.git/objects/d5/2d04cb0b3a9bea5cb77ac172318044ad755c99	627	

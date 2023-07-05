@@ -665,3 +665,4 @@ Caused by: org.opensearch.index.mapper.MapperParsingException: unknown parameter
 [2023-07-05T19:08:38,171][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-05T19:13:38,172][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-05T19:18:38,173][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-05T19:23:38,173][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

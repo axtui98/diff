@@ -625,3 +625,8 @@ Caused by: org.opensearch.index.mapper.MapperParsingException: unknown parameter
 [2023-07-05T16:33:38,151][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-05T16:38:38,151][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-05T16:43:38,152][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-05T16:48:38,153][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-05T16:53:38,140][INFO ][o.o.a.t.CronTransportAction] [node-1] Start running AD hourly cron.
+[2023-07-05T16:53:38,140][INFO ][o.o.a.t.ADTaskManager    ] [node-1] Start to maintain running historical tasks
+[2023-07-05T16:53:38,141][INFO ][o.o.a.c.HourlyCron       ] [node-1] Hourly maintenance succeeds
+[2023-07-05T16:53:38,154][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

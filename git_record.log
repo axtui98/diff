@@ -44,3 +44,9 @@
 현재 브랜치 master
 커밋할 사항 없음 (추적하지 않는 파일을 보려면 -u 옵션을 사용하십시오)
    
+[master 0dd9b49] 2023-07-05 16:55:43
+ 3 files changed, 38 insertions(+)
+   M  logs/gc.log.15
+   M  logs/opensearch-dev.log
+   M  logs/opensearch-dev_server.json
+   

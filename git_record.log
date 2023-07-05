@@ -30,3 +30,14 @@
     M plain_info.txt
     M update_info.txt
    
+[master 9161b6f] 2023-07-05 16:44:26
+ 5 files changed, 62 insertions(+)
+   M  logs/gc.log.15
+   M  logs/opensearch-dev.log
+   M  logs/opensearch-dev_deprecation.json
+   M  logs/opensearch-dev_deprecation.log
+   M  logs/opensearch-dev_server.json
+    D other_info.txt
+    D plain_info.txt
+    D update_info.txt
+   

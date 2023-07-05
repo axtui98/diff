@@ -112,3 +112,4 @@
 [2023-07-06T06:53:38,150][INFO ][o.o.i.i.IndexStateManagementHistory] [node-1] No Old History Indices to delete
 [2023-07-06T06:53:38,279][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-06T06:58:38,280][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-06T07:03:38,280][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

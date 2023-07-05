@@ -607,3 +607,6 @@ Caused by: org.opensearch.index.mapper.MapperParsingException: unknown parameter
 [2023-07-05T15:23:38,144][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-05T15:28:38,144][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-05T15:33:38,145][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-05T15:38:38,145][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-05T15:39:54,179][INFO ][o.o.i.c.n.f.IndexOperationActionFilter] [node-1] Add notification action listener for tasks: bIuegqYFQrKey5OWASG4gg:1255825 and action: indices:data/write/reindex 
+[2023-07-05T15:43:38,146][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

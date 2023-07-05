@@ -660,3 +660,4 @@ Caused by: org.opensearch.index.mapper.MapperParsingException: unknown parameter
 [2023-07-05T18:53:38,141][INFO ][o.o.a.t.ADTaskManager    ] [node-1] Start to maintain running historical tasks
 [2023-07-05T18:53:38,142][INFO ][o.o.a.c.HourlyCron       ] [node-1] Hourly maintenance succeeds
 [2023-07-05T18:53:38,169][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-05T18:58:38,170][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

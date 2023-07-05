@@ -623,3 +623,5 @@ Caused by: org.opensearch.index.mapper.MapperParsingException: unknown parameter
 [2023-07-05T16:23:38,150][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-05T16:28:38,150][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-05T16:33:38,151][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-05T16:38:38,151][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-05T16:43:38,152][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

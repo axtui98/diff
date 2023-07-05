@@ -50,3 +50,4 @@
 [2023-07-06T02:53:38,158][INFO ][o.o.s.i.DetectorIndexManagementService] [node-1] No Old Finding Indices to delete
 [2023-07-06T02:53:38,158][INFO ][o.o.s.i.DetectorIndexManagementService] [node-1] No Old Alert Indices to delete
 [2023-07-06T02:53:38,247][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-06T02:58:38,247][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

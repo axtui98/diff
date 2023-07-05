@@ -1,0 +1,110 @@
+---
+schema-version: '1.1'
+build:
+  name: OpenSearch
+  version: 2.8.0
+  platform: linux
+  architecture: x64
+  distribution: tar
+  location: https://ci.opensearch.org/ci/dbc/distribution-build-opensearch/2.8.0/7935/linux/x64/tar/dist/opensearch/opensearch-2.8.0-linux-x64.tar.gz
+  id: '7935'
+components:
+  - name: OpenSearch
+    repository: https://github.com/opensearch-project/OpenSearch.git
+    ref: db90a415ff2fd428b4f7b3f800a51dc229287cb4
+    commit_id: db90a415ff2fd428b4f7b3f800a51dc229287cb4
+    location: https://ci.opensearch.org/ci/dbc/distribution-build-opensearch/2.8.0/7935/linux/x64/tar/builds/opensearch/dist/opensearch-min-2.8.0-linux-x64.tar.gz
+  - name: common-utils
+    repository: https://github.com/opensearch-project/common-utils.git
+    ref: f435dbca179c459b74df2bd19cb4b46f0e8cd8c5
+    commit_id: f435dbca179c459b74df2bd19cb4b46f0e8cd8c5
+  - name: job-scheduler
+    repository: https://github.com/opensearch-project/job-scheduler.git
+    ref: c6cd7b369651ea45930449d01dc2c65b4f5f557e
+    commit_id: c6cd7b369651ea45930449d01dc2c65b4f5f557e
+    location: https://ci.opensearch.org/ci/dbc/distribution-build-opensearch/2.8.0/7935/linux/x64/tar/builds/opensearch/plugins/opensearch-job-scheduler-2.8.0.0.zip
+  - name: k-NN
+    repository: https://github.com/opensearch-project/k-NN.git
+    ref: f11f1f1d4ad0de76b05517b57bcc87e0a6788031
+    commit_id: f11f1f1d4ad0de76b05517b57bcc87e0a6788031
+    location: https://ci.opensearch.org/ci/dbc/distribution-build-opensearch/2.8.0/7935/linux/x64/tar/builds/opensearch/plugins/opensearch-knn-2.8.0.0.zip
+  - name: geospatial
+    repository: https://github.com/opensearch-project/geospatial.git
+    ref: 44ff69db3e98170117b4237bffeb35e1580189ec
+    commit_id: 44ff69db3e98170117b4237bffeb35e1580189ec
+    location: https://ci.opensearch.org/ci/dbc/distribution-build-opensearch/2.8.0/7935/linux/x64/tar/builds/opensearch/plugins/opensearch-geospatial-2.8.0.0.zip
+  - name: security
+    repository: https://github.com/opensearch-project/security.git
+    ref: 60f392d6e0dccb0aadef23a235291ef0f10f4f36
+    commit_id: 60f392d6e0dccb0aadef23a235291ef0f10f4f36
+    location: https://ci.opensearch.org/ci/dbc/distribution-build-opensearch/2.8.0/7935/linux/x64/tar/builds/opensearch/plugins/opensearch-security-2.8.0.0.zip
+  - name: cross-cluster-replication
+    repository: https://github.com/opensearch-project/cross-cluster-replication.git
+    ref: 261d7abb361958e37a378dd387543f49c5c98b51
+    commit_id: 261d7abb361958e37a378dd387543f49c5c98b51
+    location: https://ci.opensearch.org/ci/dbc/distribution-build-opensearch/2.8.0/7935/linux/x64/tar/builds/opensearch/plugins/opensearch-cross-cluster-replication-2.8.0.0.zip
+  - name: ml-commons
+    repository: https://github.com/opensearch-project/ml-commons.git
+    ref: 833158f90b6dab5cdcbfa51afead460fe7836a94
+    commit_id: 833158f90b6dab5cdcbfa51afead460fe7836a94
+    location: https://ci.opensearch.org/ci/dbc/distribution-build-opensearch/2.8.0/7935/linux/x64/tar/builds/opensearch/plugins/opensearch-ml-2.8.0.0.zip
+  - name: neural-search
+    repository: https://github.com/opensearch-project/neural-search.git
+    ref: c75fc5092bfd74087f0ee44a9fc15994d7db05fc
+    commit_id: c75fc5092bfd74087f0ee44a9fc15994d7db05fc
+    location: https://ci.opensearch.org/ci/dbc/distribution-build-opensearch/2.8.0/7935/linux/x64/tar/builds/opensearch/plugins/opensearch-neural-search-2.8.0.0.zip
+  - name: notifications-core
+    repository: https://github.com/opensearch-project/notifications.git
+    ref: 6613fce3e68048ca96b1b79b2e59a32d4268a921
+    commit_id: 6613fce3e68048ca96b1b79b2e59a32d4268a921
+    location: https://ci.opensearch.org/ci/dbc/distribution-build-opensearch/2.8.0/7935/linux/x64/tar/builds/opensearch/plugins/opensearch-notifications-core-2.8.0.0.zip
+  - name: notifications
+    repository: https://github.com/opensearch-project/notifications.git
+    ref: 6613fce3e68048ca96b1b79b2e59a32d4268a921
+    commit_id: 6613fce3e68048ca96b1b79b2e59a32d4268a921
+    location: https://ci.opensearch.org/ci/dbc/distribution-build-opensearch/2.8.0/7935/linux/x64/tar/builds/opensearch/plugins/opensearch-notifications-2.8.0.0.zip
+  - name: opensearch-observability
+    repository: https://github.com/opensearch-project/observability.git
+    ref: 0ea64d81430af9a75c3e2519f84e6d10bb91c515
+    commit_id: 0ea64d81430af9a75c3e2519f84e6d10bb91c515
+    location: https://ci.opensearch.org/ci/dbc/distribution-build-opensearch/2.8.0/7935/linux/x64/tar/builds/opensearch/plugins/opensearch-observability-2.8.0.0.zip
+  - name: opensearch-reports
+    repository: https://github.com/opensearch-project/reporting.git
+    ref: d7ff8cd6b6c97012c53de718835a2fd4985479bf
+    commit_id: d7ff8cd6b6c97012c53de718835a2fd4985479bf
+    location: https://ci.opensearch.org/ci/dbc/distribution-build-opensearch/2.8.0/7935/linux/x64/tar/builds/opensearch/plugins/opensearch-reports-scheduler-2.8.0.0.zip
+  - name: sql
+    repository: https://github.com/opensearch-project/sql.git
+    ref: 8ea39ef9edc572cf36a6ce2d51f83f789e13a22b
+    commit_id: 8ea39ef9edc572cf36a6ce2d51f83f789e13a22b
+    location: https://ci.opensearch.org/ci/dbc/distribution-build-opensearch/2.8.0/7935/linux/x64/tar/builds/opensearch/plugins/opensearch-sql-2.8.0.0.zip
+  - name: asynchronous-search
+    repository: https://github.com/opensearch-project/asynchronous-search.git
+    ref: b255fa2d7d682f75edb161c4857d90148c3d29d3
+    commit_id: b255fa2d7d682f75edb161c4857d90148c3d29d3
+    location: https://ci.opensearch.org/ci/dbc/distribution-build-opensearch/2.8.0/7935/linux/x64/tar/builds/opensearch/plugins/opensearch-asynchronous-search-2.8.0.0.zip
+  - name: anomaly-detection
+    repository: https://github.com/opensearch-project/anomaly-detection.git
+    ref: 297ca1e2e427f3d710a6887d6397451ae2ec695e
+    commit_id: 297ca1e2e427f3d710a6887d6397451ae2ec695e
+    location: https://ci.opensearch.org/ci/dbc/distribution-build-opensearch/2.8.0/7935/linux/x64/tar/builds/opensearch/plugins/opensearch-anomaly-detection-2.8.0.0.zip
+  - name: alerting
+    repository: https://github.com/opensearch-project/alerting.git
+    ref: 3f2e86bcbae89781aaa1775594b6966929e3f4d3
+    commit_id: 3f2e86bcbae89781aaa1775594b6966929e3f4d3
+    location: https://ci.opensearch.org/ci/dbc/distribution-build-opensearch/2.8.0/7935/linux/x64/tar/builds/opensearch/plugins/opensearch-alerting-2.8.0.0.zip
+  - name: security-analytics
+    repository: https://github.com/opensearch-project/security-analytics.git
+    ref: 9c9abe2c4507c05ea8bc0b17c2fc7a5ae48a7d63
+    commit_id: 9c9abe2c4507c05ea8bc0b17c2fc7a5ae48a7d63
+    location: https://ci.opensearch.org/ci/dbc/distribution-build-opensearch/2.8.0/7935/linux/x64/tar/builds/opensearch/plugins/opensearch-security-analytics-2.8.0.0.zip
+  - name: index-management
+    repository: https://github.com/opensearch-project/index-management.git
+    ref: c611ac000c1edd96e9a718a07f13991758f24b7d
+    commit_id: c611ac000c1edd96e9a718a07f13991758f24b7d
+    location: https://ci.opensearch.org/ci/dbc/distribution-build-opensearch/2.8.0/7935/linux/x64/tar/builds/opensearch/plugins/opensearch-index-management-2.8.0.0.zip
+  - name: performance-analyzer
+    repository: https://github.com/opensearch-project/performance-analyzer.git
+    ref: 89eeaa4ff83e6560fc8c136c0460233b5b0b4330
+    commit_id: 89eeaa4ff83e6560fc8c136c0460233b5b0b4330
+    location: https://ci.opensearch.org/ci/dbc/distribution-build-opensearch/2.8.0/7935/linux/x64/tar/builds/opensearch/plugins/opensearch-performance-analyzer-2.8.0.0.zip

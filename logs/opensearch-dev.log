@@ -331,3 +331,4 @@ Caused by: org.opensearch.index.mapper.MapperParsingException: Root mapping defi
 [2023-07-07T08:18:09,936][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
 [2023-07-07T08:18:10,008][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
 [2023-07-07T08:18:38,498][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-07T08:23:38,498][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

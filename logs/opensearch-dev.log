@@ -1151,3 +1151,4 @@ io.netty.handler.codec.PrematureChannelClosureException: Channel closed while st
 [2023-07-06T18:28:38,375][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-06T18:33:38,376][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-06T18:38:38,377][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-06T18:43:38,377][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

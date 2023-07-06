@@ -833,3 +833,102 @@
 {"type": "server", "timestamp": "2023-07-06T15:07:52,359+09:00", "level": "INFO", "component": "o.o.a.u.d.DestinationMigrationCoordinator", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "Detected cluster change event for destination migration", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
 {"type": "server", "timestamp": "2023-07-06T15:07:52,441+09:00", "level": "INFO", "component": "o.o.a.u.d.DestinationMigrationCoordinator", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "Detected cluster change event for destination migration", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
 {"type": "server", "timestamp": "2023-07-06T15:08:38,345+09:00", "level": "INFO", "component": "o.o.j.s.JobSweeper", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "Running full sweep", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-06T15:11:56,944+09:00", "level": "INFO", "component": "o.o.c.m.MetadataDeleteIndexService", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "[test_multi/D9hES-EgSRyCcvgNt0nS0w] deleting index", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-06T15:11:56,944+09:00", "level": "INFO", "component": "o.o.c.m.MetadataDeleteIndexService", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "[test_seperate/2YDbKxugRjed_aiuR4jQdA] deleting index", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-06T15:11:56,995+09:00", "level": "INFO", "component": "o.o.a.u.d.DestinationMigrationCoordinator", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "Detected cluster change event for destination migration", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-06T15:11:56,995+09:00", "level": "ERROR", "component": "o.o.i.i.ManagedIndexCoordinator", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "get managed-index failed: [.opendistro-ism-config] IndexNotFoundException[no such index [.opendistro-ism-config]]", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-06T15:12:01,553+09:00", "level": "INFO", "component": "o.o.p.PluginsService", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "PluginService:onIndexModule index:[test_multi/wh_Cprb6QJSrmE4C18m7SQ]", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-06T15:12:01,560+09:00", "level": "INFO", "component": "o.o.c.m.MetadataCreateIndexService", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "[test_multi] creating index, cause [api], templates [], shards [1]/[1]", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-06T15:12:01,610+09:00", "level": "INFO", "component": "o.o.p.PluginsService", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "PluginService:onIndexModule index:[test_multi/wh_Cprb6QJSrmE4C18m7SQ]", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-06T15:12:01,639+09:00", "level": "INFO", "component": "o.o.a.u.d.DestinationMigrationCoordinator", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "Detected cluster change event for destination migration", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-06T15:12:01,757+09:00", "level": "INFO", "component": "o.o.a.u.d.DestinationMigrationCoordinator", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "Detected cluster change event for destination migration", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-06T15:13:38,346+09:00", "level": "INFO", "component": "o.o.j.s.JobSweeper", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "Running full sweep", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-06T15:13:53,797+09:00", "level": "ERROR", "component": "o.o.s.s.h.n.SecuritySSLNettyHttpServerTransport", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "Exception during establishing a SSL connection: io.netty.handler.codec.PrematureChannelClosureException: Channel closed while still aggregating message", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg" , 
+"stacktrace": ["io.netty.handler.codec.PrematureChannelClosureException: Channel closed while still aggregating message",
+"at io.netty.handler.codec.MessageAggregator.channelInactive(MessageAggregator.java:436) [netty-codec-4.1.91.Final.jar:4.1.91.Final]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:305) [netty-transport-4.1.91.Final.jar:4.1.91.Final]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281) [netty-transport-4.1.91.Final.jar:4.1.91.Final]",
+"at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:274) [netty-transport-4.1.91.Final.jar:4.1.91.Final]",
+"at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:81) [netty-transport-4.1.91.Final.jar:4.1.91.Final]",
+"at io.netty.handler.codec.http.HttpContentDecoder.channelInactive(HttpContentDecoder.java:235) [netty-codec-http-4.1.91.Final.jar:4.1.91.Final]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:305) [netty-transport-4.1.91.Final.jar:4.1.91.Final]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281) [netty-transport-4.1.91.Final.jar:4.1.91.Final]",
+"at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:274) [netty-transport-4.1.91.Final.jar:4.1.91.Final]",
+"at io.netty.handler.codec.ByteToMessageDecoder.channelInputClosed(ByteToMessageDecoder.java:411) [netty-codec-4.1.91.Final.jar:4.1.91.Final]",
+"at io.netty.handler.codec.ByteToMessageDecoder.channelInactive(ByteToMessageDecoder.java:376) [netty-codec-4.1.91.Final.jar:4.1.91.Final]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:305) [netty-transport-4.1.91.Final.jar:4.1.91.Final]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281) [netty-transport-4.1.91.Final.jar:4.1.91.Final]",
+"at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:274) [netty-transport-4.1.91.Final.jar:4.1.91.Final]",
+"at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:81) [netty-transport-4.1.91.Final.jar:4.1.91.Final]",
+"at io.netty.handler.timeout.IdleStateHandler.channelInactive(IdleStateHandler.java:277) [netty-handler-4.1.91.Final.jar:4.1.91.Final]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:303) [netty-transport-4.1.91.Final.jar:4.1.91.Final]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281) [netty-transport-4.1.91.Final.jar:4.1.91.Final]",
+"at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:274) [netty-transport-4.1.91.Final.jar:4.1.91.Final]",
+"at io.netty.handler.codec.ByteToMessageDecoder.channelInputClosed(ByteToMessageDecoder.java:411) [netty-codec-4.1.91.Final.jar:4.1.91.Final]",
+"at io.netty.handler.codec.ByteToMessageDecoder.channelInactive(ByteToMessageDecoder.java:376) [netty-codec-4.1.91.Final.jar:4.1.91.Final]",
+"at io.netty.handler.ssl.SslHandler.channelInactive(SslHandler.java:1085) [netty-handler-4.1.91.Final.jar:4.1.91.Final]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:305) [netty-transport-4.1.91.Final.jar:4.1.91.Final]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281) [netty-transport-4.1.91.Final.jar:4.1.91.Final]",
+"at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:274) [netty-transport-4.1.91.Final.jar:4.1.91.Final]",
+"at io.netty.channel.DefaultChannelPipeline$HeadContext.channelInactive(DefaultChannelPipeline.java:1405) [netty-transport-4.1.91.Final.jar:4.1.91.Final]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:301) [netty-transport-4.1.91.Final.jar:4.1.91.Final]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281) [netty-transport-4.1.91.Final.jar:4.1.91.Final]",
+"at io.netty.channel.DefaultChannelPipeline.fireChannelInactive(DefaultChannelPipeline.java:901) [netty-transport-4.1.91.Final.jar:4.1.91.Final]",
+"at io.netty.channel.AbstractChannel$AbstractUnsafe$7.run(AbstractChannel.java:813) [netty-transport-4.1.91.Final.jar:4.1.91.Final]",
+"at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174) [netty-common-4.1.91.Final.jar:4.1.91.Final]",
+"at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167) [netty-common-4.1.91.Final.jar:4.1.91.Final]",
+"at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470) [netty-common-4.1.91.Final.jar:4.1.91.Final]",
+"at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:566) [netty-transport-4.1.91.Final.jar:4.1.91.Final]",
+"at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.91.Final.jar:4.1.91.Final]",
+"at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.91.Final.jar:4.1.91.Final]",
+"at java.lang.Thread.run(Thread.java:833) [?:?]"] }
+{"type": "server", "timestamp": "2023-07-06T15:13:53,798+09:00", "level": "WARN", "component": "o.o.h.AbstractHttpServerTransport", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "caught exception while handling client http traffic, closing connection Netty4HttpChannel{localAddress=/127.0.0.1:8200, remoteAddress=/127.0.0.1:52010}", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg" , 
+"stacktrace": ["io.netty.handler.codec.PrematureChannelClosureException: Channel closed while still aggregating message",
+"at io.netty.handler.codec.MessageAggregator.channelInactive(MessageAggregator.java:436) [netty-codec-4.1.91.Final.jar:4.1.91.Final]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:305) [netty-transport-4.1.91.Final.jar:4.1.91.Final]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281) [netty-transport-4.1.91.Final.jar:4.1.91.Final]",
+"at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:274) [netty-transport-4.1.91.Final.jar:4.1.91.Final]",
+"at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:81) [netty-transport-4.1.91.Final.jar:4.1.91.Final]",
+"at io.netty.handler.codec.http.HttpContentDecoder.channelInactive(HttpContentDecoder.java:235) [netty-codec-http-4.1.91.Final.jar:4.1.91.Final]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:305) [netty-transport-4.1.91.Final.jar:4.1.91.Final]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281) [netty-transport-4.1.91.Final.jar:4.1.91.Final]",
+"at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:274) [netty-transport-4.1.91.Final.jar:4.1.91.Final]",
+"at io.netty.handler.codec.ByteToMessageDecoder.channelInputClosed(ByteToMessageDecoder.java:411) [netty-codec-4.1.91.Final.jar:4.1.91.Final]",
+"at io.netty.handler.codec.ByteToMessageDecoder.channelInactive(ByteToMessageDecoder.java:376) [netty-codec-4.1.91.Final.jar:4.1.91.Final]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:305) [netty-transport-4.1.91.Final.jar:4.1.91.Final]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281) [netty-transport-4.1.91.Final.jar:4.1.91.Final]",
+"at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:274) [netty-transport-4.1.91.Final.jar:4.1.91.Final]",
+"at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:81) [netty-transport-4.1.91.Final.jar:4.1.91.Final]",
+"at io.netty.handler.timeout.IdleStateHandler.channelInactive(IdleStateHandler.java:277) [netty-handler-4.1.91.Final.jar:4.1.91.Final]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:303) [netty-transport-4.1.91.Final.jar:4.1.91.Final]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281) [netty-transport-4.1.91.Final.jar:4.1.91.Final]",
+"at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:274) [netty-transport-4.1.91.Final.jar:4.1.91.Final]",
+"at io.netty.handler.codec.ByteToMessageDecoder.channelInputClosed(ByteToMessageDecoder.java:411) [netty-codec-4.1.91.Final.jar:4.1.91.Final]",
+"at io.netty.handler.codec.ByteToMessageDecoder.channelInactive(ByteToMessageDecoder.java:376) [netty-codec-4.1.91.Final.jar:4.1.91.Final]",
+"at io.netty.handler.ssl.SslHandler.channelInactive(SslHandler.java:1085) [netty-handler-4.1.91.Final.jar:4.1.91.Final]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:305) [netty-transport-4.1.91.Final.jar:4.1.91.Final]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281) [netty-transport-4.1.91.Final.jar:4.1.91.Final]",
+"at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:274) [netty-transport-4.1.91.Final.jar:4.1.91.Final]",
+"at io.netty.channel.DefaultChannelPipeline$HeadContext.channelInactive(DefaultChannelPipeline.java:1405) [netty-transport-4.1.91.Final.jar:4.1.91.Final]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:301) [netty-transport-4.1.91.Final.jar:4.1.91.Final]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281) [netty-transport-4.1.91.Final.jar:4.1.91.Final]",
+"at io.netty.channel.DefaultChannelPipeline.fireChannelInactive(DefaultChannelPipeline.java:901) [netty-transport-4.1.91.Final.jar:4.1.91.Final]",
+"at io.netty.channel.AbstractChannel$AbstractUnsafe$7.run(AbstractChannel.java:813) [netty-transport-4.1.91.Final.jar:4.1.91.Final]",
+"at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174) [netty-common-4.1.91.Final.jar:4.1.91.Final]",
+"at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167) [netty-common-4.1.91.Final.jar:4.1.91.Final]",
+"at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470) [netty-common-4.1.91.Final.jar:4.1.91.Final]",
+"at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:566) [netty-transport-4.1.91.Final.jar:4.1.91.Final]",
+"at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.91.Final.jar:4.1.91.Final]",
+"at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.91.Final.jar:4.1.91.Final]",
+"at java.lang.Thread.run(Thread.java:833) [?:?]"] }
+{"type": "server", "timestamp": "2023-07-06T15:13:53,801+09:00", "level": "INFO", "component": "o.o.p.PluginsService", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "PluginService:onIndexModule index:[security-auditlog-2023.07.06/8oDkp_HMQVyh-OUXMpbL5g]", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-06T15:13:53,806+09:00", "level": "INFO", "component": "o.o.c.m.MetadataMappingService", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "[security-auditlog-2023.07.06/8oDkp_HMQVyh-OUXMpbL5g] update_mapping [_doc]", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-06T15:13:53,845+09:00", "level": "INFO", "component": "o.o.a.u.d.DestinationMigrationCoordinator", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "Detected cluster change event for destination migration", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-06T15:14:08,319+09:00", "level": "INFO", "component": "o.o.c.m.MetadataDeleteIndexService", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "[test_multi/wh_Cprb6QJSrmE4C18m7SQ] deleting index", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-06T15:14:08,424+09:00", "level": "INFO", "component": "o.o.a.u.d.DestinationMigrationCoordinator", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "Detected cluster change event for destination migration", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-06T15:14:08,424+09:00", "level": "ERROR", "component": "o.o.i.i.ManagedIndexCoordinator", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "get managed-index failed: [.opendistro-ism-config] IndexNotFoundException[no such index [.opendistro-ism-config]]", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-06T15:14:09,888+09:00", "level": "INFO", "component": "o.o.p.PluginsService", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "PluginService:onIndexModule index:[test_multi/SchGuSFmQ1S3TglLBG2QGw]", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-06T15:14:09,890+09:00", "level": "INFO", "component": "o.o.c.m.MetadataCreateIndexService", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "[test_multi] creating index, cause [api], templates [], shards [1]/[1]", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-06T15:14:09,925+09:00", "level": "INFO", "component": "o.o.p.PluginsService", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "PluginService:onIndexModule index:[test_multi/SchGuSFmQ1S3TglLBG2QGw]", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-06T15:14:09,944+09:00", "level": "INFO", "component": "o.o.a.u.d.DestinationMigrationCoordinator", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "Detected cluster change event for destination migration", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-06T15:14:10,056+09:00", "level": "INFO", "component": "o.o.a.u.d.DestinationMigrationCoordinator", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "Detected cluster change event for destination migration", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }

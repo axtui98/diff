@@ -6,1269 +6,150 @@ WARNING: A terminally deprecated method in java.lang.System has been called
 WARNING: System::setSecurityManager has been called by org.opensearch.bootstrap.Security (file:/home/opensearch/opensearch/opensearch-2.8.0/lib/opensearch-2.8.0.jar)
 WARNING: Please consider reporting this to the maintainers of org.opensearch.bootstrap.Security
 WARNING: System::setSecurityManager will be removed in a future release
-[2023-07-04T14:03:11,459][INFO ][o.o.n.Node               ] [node-1] version[2.8.0], pid[16874], build[tar/db90a415ff2fd428b4f7b3f800a51dc229287cb4/2023-06-03T06:24:25.112415503Z], OS[Linux/3.10.0-1160.90.1.el7.x86_64/amd64], JVM[Eclipse Adoptium/OpenJDK 64-Bit Server VM/17.0.7/17.0.7+7]
-[2023-07-04T14:03:11,462][INFO ][o.o.n.Node               ] [node-1] JVM home [/home/opensearch/opensearch/opensearch-2.8.0/jdk], using bundled JDK [true]
-[2023-07-04T14:03:11,462][INFO ][o.o.n.Node               ] [node-1] JVM arguments [-Xshare:auto, -Dopensearch.networkaddress.cache.ttl=60, -Dopensearch.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -XX:+ShowCodeDetailsInExceptionMessages, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dio.netty.allocator.numDirectArenas=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.locale.providers=SPI,COMPAT, -Xms1g, -Xmx1g, -XX:+UseG1GC, -XX:G1ReservePercent=25, -XX:InitiatingHeapOccupancyPercent=30, -Djava.io.tmpdir=/tmp/opensearch-17930272905533152708, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -Xlog:gc*,gc+age=trace,safepoint:file=logs/gc.log:utctime,pid,tags:filecount=32,filesize=64m, -XX:MaxDirectMemorySize=536870912, -Dopensearch.path.home=/home/opensearch/opensearch/opensearch-2.8.0, -Dopensearch.path.conf=/home/opensearch/opensearch/opensearch-2.8.0/config, -Dopensearch.distribution.type=tar, -Dopensearch.bundled_jdk=true]
-[2023-07-04T14:03:12,309][INFO ][o.o.s.s.t.SSLConfig      ] [node-1] SSL dual mode is disabled
-[2023-07-04T14:03:12,309][INFO ][o.o.s.OpenSearchSecurityPlugin] [node-1] OpenSearch Config path is /home/opensearch/opensearch/opensearch-2.8.0/config
-[2023-07-04T14:03:12,504][INFO ][o.o.s.s.DefaultSecurityKeyStore] [node-1] JVM supports TLSv1.3
-[2023-07-04T14:03:12,506][INFO ][o.o.s.s.DefaultSecurityKeyStore] [node-1] Config directory is /home/opensearch/opensearch/opensearch-2.8.0/config/, from there the key- and truststore files are resolved relatively
-[2023-07-04T14:03:12,890][INFO ][o.o.s.s.DefaultSecurityKeyStore] [node-1] TLS Transport Client Provider : JDK
-[2023-07-04T14:03:12,890][INFO ][o.o.s.s.DefaultSecurityKeyStore] [node-1] TLS Transport Server Provider : JDK
-[2023-07-04T14:03:12,890][INFO ][o.o.s.s.DefaultSecurityKeyStore] [node-1] TLS HTTP Provider             : JDK
-[2023-07-04T14:03:12,890][INFO ][o.o.s.s.DefaultSecurityKeyStore] [node-1] Enabled TLS protocols for transport layer : [TLSv1.3, TLSv1.2]
-[2023-07-04T14:03:12,891][INFO ][o.o.s.s.DefaultSecurityKeyStore] [node-1] Enabled TLS protocols for HTTP layer      : [TLSv1.3, TLSv1.2]
-[2023-07-04T14:03:12,900][INFO ][o.o.s.OpenSearchSecurityPlugin] [node-1] Clustername: opensearch-dev
-[2023-07-04T14:03:12,905][WARN ][o.o.s.OpenSearchSecurityPlugin] [node-1] Directory /home/opensearch/opensearch/opensearch-2.8.0/config has insecure file permissions (should be 0700)
-[2023-07-04T14:03:13,330][INFO ][o.o.p.c.c.PluginSettings ] [node-1] Config: metricsLocation: /dev/shm/performanceanalyzer/, metricsDeletionInterval: 1, httpsEnabled: false, cleanup-metrics-db-files: true, batch-metrics-retention-period-minutes: 7, rpc-port: 9650, webservice-port 9600
-[2023-07-04T14:03:13,697][INFO ][o.o.i.r.ReindexPlugin    ] [node-1] ReindexPlugin reloadSPI called
-[2023-07-04T14:03:13,698][INFO ][o.o.i.r.ReindexPlugin    ] [node-1] Unable to find any implementation for RemoteReindexExtension
-[2023-07-04T14:03:13,724][INFO ][o.o.j.JobSchedulerPlugin ] [node-1] Loaded scheduler extension: opendistro_anomaly_detector, index: .opendistro-anomaly-detector-jobs
-[2023-07-04T14:03:13,744][INFO ][o.o.j.JobSchedulerPlugin ] [node-1] Loaded scheduler extension: reports-scheduler, index: .opendistro-reports-definitions
-[2023-07-04T14:03:13,745][INFO ][o.o.j.JobSchedulerPlugin ] [node-1] Loaded scheduler extension: opendistro-index-management, index: .opendistro-ism-config
-[2023-07-04T14:03:13,764][INFO ][o.o.j.JobSchedulerPlugin ] [node-1] Loaded scheduler extension: observability, index: .opensearch-observability-job
-[2023-07-04T14:03:13,768][INFO ][o.o.p.PluginsService     ] [node-1] loaded module [aggs-matrix-stats]
-[2023-07-04T14:03:13,769][INFO ][o.o.p.PluginsService     ] [node-1] loaded module [analysis-common]
-[2023-07-04T14:03:13,769][INFO ][o.o.p.PluginsService     ] [node-1] loaded module [geo]
-[2023-07-04T14:03:13,769][INFO ][o.o.p.PluginsService     ] [node-1] loaded module [ingest-common]
-[2023-07-04T14:03:13,769][INFO ][o.o.p.PluginsService     ] [node-1] loaded module [ingest-geoip]
-[2023-07-04T14:03:13,769][INFO ][o.o.p.PluginsService     ] [node-1] loaded module [ingest-user-agent]
-[2023-07-04T14:03:13,770][INFO ][o.o.p.PluginsService     ] [node-1] loaded module [lang-expression]
-[2023-07-04T14:03:13,770][INFO ][o.o.p.PluginsService     ] [node-1] loaded module [lang-mustache]
-[2023-07-04T14:03:13,770][INFO ][o.o.p.PluginsService     ] [node-1] loaded module [lang-painless]
-[2023-07-04T14:03:13,770][INFO ][o.o.p.PluginsService     ] [node-1] loaded module [mapper-extras]
-[2023-07-04T14:03:13,770][INFO ][o.o.p.PluginsService     ] [node-1] loaded module [opensearch-dashboards]
-[2023-07-04T14:03:13,770][INFO ][o.o.p.PluginsService     ] [node-1] loaded module [parent-join]
-[2023-07-04T14:03:13,771][INFO ][o.o.p.PluginsService     ] [node-1] loaded module [percolator]
-[2023-07-04T14:03:13,771][INFO ][o.o.p.PluginsService     ] [node-1] loaded module [rank-eval]
-[2023-07-04T14:03:13,771][INFO ][o.o.p.PluginsService     ] [node-1] loaded module [reindex]
-[2023-07-04T14:03:13,771][INFO ][o.o.p.PluginsService     ] [node-1] loaded module [repository-url]
-[2023-07-04T14:03:13,771][INFO ][o.o.p.PluginsService     ] [node-1] loaded module [search-pipeline-common]
-[2023-07-04T14:03:13,771][INFO ][o.o.p.PluginsService     ] [node-1] loaded module [systemd]
-[2023-07-04T14:03:13,772][INFO ][o.o.p.PluginsService     ] [node-1] loaded module [transport-netty4]
-[2023-07-04T14:03:13,772][INFO ][o.o.p.PluginsService     ] [node-1] loaded plugin [analysis-icu]
-[2023-07-04T14:03:13,772][INFO ][o.o.p.PluginsService     ] [node-1] loaded plugin [opensearch-alerting]
-[2023-07-04T14:03:13,772][INFO ][o.o.p.PluginsService     ] [node-1] loaded plugin [opensearch-anomaly-detection]
-[2023-07-04T14:03:13,773][INFO ][o.o.p.PluginsService     ] [node-1] loaded plugin [opensearch-asynchronous-search]
-[2023-07-04T14:03:13,773][INFO ][o.o.p.PluginsService     ] [node-1] loaded plugin [opensearch-cross-cluster-replication]
-[2023-07-04T14:03:13,773][INFO ][o.o.p.PluginsService     ] [node-1] loaded plugin [opensearch-geospatial]
-[2023-07-04T14:03:13,773][INFO ][o.o.p.PluginsService     ] [node-1] loaded plugin [opensearch-index-management]
-[2023-07-04T14:03:13,773][INFO ][o.o.p.PluginsService     ] [node-1] loaded plugin [opensearch-job-scheduler]
-[2023-07-04T14:03:13,773][INFO ][o.o.p.PluginsService     ] [node-1] loaded plugin [opensearch-knn]
-[2023-07-04T14:03:13,773][INFO ][o.o.p.PluginsService     ] [node-1] loaded plugin [opensearch-ml]
-[2023-07-04T14:03:13,774][INFO ][o.o.p.PluginsService     ] [node-1] loaded plugin [opensearch-neural-search]
-[2023-07-04T14:03:13,774][INFO ][o.o.p.PluginsService     ] [node-1] loaded plugin [opensearch-notifications]
-[2023-07-04T14:03:13,774][INFO ][o.o.p.PluginsService     ] [node-1] loaded plugin [opensearch-notifications-core]
-[2023-07-04T14:03:13,774][INFO ][o.o.p.PluginsService     ] [node-1] loaded plugin [opensearch-observability]
-[2023-07-04T14:03:13,774][INFO ][o.o.p.PluginsService     ] [node-1] loaded plugin [opensearch-performance-analyzer]
-[2023-07-04T14:03:13,774][INFO ][o.o.p.PluginsService     ] [node-1] loaded plugin [opensearch-reports-scheduler]
-[2023-07-04T14:03:13,774][INFO ][o.o.p.PluginsService     ] [node-1] loaded plugin [opensearch-security]
-[2023-07-04T14:03:13,775][INFO ][o.o.p.PluginsService     ] [node-1] loaded plugin [opensearch-security-analytics]
-[2023-07-04T14:03:13,775][INFO ][o.o.p.PluginsService     ] [node-1] loaded plugin [opensearch-sql]
-[2023-07-04T14:03:13,808][INFO ][o.o.s.OpenSearchSecurityPlugin] [node-1] Disabled https compression by default to mitigate BREACH attacks. You can enable it by setting 'http.compression: true' in opensearch.yml
-[2023-07-04T14:03:13,811][INFO ][o.o.e.ExtensionsManager  ] [node-1] ExtensionsManager initialized
-[2023-07-04T14:03:13,830][INFO ][o.o.e.NodeEnvironment    ] [node-1] using [1] data paths, mounts [[/home (/dev/mapper/centos-home)]], net usable_space [93.1gb], net total_space [173.7gb], types [xfs]
-[2023-07-04T14:03:13,830][INFO ][o.o.e.NodeEnvironment    ] [node-1] heap size [1gb], compressed ordinary object pointers [true]
-[2023-07-04T14:03:13,923][INFO ][o.o.n.Node               ] [node-1] node name [node-1], node ID [bIuegqYFQrKey5OWASG4gg], cluster name [opensearch-dev], roles [ingest, remote_cluster_client, data, cluster_manager]
-[2023-07-04T14:03:16,272][WARN ][o.o.s.c.Salt             ] [node-1] If you plan to use field masking pls configure compliance salt e1ukloTsQlOgPquJ to be a random string of 16 chars length identical on all nodes
-[2023-07-04T14:03:16,302][INFO ][o.o.s.a.i.AuditLogImpl   ] [node-1] Message routing enabled: true
-[2023-07-04T14:03:16,327][INFO ][o.o.s.f.SecurityFilter   ] [node-1] <NONE> indices are made immutable.
-[2023-07-04T14:03:16,554][INFO ][o.o.a.b.ADCircuitBreakerService] [node-1] Registered memory breaker.
-[2023-07-04T14:03:16,806][INFO ][o.o.m.b.MLCircuitBreakerService] [node-1] Registered ML memory breaker.
-[2023-07-04T14:03:16,807][INFO ][o.o.m.b.MLCircuitBreakerService] [node-1] Registered ML disk breaker.
-[2023-07-04T14:03:16,807][INFO ][o.o.m.b.MLCircuitBreakerService] [node-1] Registered ML native memory breaker.
-[2023-07-04T14:03:16,883][INFO ][o.r.Reflections          ] [node-1] Reflections took 29 ms to scan 1 urls, producing 15 keys and 37 values 
-[2023-07-04T14:03:17,374][INFO ][o.o.t.NettyAllocator     ] [node-1] creating NettyAllocator with the following configs: [name=unpooled, suggested_max_allocation_size=256kb, factors={opensearch.unsafe.use_unpooled_allocator=null, g1gc_enabled=true, g1gc_region_size=1mb, heap_size=1gb}]
-[2023-07-04T14:03:17,441][INFO ][o.o.d.DiscoveryModule    ] [node-1] using discovery type [zen] and seed hosts providers [settings]
-[2023-07-04T14:03:17,769][WARN ][o.o.g.DanglingIndicesState] [node-1] gateway.auto_import_dangling_indices is disabled, dangling indices will not be automatically detected or imported and must be managed manually
-[2023-07-04T14:03:18,124][INFO ][o.o.p.h.c.PerformanceAnalyzerConfigAction] [node-1] PerformanceAnalyzer Enabled: false
-[2023-07-04T14:03:18,153][INFO ][o.o.n.Node               ] [node-1] initialized
-[2023-07-04T14:03:18,153][INFO ][o.o.n.Node               ] [node-1] starting ...
-[2023-07-04T14:03:18,321][INFO ][o.o.t.TransportService   ] [node-1] publish_address {172.17.0.1:8300}, bound_addresses {[::]:8300}
-[2023-07-04T14:03:18,470][INFO ][o.o.b.BootstrapChecks    ] [node-1] bound or publishing to a non-loopback address, enforcing bootstrap checks
-[2023-07-04T14:03:18,474][INFO ][o.o.c.c.Coordinator      ] [node-1] cluster UUID [pBZgM37UTziNWhMM_pFoEw]
-[2023-07-04T14:03:18,614][INFO ][o.o.c.s.MasterService    ] [node-1] elected-as-cluster-manager ([1] nodes joined)[{node-1}{bIuegqYFQrKey5OWASG4gg}{cRe3vqnVTV63oWJsA8_LXg}{172.17.0.1}{172.17.0.1:8300}{dimr}{shard_indexing_pressure_enabled=true} elect leader, _BECOME_CLUSTER_MANAGER_TASK_, _FINISH_ELECTION_], term: 5, version: 67, delta: cluster-manager node changed {previous [], current [{node-1}{bIuegqYFQrKey5OWASG4gg}{cRe3vqnVTV63oWJsA8_LXg}{172.17.0.1}{172.17.0.1:8300}{dimr}{shard_indexing_pressure_enabled=true}]}
-[2023-07-04T14:03:18,659][INFO ][o.o.c.s.ClusterApplierService] [node-1] cluster-manager node changed {previous [], current [{node-1}{bIuegqYFQrKey5OWASG4gg}{cRe3vqnVTV63oWJsA8_LXg}{172.17.0.1}{172.17.0.1:8300}{dimr}{shard_indexing_pressure_enabled=true}]}, term: 5, version: 67, reason: Publication{term=5, version=67}
-[2023-07-04T14:03:18,666][INFO ][o.o.a.c.ADClusterEventListener] [node-1] Cluster is not recovered yet.
-[2023-07-04T14:03:18,670][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
-[2023-07-04T14:03:18,685][INFO ][o.o.i.i.ManagedIndexCoordinator] [node-1] Cache cluster manager node onClusterManager time: 1688446998685
-[2023-07-04T14:03:18,693][WARN ][o.o.p.c.s.h.ConfigOverridesClusterSettingHandler] [node-1] Config override setting update called with empty string. Ignoring.
-[2023-07-04T14:03:18,699][INFO ][o.o.d.PeerFinder         ] [node-1] setting findPeersInterval to [1s] as node commission status = [true] for local node [{node-1}{bIuegqYFQrKey5OWASG4gg}{cRe3vqnVTV63oWJsA8_LXg}{172.17.0.1}{172.17.0.1:8300}{dimr}{shard_indexing_pressure_enabled=true}]
-[2023-07-04T14:03:18,703][INFO ][o.o.h.AbstractHttpServerTransport] [node-1] publish_address {172.17.0.1:8200}, bound_addresses {[::]:8200}
-[2023-07-04T14:03:18,703][INFO ][o.o.n.Node               ] [node-1] started
-[2023-07-04T14:03:18,703][INFO ][o.o.s.OpenSearchSecurityPlugin] [node-1] Node started
-[2023-07-04T14:03:18,704][INFO ][o.o.s.c.ConfigurationRepository] [node-1] Will attempt to create index .opendistro_security and default configs if they are absent
-[2023-07-04T14:03:18,705][INFO ][o.o.s.OpenSearchSecurityPlugin] [node-1] 0 OpenSearch Security modules loaded so far: []
-[2023-07-04T14:03:18,710][INFO ][o.o.s.c.ConfigurationRepository] [node-1] Background init thread started. Install default config?: true
-[2023-07-04T14:03:18,710][INFO ][o.o.s.c.ConfigurationRepository] [node-1] Wait for cluster to be available ...
-[2023-07-04T14:03:18,742][INFO ][o.o.c.s.ClusterSettings  ] [node-1] updating [plugins.index_state_management.template_migration.control] from [0] to [-1]
-[2023-07-04T14:03:18,744][INFO ][o.o.a.c.HashRing         ] [node-1] Node added: [bIuegqYFQrKey5OWASG4gg]
-[2023-07-04T14:03:18,748][INFO ][o.o.a.c.HashRing         ] [node-1] Add data node to AD version hash ring: bIuegqYFQrKey5OWASG4gg
-[2023-07-04T14:03:18,749][INFO ][o.o.a.c.HashRing         ] [node-1] All nodes with known AD version: {bIuegqYFQrKey5OWASG4gg=ADNodeInfo{version=2.8.0, isEligibleDataNode=true}}
-[2023-07-04T14:03:18,750][INFO ][o.o.a.c.HashRing         ] [node-1] Rebuild AD hash ring for realtime AD with cooldown, nodeChangeEvents size 0
-[2023-07-04T14:03:18,750][INFO ][o.o.a.c.HashRing         ] [node-1] Build AD version hash ring successfully
-[2023-07-04T14:03:18,750][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
-[2023-07-04T14:03:18,751][INFO ][o.o.a.c.ADDataMigrator   ] [node-1] Start migrating AD data
-[2023-07-04T14:03:18,751][INFO ][o.o.a.c.ADDataMigrator   ] [node-1] AD job index doesn't exist, no need to migrate
-[2023-07-04T14:03:18,751][INFO ][o.o.a.c.ADClusterEventListener] [node-1] Init AD version hash ring successfully
-[2023-07-04T14:03:18,765][INFO ][o.o.g.GatewayService     ] [node-1] recovered [6] indices into cluster_state
-[2023-07-04T14:03:18,767][WARN ][o.o.o.i.ObservabilityIndex] [node-1] message: index [.opensearch-observability/esC_WlxxTNG76M9xjLP16Q] already exists
-[2023-07-04T14:03:18,768][INFO ][o.o.o.i.ObservabilityTracesIndex] [node-1] observability:createMappingTemplate ss4o_trace_template API called
-[2023-07-04T14:03:18,858][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[security-auditlog-2023.07.04/RF0AYq5cRnC5lPJaiau2JQ]
-[2023-07-04T14:03:19,170][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[.kibana_92668751_admin_1/vFFPeVQ8Sd6aHPVjwIJKUw]
-[2023-07-04T14:03:19,183][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[test/SiQpO8K6RX6ubeY0nhGFhA]
-[2023-07-04T14:03:19,188][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[.opendistro_security/eBeA-fR_SuuyW9QT3p6XuQ]
-[2023-07-04T14:03:19,241][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
-[2023-07-04T14:03:19,254][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[validate-template-gofpqmggsu2fbn4h2945ma/wKXxpkPVSYycFMX-TH4p_A]
-[2023-07-04T14:03:19,289][INFO ][o.o.c.m.MetadataIndexTemplateService] [node-1] updating index template [ss4o_trace_template] for index patterns [ss4o_traces-*-*]
-[2023-07-04T14:03:19,341][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
-[2023-07-04T14:03:19,343][INFO ][o.o.o.i.ObservabilityTracesIndex] [node-1] observability:Mapping Template ss4o_trace_template creation Acknowledged
-[2023-07-04T14:03:19,343][INFO ][o.o.o.i.ObservabilityMetricsIndex] [node-1] observability:createMappingTemplate ss4o_metric_template API called
-[2023-07-04T14:03:19,390][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
-[2023-07-04T14:03:19,394][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[validate-template-zwwxra3ks166uut5kgjygq/CojTQ09RTrigmtgBxno_4g]
-[2023-07-04T14:03:19,406][INFO ][o.o.c.m.MetadataIndexTemplateService] [node-1] updating index template [ss4o_metric_template] for index patterns [ss4o_metrics-*-*]
-[2023-07-04T14:03:19,434][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
-[2023-07-04T14:03:19,435][INFO ][o.o.o.i.ObservabilityMetricsIndex] [node-1] observability:Mapping Template ss4o_metric_template creation Acknowledged
-[2023-07-04T14:03:19,478][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[.kibana_1/TzV9EMgzQgeUUcGHXo6o7Q]
-[2023-07-04T14:03:19,489][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[.opensearch-observability/esC_WlxxTNG76M9xjLP16Q]
-[2023-07-04T14:03:19,510][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
-[2023-07-04T14:03:19,544][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
-[2023-07-04T14:03:19,546][INFO ][o.o.c.r.a.AllocationService] [node-1] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[.kibana_1][0]]]).
-[2023-07-04T14:03:19,585][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
-[2023-07-04T14:03:19,712][INFO ][o.o.s.c.ConfigurationRepository] [node-1] Index .opendistro_security already exists
-[2023-07-04T14:03:19,712][INFO ][o.o.s.c.ConfigurationRepository] [node-1] Node started, try to initialize it. Wait for at least yellow cluster state....
-[2023-07-04T14:03:19,718][INFO ][o.o.s.s.ConfigHelper     ] [node-1] Will update 'config' with /home/opensearch/opensearch/opensearch-2.8.0/config/opensearch-security/config.yml and populate it with empty doc if file missing and populateEmptyIfFileMissing=false
-[2023-07-04T14:03:19,811][INFO ][o.o.s.s.ConfigHelper     ] [node-1] Index .opendistro_security already contains doc with id config, skipping update.
-[2023-07-04T14:03:19,811][INFO ][o.o.s.s.ConfigHelper     ] [node-1] Will update 'roles' with /home/opensearch/opensearch/opensearch-2.8.0/config/opensearch-security/roles.yml and populate it with empty doc if file missing and populateEmptyIfFileMissing=false
-[2023-07-04T14:03:19,824][INFO ][o.o.s.s.ConfigHelper     ] [node-1] Index .opendistro_security already contains doc with id roles, skipping update.
-[2023-07-04T14:03:19,824][INFO ][o.o.s.s.ConfigHelper     ] [node-1] Will update 'rolesmapping' with /home/opensearch/opensearch/opensearch-2.8.0/config/opensearch-security/roles_mapping.yml and populate it with empty doc if file missing and populateEmptyIfFileMissing=false
-[2023-07-04T14:03:19,833][INFO ][o.o.s.s.ConfigHelper     ] [node-1] Index .opendistro_security already contains doc with id rolesmapping, skipping update.
-[2023-07-04T14:03:19,834][INFO ][o.o.s.s.ConfigHelper     ] [node-1] Will update 'internalusers' with /home/opensearch/opensearch/opensearch-2.8.0/config/opensearch-security/internal_users.yml and populate it with empty doc if file missing and populateEmptyIfFileMissing=false
-[2023-07-04T14:03:19,842][INFO ][o.o.s.s.ConfigHelper     ] [node-1] Index .opendistro_security already contains doc with id internalusers, skipping update.
-[2023-07-04T14:03:19,843][INFO ][o.o.s.s.ConfigHelper     ] [node-1] Will update 'actiongroups' with /home/opensearch/opensearch/opensearch-2.8.0/config/opensearch-security/action_groups.yml and populate it with empty doc if file missing and populateEmptyIfFileMissing=false
-[2023-07-04T14:03:19,846][INFO ][o.o.s.s.ConfigHelper     ] [node-1] Index .opendistro_security already contains doc with id actiongroups, skipping update.
-[2023-07-04T14:03:19,847][INFO ][o.o.s.s.ConfigHelper     ] [node-1] Will update 'tenants' with /home/opensearch/opensearch/opensearch-2.8.0/config/opensearch-security/tenants.yml and populate it with empty doc if file missing and populateEmptyIfFileMissing=false
-[2023-07-04T14:03:19,850][INFO ][o.o.s.s.ConfigHelper     ] [node-1] Index .opendistro_security already contains doc with id tenants, skipping update.
-[2023-07-04T14:03:19,850][INFO ][o.o.s.s.ConfigHelper     ] [node-1] Will update 'nodesdn' with /home/opensearch/opensearch/opensearch-2.8.0/config/opensearch-security/nodes_dn.yml and populate it with empty doc if file missing and populateEmptyIfFileMissing=true
-[2023-07-04T14:03:19,852][INFO ][o.o.s.s.ConfigHelper     ] [node-1] Index .opendistro_security already contains doc with id nodesdn, skipping update.
-[2023-07-04T14:03:19,853][INFO ][o.o.s.s.ConfigHelper     ] [node-1] Will update 'whitelist' with /home/opensearch/opensearch/opensearch-2.8.0/config/opensearch-security/whitelist.yml and populate it with empty doc if file missing and populateEmptyIfFileMissing=true
-[2023-07-04T14:03:19,855][INFO ][o.o.s.s.ConfigHelper     ] [node-1] Index .opendistro_security already contains doc with id whitelist, skipping update.
-[2023-07-04T14:03:19,855][INFO ][o.o.s.s.ConfigHelper     ] [node-1] Will update 'allowlist' with /home/opensearch/opensearch/opensearch-2.8.0/config/opensearch-security/allowlist.yml and populate it with empty doc if file missing and populateEmptyIfFileMissing=true
-[2023-07-04T14:03:19,857][INFO ][o.o.s.s.ConfigHelper     ] [node-1] Index .opendistro_security already contains doc with id allowlist, skipping update.
-[2023-07-04T14:03:19,858][INFO ][o.o.s.s.ConfigHelper     ] [node-1] Will update 'audit' with /home/opensearch/opensearch/opensearch-2.8.0/config/opensearch-security/audit.yml and populate it with empty doc if file missing and populateEmptyIfFileMissing=false
-[2023-07-04T14:03:19,871][INFO ][o.o.s.s.ConfigHelper     ] [node-1] Index .opendistro_security already contains doc with id audit, skipping update.
-[2023-07-04T14:03:19,983][INFO ][stdout                   ] [node-1] [FINE] No subscribers registered for event class org.opensearch.security.securityconf.DynamicConfigFactory$NodesDnModelImpl
-[2023-07-04T14:03:19,983][INFO ][stdout                   ] [node-1] [FINE] No subscribers registered for event class org.greenrobot.eventbus.NoSubscriberEvent
-[2023-07-04T14:03:19,984][INFO ][o.o.s.a.i.AuditLogImpl   ] [node-1] Auditing on REST API is enabled.
-[2023-07-04T14:03:19,984][INFO ][o.o.s.a.i.AuditLogImpl   ] [node-1] [AUTHENTICATED, GRANTED_PRIVILEGES] are excluded from REST API auditing.
-[2023-07-04T14:03:19,984][INFO ][o.o.s.a.i.AuditLogImpl   ] [node-1] Auditing on Transport API is enabled.
-[2023-07-04T14:03:19,984][INFO ][o.o.s.a.i.AuditLogImpl   ] [node-1] [AUTHENTICATED, GRANTED_PRIVILEGES] are excluded from Transport API auditing.
-[2023-07-04T14:03:19,984][INFO ][o.o.s.a.i.AuditLogImpl   ] [node-1] Auditing of request body is enabled.
-[2023-07-04T14:03:19,984][INFO ][o.o.s.a.i.AuditLogImpl   ] [node-1] Bulk requests resolution is disabled during request auditing.
-[2023-07-04T14:03:19,984][INFO ][o.o.s.a.i.AuditLogImpl   ] [node-1] Index resolution is enabled during request auditing.
-[2023-07-04T14:03:19,985][INFO ][o.o.s.a.i.AuditLogImpl   ] [node-1] Sensitive headers auditing is enabled.
-[2023-07-04T14:03:19,985][INFO ][o.o.s.a.i.AuditLogImpl   ] [node-1] Auditing requests from kibanaserver users is disabled.
-[2023-07-04T14:03:19,987][WARN ][o.o.s.a.r.AuditMessageRouter] [node-1] No endpoint configured for categories [BAD_HEADERS, FAILED_LOGIN, MISSING_PRIVILEGES, GRANTED_PRIVILEGES, OPENDISTRO_SECURITY_INDEX_ATTEMPT, SSL_EXCEPTION, AUTHENTICATED, INDEX_EVENT, COMPLIANCE_DOC_READ, COMPLIANCE_DOC_WRITE, COMPLIANCE_EXTERNAL_CONFIG, COMPLIANCE_INTERNAL_CONFIG_READ, COMPLIANCE_INTERNAL_CONFIG_WRITE], using default endpoint
-[2023-07-04T14:03:19,987][INFO ][o.o.s.a.i.AuditLogImpl   ] [node-1] Auditing of external configuration is disabled.
-[2023-07-04T14:03:19,987][INFO ][o.o.s.a.i.AuditLogImpl   ] [node-1] Auditing of internal configuration is enabled.
-[2023-07-04T14:03:19,987][INFO ][o.o.s.a.i.AuditLogImpl   ] [node-1] Auditing only metadata information for read request is enabled.
-[2023-07-04T14:03:19,987][INFO ][o.o.s.a.i.AuditLogImpl   ] [node-1] Auditing will watch {} for read requests.
-[2023-07-04T14:03:19,987][INFO ][o.o.s.a.i.AuditLogImpl   ] [node-1] Auditing read operation requests from kibanaserver users is disabled.
-[2023-07-04T14:03:19,988][INFO ][o.o.s.a.i.AuditLogImpl   ] [node-1] Auditing only metadata information for write request is enabled.
-[2023-07-04T14:03:19,988][INFO ][o.o.s.a.i.AuditLogImpl   ] [node-1] Auditing diffs for write requests is disabled.
-[2023-07-04T14:03:19,988][INFO ][o.o.s.a.i.AuditLogImpl   ] [node-1] Auditing write operation requests from kibanaserver users is disabled.
-[2023-07-04T14:03:19,988][INFO ][o.o.s.a.i.AuditLogImpl   ] [node-1] Auditing will watch <NONE> for write requests.
-[2023-07-04T14:03:19,988][INFO ][o.o.s.a.i.AuditLogImpl   ] [node-1] .opendistro_security is used as internal security index.
-[2023-07-04T14:03:19,988][INFO ][o.o.s.a.i.AuditLogImpl   ] [node-1] Internal index used for posting audit logs is null
-[2023-07-04T14:03:19,989][INFO ][o.o.s.c.ConfigurationRepository] [node-1] Hot-reloading of audit configuration is enabled
-[2023-07-04T14:03:19,989][INFO ][o.o.s.c.ConfigurationRepository] [node-1] Node 'node-1' initialized
-[2023-07-04T14:03:21,063][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[validate-template-iglqk5ngthqffcbipupsdq/Uc5s-N63T7CkfPLrDiAmcA]
-[2023-07-04T14:03:21,075][INFO ][o.o.c.m.MetadataIndexTemplateService] [node-1] updating index template [tenant_template] for index patterns [.kibana_-*_*, .kibana_0*_*, .kibana_1*_*, .kibana_2*_*, .kibana_3*_*, .kibana_4*_*, .kibana_5*_*, .kibana_6*_*, .kibana_7*_*, .kibana_8*_*, .kibana_9*_*]
-[2023-07-04T14:03:21,123][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
-[2023-07-04T14:03:44,360][ERROR][o.o.s.s.h.n.SecuritySSLNettyHttpServerTransport] [node-1] Exception during establishing a SSL connection: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
-javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
-	at sun.security.ssl.Alert.createSSLException(Alert.java:131) ~[?:?]
-	at sun.security.ssl.Alert.createSSLException(Alert.java:117) ~[?:?]
-	at sun.security.ssl.TransportContext.fatal(TransportContext.java:365) ~[?:?]
-	at sun.security.ssl.Alert$AlertConsumer.consume(Alert.java:293) ~[?:?]
-	at sun.security.ssl.TransportContext.dispatch(TransportContext.java:204) ~[?:?]
-	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.decode(SSLEngineImpl.java:736) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.readRecord(SSLEngineImpl.java:691) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:506) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:482) ~[?:?]
-	at javax.net.ssl.SSLEngine.unwrap(SSLEngine.java:679) ~[?:?]
-	at io.netty.handler.ssl.SslHandler$SslEngineType$3.unwrap(SslHandler.java:297) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1353) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1246) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1295) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:689) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:652) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+[2023-07-07T08:02:51,161][INFO ][o.o.n.Node               ] [node-1] version[2.8.0], pid[29442], build[tar/db90a415ff2fd428b4f7b3f800a51dc229287cb4/2023-06-03T06:24:25.112415503Z], OS[Linux/3.10.0-1160.90.1.el7.x86_64/amd64], JVM[Eclipse Adoptium/OpenJDK 64-Bit Server VM/17.0.7/17.0.7+7]
+[2023-07-07T08:02:51,164][INFO ][o.o.n.Node               ] [node-1] JVM home [/home/opensearch/opensearch/opensearch-2.8.0/jdk], using bundled JDK [true]
+[2023-07-07T08:02:51,164][INFO ][o.o.n.Node               ] [node-1] JVM arguments [-Xshare:auto, -Dopensearch.networkaddress.cache.ttl=60, -Dopensearch.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -XX:+ShowCodeDetailsInExceptionMessages, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dio.netty.allocator.numDirectArenas=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.locale.providers=SPI,COMPAT, -Xms1g, -Xmx1g, -XX:+UseG1GC, -XX:G1ReservePercent=25, -XX:InitiatingHeapOccupancyPercent=30, -Djava.io.tmpdir=/tmp/opensearch-13994269488804664230, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -Xlog:gc*,gc+age=trace,safepoint:file=logs/gc.log:utctime,pid,tags:filecount=32,filesize=64m, -XX:MaxDirectMemorySize=536870912, -Dopensearch.path.home=/home/opensearch/opensearch/opensearch-2.8.0, -Dopensearch.path.conf=/home/opensearch/opensearch/opensearch-2.8.0/config, -Dopensearch.distribution.type=tar, -Dopensearch.bundled_jdk=true]
+[2023-07-07T08:02:52,079][INFO ][o.o.s.s.t.SSLConfig      ] [node-1] SSL dual mode is disabled
+[2023-07-07T08:02:52,079][INFO ][o.o.s.OpenSearchSecurityPlugin] [node-1] OpenSearch Config path is /home/opensearch/opensearch/opensearch-2.8.0/config
+[2023-07-07T08:02:52,305][INFO ][o.o.s.s.DefaultSecurityKeyStore] [node-1] JVM supports TLSv1.3
+[2023-07-07T08:02:52,306][INFO ][o.o.s.s.DefaultSecurityKeyStore] [node-1] Config directory is /home/opensearch/opensearch/opensearch-2.8.0/config/, from there the key- and truststore files are resolved relatively
+[2023-07-07T08:02:52,724][INFO ][o.o.s.s.DefaultSecurityKeyStore] [node-1] TLS Transport Client Provider : JDK
+[2023-07-07T08:02:52,724][INFO ][o.o.s.s.DefaultSecurityKeyStore] [node-1] TLS Transport Server Provider : JDK
+[2023-07-07T08:02:52,724][INFO ][o.o.s.s.DefaultSecurityKeyStore] [node-1] TLS HTTP Provider             : JDK
+[2023-07-07T08:02:52,725][INFO ][o.o.s.s.DefaultSecurityKeyStore] [node-1] Enabled TLS protocols for transport layer : [TLSv1.3, TLSv1.2]
+[2023-07-07T08:02:52,725][INFO ][o.o.s.s.DefaultSecurityKeyStore] [node-1] Enabled TLS protocols for HTTP layer      : [TLSv1.3, TLSv1.2]
+[2023-07-07T08:02:52,733][INFO ][o.o.s.OpenSearchSecurityPlugin] [node-1] Clustername: opensearch-dev
+[2023-07-07T08:02:52,738][WARN ][o.o.s.OpenSearchSecurityPlugin] [node-1] Directory /home/opensearch/opensearch/opensearch-2.8.0/config has insecure file permissions (should be 0700)
+[2023-07-07T08:02:52,739][WARN ][o.o.s.OpenSearchSecurityPlugin] [node-1] Directory /home/opensearch/opensearch/opensearch-2.8.0/config/naver_news has insecure file permissions (should be 0700)
+[2023-07-07T08:02:52,739][WARN ][o.o.s.OpenSearchSecurityPlugin] [node-1] File /home/opensearch/opensearch/opensearch-2.8.0/config/naver_news/stop_dic1.txt has insecure file permissions (should be 0600)
+[2023-07-07T08:02:52,739][WARN ][o.o.s.OpenSearchSecurityPlugin] [node-1] File /home/opensearch/opensearch/opensearch-2.8.0/config/naver_news/synonym1.txt has insecure file permissions (should be 0600)
+[2023-07-07T08:02:52,739][WARN ][o.o.s.OpenSearchSecurityPlugin] [node-1] File /home/opensearch/opensearch/opensearch-2.8.0/config/naver_news/user_dict1.txt has insecure file permissions (should be 0600)
+[2023-07-07T08:02:53,229][INFO ][o.o.p.c.c.PluginSettings ] [node-1] Config: metricsLocation: /dev/shm/performanceanalyzer/, metricsDeletionInterval: 1, httpsEnabled: false, cleanup-metrics-db-files: true, batch-metrics-retention-period-minutes: 7, rpc-port: 9650, webservice-port 9600
+[2023-07-07T08:02:53,684][INFO ][o.o.i.r.ReindexPlugin    ] [node-1] ReindexPlugin reloadSPI called
+[2023-07-07T08:02:53,685][INFO ][o.o.i.r.ReindexPlugin    ] [node-1] Unable to find any implementation for RemoteReindexExtension
+[2023-07-07T08:02:53,715][INFO ][o.o.j.JobSchedulerPlugin ] [node-1] Loaded scheduler extension: opendistro_anomaly_detector, index: .opendistro-anomaly-detector-jobs
+[2023-07-07T08:02:53,739][INFO ][o.o.j.JobSchedulerPlugin ] [node-1] Loaded scheduler extension: reports-scheduler, index: .opendistro-reports-definitions
+[2023-07-07T08:02:53,741][INFO ][o.o.j.JobSchedulerPlugin ] [node-1] Loaded scheduler extension: opendistro-index-management, index: .opendistro-ism-config
+[2023-07-07T08:02:53,764][INFO ][o.o.j.JobSchedulerPlugin ] [node-1] Loaded scheduler extension: observability, index: .opensearch-observability-job
+[2023-07-07T08:02:53,769][INFO ][o.o.p.PluginsService     ] [node-1] loaded module [aggs-matrix-stats]
+[2023-07-07T08:02:53,769][INFO ][o.o.p.PluginsService     ] [node-1] loaded module [analysis-common]
+[2023-07-07T08:02:53,770][INFO ][o.o.p.PluginsService     ] [node-1] loaded module [geo]
+[2023-07-07T08:02:53,770][INFO ][o.o.p.PluginsService     ] [node-1] loaded module [ingest-common]
+[2023-07-07T08:02:53,770][INFO ][o.o.p.PluginsService     ] [node-1] loaded module [ingest-geoip]
+[2023-07-07T08:02:53,770][INFO ][o.o.p.PluginsService     ] [node-1] loaded module [ingest-user-agent]
+[2023-07-07T08:02:53,770][INFO ][o.o.p.PluginsService     ] [node-1] loaded module [lang-expression]
+[2023-07-07T08:02:53,770][INFO ][o.o.p.PluginsService     ] [node-1] loaded module [lang-mustache]
+[2023-07-07T08:02:53,771][INFO ][o.o.p.PluginsService     ] [node-1] loaded module [lang-painless]
+[2023-07-07T08:02:53,771][INFO ][o.o.p.PluginsService     ] [node-1] loaded module [mapper-extras]
+[2023-07-07T08:02:53,771][INFO ][o.o.p.PluginsService     ] [node-1] loaded module [opensearch-dashboards]
+[2023-07-07T08:02:53,771][INFO ][o.o.p.PluginsService     ] [node-1] loaded module [parent-join]
+[2023-07-07T08:02:53,771][INFO ][o.o.p.PluginsService     ] [node-1] loaded module [percolator]
+[2023-07-07T08:02:53,771][INFO ][o.o.p.PluginsService     ] [node-1] loaded module [rank-eval]
+[2023-07-07T08:02:53,772][INFO ][o.o.p.PluginsService     ] [node-1] loaded module [reindex]
+[2023-07-07T08:02:53,772][INFO ][o.o.p.PluginsService     ] [node-1] loaded module [repository-url]
+[2023-07-07T08:02:53,772][INFO ][o.o.p.PluginsService     ] [node-1] loaded module [search-pipeline-common]
+[2023-07-07T08:02:53,772][INFO ][o.o.p.PluginsService     ] [node-1] loaded module [systemd]
+[2023-07-07T08:02:53,772][INFO ][o.o.p.PluginsService     ] [node-1] loaded module [transport-netty4]
+[2023-07-07T08:02:53,773][INFO ][o.o.p.PluginsService     ] [node-1] loaded plugin [analysis-icu]
+[2023-07-07T08:02:53,773][INFO ][o.o.p.PluginsService     ] [node-1] loaded plugin [analysis-nori]
+[2023-07-07T08:02:53,773][INFO ][o.o.p.PluginsService     ] [node-1] loaded plugin [opensearch-alerting]
+[2023-07-07T08:02:53,773][INFO ][o.o.p.PluginsService     ] [node-1] loaded plugin [opensearch-anomaly-detection]
+[2023-07-07T08:02:53,773][INFO ][o.o.p.PluginsService     ] [node-1] loaded plugin [opensearch-asynchronous-search]
+[2023-07-07T08:02:53,774][INFO ][o.o.p.PluginsService     ] [node-1] loaded plugin [opensearch-cross-cluster-replication]
+[2023-07-07T08:02:53,774][INFO ][o.o.p.PluginsService     ] [node-1] loaded plugin [opensearch-geospatial]
+[2023-07-07T08:02:53,774][INFO ][o.o.p.PluginsService     ] [node-1] loaded plugin [opensearch-index-management]
+[2023-07-07T08:02:53,774][INFO ][o.o.p.PluginsService     ] [node-1] loaded plugin [opensearch-job-scheduler]
+[2023-07-07T08:02:53,774][INFO ][o.o.p.PluginsService     ] [node-1] loaded plugin [opensearch-knn]
+[2023-07-07T08:02:53,774][INFO ][o.o.p.PluginsService     ] [node-1] loaded plugin [opensearch-ml]
+[2023-07-07T08:02:53,774][INFO ][o.o.p.PluginsService     ] [node-1] loaded plugin [opensearch-neural-search]
+[2023-07-07T08:02:53,775][INFO ][o.o.p.PluginsService     ] [node-1] loaded plugin [opensearch-notifications]
+[2023-07-07T08:02:53,775][INFO ][o.o.p.PluginsService     ] [node-1] loaded plugin [opensearch-notifications-core]
+[2023-07-07T08:02:53,775][INFO ][o.o.p.PluginsService     ] [node-1] loaded plugin [opensearch-observability]
+[2023-07-07T08:02:53,775][INFO ][o.o.p.PluginsService     ] [node-1] loaded plugin [opensearch-performance-analyzer]
+[2023-07-07T08:02:53,775][INFO ][o.o.p.PluginsService     ] [node-1] loaded plugin [opensearch-reports-scheduler]
+[2023-07-07T08:02:53,775][INFO ][o.o.p.PluginsService     ] [node-1] loaded plugin [opensearch-security]
+[2023-07-07T08:02:53,776][INFO ][o.o.p.PluginsService     ] [node-1] loaded plugin [opensearch-security-analytics]
+[2023-07-07T08:02:53,776][INFO ][o.o.p.PluginsService     ] [node-1] loaded plugin [opensearch-sql]
+[2023-07-07T08:02:53,810][INFO ][o.o.s.OpenSearchSecurityPlugin] [node-1] Disabled https compression by default to mitigate BREACH attacks. You can enable it by setting 'http.compression: true' in opensearch.yml
+[2023-07-07T08:02:53,814][INFO ][o.o.e.ExtensionsManager  ] [node-1] ExtensionsManager initialized
+[2023-07-07T08:02:53,834][INFO ][o.o.e.NodeEnvironment    ] [node-1] using [1] data paths, mounts [[/home (/dev/mapper/centos-home)]], net usable_space [95.9gb], net total_space [173.7gb], types [xfs]
+[2023-07-07T08:02:53,835][INFO ][o.o.e.NodeEnvironment    ] [node-1] heap size [1gb], compressed ordinary object pointers [true]
+[2023-07-07T08:02:53,874][INFO ][o.o.n.Node               ] [node-1] node name [node-1], node ID [yn1VcXvdTjKaEyr64uPuSw], cluster name [opensearch-dev], roles [ingest, remote_cluster_client, data, cluster_manager]
+[2023-07-07T08:02:56,370][WARN ][o.o.s.c.Salt             ] [node-1] If you plan to use field masking pls configure compliance salt e1ukloTsQlOgPquJ to be a random string of 16 chars length identical on all nodes
+[2023-07-07T08:02:56,409][INFO ][o.o.s.a.i.AuditLogImpl   ] [node-1] Message routing enabled: true
+[2023-07-07T08:02:56,439][INFO ][o.o.s.f.SecurityFilter   ] [node-1] <NONE> indices are made immutable.
+[2023-07-07T08:02:56,683][INFO ][o.o.a.b.ADCircuitBreakerService] [node-1] Registered memory breaker.
+[2023-07-07T08:02:56,973][INFO ][o.o.m.b.MLCircuitBreakerService] [node-1] Registered ML memory breaker.
+[2023-07-07T08:02:56,974][INFO ][o.o.m.b.MLCircuitBreakerService] [node-1] Registered ML disk breaker.
+[2023-07-07T08:02:56,974][INFO ][o.o.m.b.MLCircuitBreakerService] [node-1] Registered ML native memory breaker.
+[2023-07-07T08:02:57,048][INFO ][o.r.Reflections          ] [node-1] Reflections took 29 ms to scan 1 urls, producing 15 keys and 37 values 
+[2023-07-07T08:02:57,592][INFO ][o.o.t.NettyAllocator     ] [node-1] creating NettyAllocator with the following configs: [name=unpooled, suggested_max_allocation_size=256kb, factors={opensearch.unsafe.use_unpooled_allocator=null, g1gc_enabled=true, g1gc_region_size=1mb, heap_size=1gb}]
+[2023-07-07T08:02:57,658][INFO ][o.o.d.DiscoveryModule    ] [node-1] using discovery type [zen] and seed hosts providers [settings]
+[2023-07-07T08:02:57,994][WARN ][o.o.g.DanglingIndicesState] [node-1] gateway.auto_import_dangling_indices is disabled, dangling indices will not be automatically detected or imported and must be managed manually
+[2023-07-07T08:02:58,365][INFO ][o.o.p.h.c.PerformanceAnalyzerConfigAction] [node-1] PerformanceAnalyzer Enabled: false
+[2023-07-07T08:02:58,395][INFO ][o.o.n.Node               ] [node-1] initialized
+[2023-07-07T08:02:58,395][INFO ][o.o.n.Node               ] [node-1] starting ...
+[2023-07-07T08:02:58,552][ERROR][o.o.b.OpenSearchUncaughtExceptionHandler] [node-1] uncaught exception in thread [main]
+org.opensearch.bootstrap.StartupException: BindTransportException[Failed to bind to 0.0.0.0:8300]; nested: BindException[주소가 이미 사용 중입니다];
+	at org.opensearch.bootstrap.OpenSearch.init(OpenSearch.java:184) ~[opensearch-2.8.0.jar:2.8.0]
+	at org.opensearch.bootstrap.OpenSearch.execute(OpenSearch.java:171) ~[opensearch-2.8.0.jar:2.8.0]
+	at org.opensearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:104) ~[opensearch-2.8.0.jar:2.8.0]
+	at org.opensearch.cli.Command.mainWithoutErrorHandling(Command.java:138) ~[opensearch-cli-2.8.0.jar:2.8.0]
+	at org.opensearch.cli.Command.main(Command.java:101) ~[opensearch-cli-2.8.0.jar:2.8.0]
+	at org.opensearch.bootstrap.OpenSearch.main(OpenSearch.java:137) ~[opensearch-2.8.0.jar:2.8.0]
+	at org.opensearch.bootstrap.OpenSearch.main(OpenSearch.java:103) ~[opensearch-2.8.0.jar:2.8.0]
+Caused by: org.opensearch.transport.BindTransportException: Failed to bind to 0.0.0.0:8300
+	at org.opensearch.transport.TcpTransport.bindToPort(TcpTransport.java:468) ~[opensearch-2.8.0.jar:2.8.0]
+	at org.opensearch.transport.TcpTransport.bindServer(TcpTransport.java:432) ~[opensearch-2.8.0.jar:2.8.0]
+	at org.opensearch.transport.netty4.Netty4Transport.doStart(Netty4Transport.java:163) ~[?:?]
+	at org.opensearch.common.component.AbstractLifecycleComponent.start(AbstractLifecycleComponent.java:77) ~[opensearch-2.8.0.jar:2.8.0]
+	at org.opensearch.transport.TransportService.doStart(TransportService.java:283) ~[opensearch-2.8.0.jar:2.8.0]
+	at org.opensearch.common.component.AbstractLifecycleComponent.start(AbstractLifecycleComponent.java:77) ~[opensearch-2.8.0.jar:2.8.0]
+	at org.opensearch.node.Node.start(Node.java:1247) ~[opensearch-2.8.0.jar:2.8.0]
+	at org.opensearch.bootstrap.Bootstrap.start(Bootstrap.java:339) ~[opensearch-2.8.0.jar:2.8.0]
+	at org.opensearch.bootstrap.Bootstrap.init(Bootstrap.java:413) ~[opensearch-2.8.0.jar:2.8.0]
+	at org.opensearch.bootstrap.OpenSearch.init(OpenSearch.java:180) ~[opensearch-2.8.0.jar:2.8.0]
+	... 6 more
+Caused by: java.net.BindException: 주소가 이미 사용 중입니다
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:555) ~[?:?]
+	at sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337) ~[?:?]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294) ~[?:?]
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:141) ~[?:?]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:562) ~[?:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1334) ~[?:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:600) ~[?:?]
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:579) ~[?:?]
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:973) ~[?:?]
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:260) ~[?:?]
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:356) ~[?:?]
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174) ~[?:?]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167) ~[?:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470) ~[?:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569) ~[?:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[?:?]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[?:?]
 	at java.lang.Thread.run(Thread.java:833) [?:?]
-[2023-07-04T14:03:44,366][ERROR][o.o.s.s.h.n.SecuritySSLNettyHttpServerTransport] [node-1] Exception during establishing a SSL connection: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
-javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
-	at sun.security.ssl.Alert.createSSLException(Alert.java:131) ~[?:?]
-	at sun.security.ssl.Alert.createSSLException(Alert.java:117) ~[?:?]
-	at sun.security.ssl.TransportContext.fatal(TransportContext.java:365) ~[?:?]
-	at sun.security.ssl.Alert$AlertConsumer.consume(Alert.java:293) ~[?:?]
-	at sun.security.ssl.TransportContext.dispatch(TransportContext.java:204) ~[?:?]
-	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.decode(SSLEngineImpl.java:736) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.readRecord(SSLEngineImpl.java:691) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:506) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:482) ~[?:?]
-	at javax.net.ssl.SSLEngine.unwrap(SSLEngine.java:679) ~[?:?]
-	at io.netty.handler.ssl.SslHandler$SslEngineType$3.unwrap(SslHandler.java:297) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1353) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1246) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1295) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:689) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:652) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.91.Final.jar:4.1.91.Final]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-[2023-07-04T14:03:44,366][WARN ][o.o.h.AbstractHttpServerTransport] [node-1] caught exception while handling client http traffic, closing connection Netty4HttpChannel{localAddress=/192.168.52.196:8200, remoteAddress=/192.168.52.232:51797}
-io.netty.handler.codec.DecoderException: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:499) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:689) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:652) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.91.Final.jar:4.1.91.Final]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-Caused by: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
-	at sun.security.ssl.Alert.createSSLException(Alert.java:131) ~[?:?]
-	at sun.security.ssl.Alert.createSSLException(Alert.java:117) ~[?:?]
-	at sun.security.ssl.TransportContext.fatal(TransportContext.java:365) ~[?:?]
-	at sun.security.ssl.Alert$AlertConsumer.consume(Alert.java:293) ~[?:?]
-	at sun.security.ssl.TransportContext.dispatch(TransportContext.java:204) ~[?:?]
-	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.decode(SSLEngineImpl.java:736) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.readRecord(SSLEngineImpl.java:691) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:506) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:482) ~[?:?]
-	at javax.net.ssl.SSLEngine.unwrap(SSLEngine.java:679) ~[?:?]
-	at io.netty.handler.ssl.SslHandler$SslEngineType$3.unwrap(SslHandler.java:297) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1353) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1246) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1295) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	... 16 more
-[2023-07-04T14:03:44,368][WARN ][o.o.h.AbstractHttpServerTransport] [node-1] caught exception while handling client http traffic, closing connection Netty4HttpChannel{localAddress=/192.168.52.196:8200, remoteAddress=/192.168.52.232:51796}
-io.netty.handler.codec.DecoderException: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:499) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:689) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:652) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.91.Final.jar:4.1.91.Final]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-Caused by: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
-	at sun.security.ssl.Alert.createSSLException(Alert.java:131) ~[?:?]
-	at sun.security.ssl.Alert.createSSLException(Alert.java:117) ~[?:?]
-	at sun.security.ssl.TransportContext.fatal(TransportContext.java:365) ~[?:?]
-	at sun.security.ssl.Alert$AlertConsumer.consume(Alert.java:293) ~[?:?]
-	at sun.security.ssl.TransportContext.dispatch(TransportContext.java:204) ~[?:?]
-	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.decode(SSLEngineImpl.java:736) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.readRecord(SSLEngineImpl.java:691) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:506) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:482) ~[?:?]
-	at javax.net.ssl.SSLEngine.unwrap(SSLEngine.java:679) ~[?:?]
-	at io.netty.handler.ssl.SslHandler$SslEngineType$3.unwrap(SslHandler.java:297) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1353) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1246) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1295) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	... 16 more
-[2023-07-04T14:03:44,368][ERROR][o.o.s.s.h.n.SecuritySSLNettyHttpServerTransport] [node-1] Exception during establishing a SSL connection: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
-javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
-	at sun.security.ssl.Alert.createSSLException(Alert.java:131) ~[?:?]
-	at sun.security.ssl.Alert.createSSLException(Alert.java:117) ~[?:?]
-	at sun.security.ssl.TransportContext.fatal(TransportContext.java:365) ~[?:?]
-	at sun.security.ssl.Alert$AlertConsumer.consume(Alert.java:293) ~[?:?]
-	at sun.security.ssl.TransportContext.dispatch(TransportContext.java:204) ~[?:?]
-	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.decode(SSLEngineImpl.java:736) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.readRecord(SSLEngineImpl.java:691) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:506) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:482) ~[?:?]
-	at javax.net.ssl.SSLEngine.unwrap(SSLEngine.java:679) ~[?:?]
-	at io.netty.handler.ssl.SslHandler$SslEngineType$3.unwrap(SslHandler.java:297) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1353) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1246) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1295) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:689) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:652) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.91.Final.jar:4.1.91.Final]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-[2023-07-04T14:03:44,370][WARN ][o.o.h.AbstractHttpServerTransport] [node-1] caught exception while handling client http traffic, closing connection Netty4HttpChannel{localAddress=/192.168.52.196:8200, remoteAddress=/192.168.52.232:51799}
-io.netty.handler.codec.DecoderException: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:499) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:689) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:652) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.91.Final.jar:4.1.91.Final]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-Caused by: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
-	at sun.security.ssl.Alert.createSSLException(Alert.java:131) ~[?:?]
-	at sun.security.ssl.Alert.createSSLException(Alert.java:117) ~[?:?]
-	at sun.security.ssl.TransportContext.fatal(TransportContext.java:365) ~[?:?]
-	at sun.security.ssl.Alert$AlertConsumer.consume(Alert.java:293) ~[?:?]
-	at sun.security.ssl.TransportContext.dispatch(TransportContext.java:204) ~[?:?]
-	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.decode(SSLEngineImpl.java:736) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.readRecord(SSLEngineImpl.java:691) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:506) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:482) ~[?:?]
-	at javax.net.ssl.SSLEngine.unwrap(SSLEngine.java:679) ~[?:?]
-	at io.netty.handler.ssl.SslHandler$SslEngineType$3.unwrap(SslHandler.java:297) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1353) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1246) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1295) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	... 16 more
-[2023-07-04T14:03:44,375][ERROR][o.o.s.s.h.n.SecuritySSLNettyHttpServerTransport] [node-1] Exception during establishing a SSL connection: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
-javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
-	at sun.security.ssl.Alert.createSSLException(Alert.java:131) ~[?:?]
-	at sun.security.ssl.Alert.createSSLException(Alert.java:117) ~[?:?]
-	at sun.security.ssl.TransportContext.fatal(TransportContext.java:365) ~[?:?]
-	at sun.security.ssl.Alert$AlertConsumer.consume(Alert.java:293) ~[?:?]
-	at sun.security.ssl.TransportContext.dispatch(TransportContext.java:204) ~[?:?]
-	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.decode(SSLEngineImpl.java:736) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.readRecord(SSLEngineImpl.java:691) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:506) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:482) ~[?:?]
-	at javax.net.ssl.SSLEngine.unwrap(SSLEngine.java:679) ~[?:?]
-	at io.netty.handler.ssl.SslHandler$SslEngineType$3.unwrap(SslHandler.java:297) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1353) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1246) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1295) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:689) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:652) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.91.Final.jar:4.1.91.Final]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-[2023-07-04T14:03:44,377][WARN ][o.o.h.AbstractHttpServerTransport] [node-1] caught exception while handling client http traffic, closing connection Netty4HttpChannel{localAddress=/192.168.52.196:8200, remoteAddress=/192.168.52.232:51798}
-io.netty.handler.codec.DecoderException: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:499) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:689) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:652) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.91.Final.jar:4.1.91.Final]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-Caused by: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
-	at sun.security.ssl.Alert.createSSLException(Alert.java:131) ~[?:?]
-	at sun.security.ssl.Alert.createSSLException(Alert.java:117) ~[?:?]
-	at sun.security.ssl.TransportContext.fatal(TransportContext.java:365) ~[?:?]
-	at sun.security.ssl.Alert$AlertConsumer.consume(Alert.java:293) ~[?:?]
-	at sun.security.ssl.TransportContext.dispatch(TransportContext.java:204) ~[?:?]
-	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.decode(SSLEngineImpl.java:736) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.readRecord(SSLEngineImpl.java:691) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:506) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:482) ~[?:?]
-	at javax.net.ssl.SSLEngine.unwrap(SSLEngine.java:679) ~[?:?]
-	at io.netty.handler.ssl.SslHandler$SslEngineType$3.unwrap(SslHandler.java:297) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1353) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1246) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1295) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	... 16 more
-[2023-07-04T14:03:44,392][ERROR][o.o.s.s.h.n.SecuritySSLNettyHttpServerTransport] [node-1] Exception during establishing a SSL connection: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
-javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
-	at sun.security.ssl.Alert.createSSLException(Alert.java:131) ~[?:?]
-	at sun.security.ssl.Alert.createSSLException(Alert.java:117) ~[?:?]
-	at sun.security.ssl.TransportContext.fatal(TransportContext.java:365) ~[?:?]
-	at sun.security.ssl.Alert$AlertConsumer.consume(Alert.java:293) ~[?:?]
-	at sun.security.ssl.TransportContext.dispatch(TransportContext.java:204) ~[?:?]
-	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.decode(SSLEngineImpl.java:736) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.readRecord(SSLEngineImpl.java:691) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:506) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:482) ~[?:?]
-	at javax.net.ssl.SSLEngine.unwrap(SSLEngine.java:679) ~[?:?]
-	at io.netty.handler.ssl.SslHandler$SslEngineType$3.unwrap(SslHandler.java:297) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1353) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1246) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1295) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:689) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:652) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.91.Final.jar:4.1.91.Final]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-[2023-07-04T14:03:44,393][WARN ][o.o.h.AbstractHttpServerTransport] [node-1] caught exception while handling client http traffic, closing connection Netty4HttpChannel{localAddress=/192.168.52.196:8200, remoteAddress=/192.168.52.232:51800}
-io.netty.handler.codec.DecoderException: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:499) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:689) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:652) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.91.Final.jar:4.1.91.Final]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-Caused by: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
-	at sun.security.ssl.Alert.createSSLException(Alert.java:131) ~[?:?]
-	at sun.security.ssl.Alert.createSSLException(Alert.java:117) ~[?:?]
-	at sun.security.ssl.TransportContext.fatal(TransportContext.java:365) ~[?:?]
-	at sun.security.ssl.Alert$AlertConsumer.consume(Alert.java:293) ~[?:?]
-	at sun.security.ssl.TransportContext.dispatch(TransportContext.java:204) ~[?:?]
-	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.decode(SSLEngineImpl.java:736) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.readRecord(SSLEngineImpl.java:691) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:506) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:482) ~[?:?]
-	at javax.net.ssl.SSLEngine.unwrap(SSLEngine.java:679) ~[?:?]
-	at io.netty.handler.ssl.SslHandler$SslEngineType$3.unwrap(SslHandler.java:297) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1353) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1246) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1295) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	... 16 more
-[2023-07-04T14:03:44,404][ERROR][o.o.s.s.h.n.SecuritySSLNettyHttpServerTransport] [node-1] Exception during establishing a SSL connection: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
-javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
-	at sun.security.ssl.Alert.createSSLException(Alert.java:131) ~[?:?]
-	at sun.security.ssl.Alert.createSSLException(Alert.java:117) ~[?:?]
-	at sun.security.ssl.TransportContext.fatal(TransportContext.java:365) ~[?:?]
-	at sun.security.ssl.Alert$AlertConsumer.consume(Alert.java:293) ~[?:?]
-	at sun.security.ssl.TransportContext.dispatch(TransportContext.java:204) ~[?:?]
-	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.decode(SSLEngineImpl.java:736) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.readRecord(SSLEngineImpl.java:691) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:506) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:482) ~[?:?]
-	at javax.net.ssl.SSLEngine.unwrap(SSLEngine.java:679) ~[?:?]
-	at io.netty.handler.ssl.SslHandler$SslEngineType$3.unwrap(SslHandler.java:297) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1353) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1246) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1295) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:689) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:652) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.91.Final.jar:4.1.91.Final]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-[2023-07-04T14:03:44,406][ERROR][o.o.s.s.h.n.SecuritySSLNettyHttpServerTransport] [node-1] Exception during establishing a SSL connection: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
-javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
-	at sun.security.ssl.Alert.createSSLException(Alert.java:131) ~[?:?]
-	at sun.security.ssl.Alert.createSSLException(Alert.java:117) ~[?:?]
-	at sun.security.ssl.TransportContext.fatal(TransportContext.java:365) ~[?:?]
-	at sun.security.ssl.Alert$AlertConsumer.consume(Alert.java:293) ~[?:?]
-	at sun.security.ssl.TransportContext.dispatch(TransportContext.java:204) ~[?:?]
-	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.decode(SSLEngineImpl.java:736) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.readRecord(SSLEngineImpl.java:691) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:506) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:482) ~[?:?]
-	at javax.net.ssl.SSLEngine.unwrap(SSLEngine.java:679) ~[?:?]
-	at io.netty.handler.ssl.SslHandler$SslEngineType$3.unwrap(SslHandler.java:297) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1353) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1246) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1295) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:689) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:652) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.91.Final.jar:4.1.91.Final]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-[2023-07-04T14:03:44,406][WARN ][o.o.h.AbstractHttpServerTransport] [node-1] caught exception while handling client http traffic, closing connection Netty4HttpChannel{localAddress=/192.168.52.196:8200, remoteAddress=/192.168.52.232:51804}
-io.netty.handler.codec.DecoderException: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:499) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:689) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:652) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.91.Final.jar:4.1.91.Final]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-Caused by: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
-	at sun.security.ssl.Alert.createSSLException(Alert.java:131) ~[?:?]
-	at sun.security.ssl.Alert.createSSLException(Alert.java:117) ~[?:?]
-	at sun.security.ssl.TransportContext.fatal(TransportContext.java:365) ~[?:?]
-	at sun.security.ssl.Alert$AlertConsumer.consume(Alert.java:293) ~[?:?]
-	at sun.security.ssl.TransportContext.dispatch(TransportContext.java:204) ~[?:?]
-	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.decode(SSLEngineImpl.java:736) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.readRecord(SSLEngineImpl.java:691) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:506) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:482) ~[?:?]
-	at javax.net.ssl.SSLEngine.unwrap(SSLEngine.java:679) ~[?:?]
-	at io.netty.handler.ssl.SslHandler$SslEngineType$3.unwrap(SslHandler.java:297) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1353) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1246) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1295) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	... 16 more
-[2023-07-04T14:03:44,407][WARN ][o.o.h.AbstractHttpServerTransport] [node-1] caught exception while handling client http traffic, closing connection Netty4HttpChannel{localAddress=/192.168.52.196:8200, remoteAddress=/192.168.52.232:51802}
-io.netty.handler.codec.DecoderException: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:499) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:689) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:652) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.91.Final.jar:4.1.91.Final]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-Caused by: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
-	at sun.security.ssl.Alert.createSSLException(Alert.java:131) ~[?:?]
-	at sun.security.ssl.Alert.createSSLException(Alert.java:117) ~[?:?]
-	at sun.security.ssl.TransportContext.fatal(TransportContext.java:365) ~[?:?]
-	at sun.security.ssl.Alert$AlertConsumer.consume(Alert.java:293) ~[?:?]
-	at sun.security.ssl.TransportContext.dispatch(TransportContext.java:204) ~[?:?]
-	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.decode(SSLEngineImpl.java:736) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.readRecord(SSLEngineImpl.java:691) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:506) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:482) ~[?:?]
-	at javax.net.ssl.SSLEngine.unwrap(SSLEngine.java:679) ~[?:?]
-	at io.netty.handler.ssl.SslHandler$SslEngineType$3.unwrap(SslHandler.java:297) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1353) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1246) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1295) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	... 16 more
-[2023-07-04T14:03:44,408][ERROR][o.o.s.s.h.n.SecuritySSLNettyHttpServerTransport] [node-1] Exception during establishing a SSL connection: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
-javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
-	at sun.security.ssl.Alert.createSSLException(Alert.java:131) ~[?:?]
-	at sun.security.ssl.Alert.createSSLException(Alert.java:117) ~[?:?]
-	at sun.security.ssl.TransportContext.fatal(TransportContext.java:365) ~[?:?]
-	at sun.security.ssl.Alert$AlertConsumer.consume(Alert.java:293) ~[?:?]
-	at sun.security.ssl.TransportContext.dispatch(TransportContext.java:204) ~[?:?]
-	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.decode(SSLEngineImpl.java:736) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.readRecord(SSLEngineImpl.java:691) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:506) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:482) ~[?:?]
-	at javax.net.ssl.SSLEngine.unwrap(SSLEngine.java:679) ~[?:?]
-	at io.netty.handler.ssl.SslHandler$SslEngineType$3.unwrap(SslHandler.java:297) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1353) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1246) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1295) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:689) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:652) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.91.Final.jar:4.1.91.Final]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-[2023-07-04T14:03:44,409][WARN ][o.o.h.AbstractHttpServerTransport] [node-1] caught exception while handling client http traffic, closing connection Netty4HttpChannel{localAddress=/192.168.52.196:8200, remoteAddress=/192.168.52.232:51801}
-io.netty.handler.codec.DecoderException: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:499) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:689) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:652) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.91.Final.jar:4.1.91.Final]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-Caused by: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
-	at sun.security.ssl.Alert.createSSLException(Alert.java:131) ~[?:?]
-	at sun.security.ssl.Alert.createSSLException(Alert.java:117) ~[?:?]
-	at sun.security.ssl.TransportContext.fatal(TransportContext.java:365) ~[?:?]
-	at sun.security.ssl.Alert$AlertConsumer.consume(Alert.java:293) ~[?:?]
-	at sun.security.ssl.TransportContext.dispatch(TransportContext.java:204) ~[?:?]
-	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.decode(SSLEngineImpl.java:736) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.readRecord(SSLEngineImpl.java:691) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:506) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:482) ~[?:?]
-	at javax.net.ssl.SSLEngine.unwrap(SSLEngine.java:679) ~[?:?]
-	at io.netty.handler.ssl.SslHandler$SslEngineType$3.unwrap(SslHandler.java:297) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1353) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1246) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1295) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	... 16 more
-[2023-07-04T14:03:44,418][ERROR][o.o.s.s.h.n.SecuritySSLNettyHttpServerTransport] [node-1] Exception during establishing a SSL connection: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
-javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
-	at sun.security.ssl.Alert.createSSLException(Alert.java:131) ~[?:?]
-	at sun.security.ssl.Alert.createSSLException(Alert.java:117) ~[?:?]
-	at sun.security.ssl.TransportContext.fatal(TransportContext.java:365) ~[?:?]
-	at sun.security.ssl.Alert$AlertConsumer.consume(Alert.java:293) ~[?:?]
-	at sun.security.ssl.TransportContext.dispatch(TransportContext.java:204) ~[?:?]
-	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.decode(SSLEngineImpl.java:736) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.readRecord(SSLEngineImpl.java:691) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:506) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:482) ~[?:?]
-	at javax.net.ssl.SSLEngine.unwrap(SSLEngine.java:679) ~[?:?]
-	at io.netty.handler.ssl.SslHandler$SslEngineType$3.unwrap(SslHandler.java:297) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1353) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1246) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1295) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:689) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:652) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.91.Final.jar:4.1.91.Final]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-[2023-07-04T14:03:44,419][ERROR][o.o.s.s.h.n.SecuritySSLNettyHttpServerTransport] [node-1] Exception during establishing a SSL connection: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
-javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
-	at sun.security.ssl.Alert.createSSLException(Alert.java:131) ~[?:?]
-	at sun.security.ssl.Alert.createSSLException(Alert.java:117) ~[?:?]
-	at sun.security.ssl.TransportContext.fatal(TransportContext.java:365) ~[?:?]
-	at sun.security.ssl.Alert$AlertConsumer.consume(Alert.java:293) ~[?:?]
-	at sun.security.ssl.TransportContext.dispatch(TransportContext.java:204) ~[?:?]
-	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.decode(SSLEngineImpl.java:736) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.readRecord(SSLEngineImpl.java:691) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:506) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:482) ~[?:?]
-	at javax.net.ssl.SSLEngine.unwrap(SSLEngine.java:679) ~[?:?]
-	at io.netty.handler.ssl.SslHandler$SslEngineType$3.unwrap(SslHandler.java:297) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1353) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1246) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1295) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:689) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:652) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.91.Final.jar:4.1.91.Final]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-[2023-07-04T14:03:44,419][WARN ][o.o.h.AbstractHttpServerTransport] [node-1] caught exception while handling client http traffic, closing connection Netty4HttpChannel{localAddress=/192.168.52.196:8200, remoteAddress=/192.168.52.232:51805}
-io.netty.handler.codec.DecoderException: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:499) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:689) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:652) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.91.Final.jar:4.1.91.Final]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-Caused by: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
-	at sun.security.ssl.Alert.createSSLException(Alert.java:131) ~[?:?]
-	at sun.security.ssl.Alert.createSSLException(Alert.java:117) ~[?:?]
-	at sun.security.ssl.TransportContext.fatal(TransportContext.java:365) ~[?:?]
-	at sun.security.ssl.Alert$AlertConsumer.consume(Alert.java:293) ~[?:?]
-	at sun.security.ssl.TransportContext.dispatch(TransportContext.java:204) ~[?:?]
-	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.decode(SSLEngineImpl.java:736) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.readRecord(SSLEngineImpl.java:691) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:506) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:482) ~[?:?]
-	at javax.net.ssl.SSLEngine.unwrap(SSLEngine.java:679) ~[?:?]
-	at io.netty.handler.ssl.SslHandler$SslEngineType$3.unwrap(SslHandler.java:297) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1353) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1246) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1295) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	... 16 more
-[2023-07-04T14:03:44,420][WARN ][o.o.h.AbstractHttpServerTransport] [node-1] caught exception while handling client http traffic, closing connection Netty4HttpChannel{localAddress=/192.168.52.196:8200, remoteAddress=/192.168.52.232:51806}
-io.netty.handler.codec.DecoderException: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:499) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:689) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:652) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.91.Final.jar:4.1.91.Final]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-Caused by: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
-	at sun.security.ssl.Alert.createSSLException(Alert.java:131) ~[?:?]
-	at sun.security.ssl.Alert.createSSLException(Alert.java:117) ~[?:?]
-	at sun.security.ssl.TransportContext.fatal(TransportContext.java:365) ~[?:?]
-	at sun.security.ssl.Alert$AlertConsumer.consume(Alert.java:293) ~[?:?]
-	at sun.security.ssl.TransportContext.dispatch(TransportContext.java:204) ~[?:?]
-	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.decode(SSLEngineImpl.java:736) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.readRecord(SSLEngineImpl.java:691) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:506) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:482) ~[?:?]
-	at javax.net.ssl.SSLEngine.unwrap(SSLEngine.java:679) ~[?:?]
-	at io.netty.handler.ssl.SslHandler$SslEngineType$3.unwrap(SslHandler.java:297) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1353) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1246) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1295) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	... 16 more
-[2023-07-04T14:03:44,452][ERROR][o.o.s.s.h.n.SecuritySSLNettyHttpServerTransport] [node-1] Exception during establishing a SSL connection: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
-javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
-	at sun.security.ssl.Alert.createSSLException(Alert.java:131) ~[?:?]
-	at sun.security.ssl.Alert.createSSLException(Alert.java:117) ~[?:?]
-	at sun.security.ssl.TransportContext.fatal(TransportContext.java:365) ~[?:?]
-	at sun.security.ssl.Alert$AlertConsumer.consume(Alert.java:293) ~[?:?]
-	at sun.security.ssl.TransportContext.dispatch(TransportContext.java:204) ~[?:?]
-	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.decode(SSLEngineImpl.java:736) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.readRecord(SSLEngineImpl.java:691) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:506) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:482) ~[?:?]
-	at javax.net.ssl.SSLEngine.unwrap(SSLEngine.java:679) ~[?:?]
-	at io.netty.handler.ssl.SslHandler$SslEngineType$3.unwrap(SslHandler.java:297) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1353) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1246) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1295) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:689) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:652) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.91.Final.jar:4.1.91.Final]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-[2023-07-04T14:03:44,453][WARN ][o.o.h.AbstractHttpServerTransport] [node-1] caught exception while handling client http traffic, closing connection Netty4HttpChannel{localAddress=/192.168.52.196:8200, remoteAddress=/192.168.52.232:51807}
-io.netty.handler.codec.DecoderException: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:499) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:689) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:652) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.91.Final.jar:4.1.91.Final]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-Caused by: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
-	at sun.security.ssl.Alert.createSSLException(Alert.java:131) ~[?:?]
-	at sun.security.ssl.Alert.createSSLException(Alert.java:117) ~[?:?]
-	at sun.security.ssl.TransportContext.fatal(TransportContext.java:365) ~[?:?]
-	at sun.security.ssl.Alert$AlertConsumer.consume(Alert.java:293) ~[?:?]
-	at sun.security.ssl.TransportContext.dispatch(TransportContext.java:204) ~[?:?]
-	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.decode(SSLEngineImpl.java:736) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.readRecord(SSLEngineImpl.java:691) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:506) ~[?:?]
-	at sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:482) ~[?:?]
-	at javax.net.ssl.SSLEngine.unwrap(SSLEngine.java:679) ~[?:?]
-	at io.netty.handler.ssl.SslHandler$SslEngineType$3.unwrap(SslHandler.java:297) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1353) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1246) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1295) ~[netty-handler-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
-	... 16 more
-[2023-07-04T14:04:04,654][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[auto_complete/TYJaGIDcQxaMrPmFGLn78w]
-[2023-07-04T14:04:04,655][WARN ][r.suppressed             ] [node-1] path: /auto_complete, params: {pretty=true, index=auto_complete}
-java.util.MissingResourceException: could not locate data
-	at com.ibm.icu.impl.ICUData.getStream(ICUData.java:143) ~[?:?]
-	at com.ibm.icu.impl.ICUBinary.getData(ICUBinary.java:496) ~[?:?]
-	at com.ibm.icu.impl.ICUBinary.getRequiredData(ICUBinary.java:450) ~[?:?]
-	at com.ibm.icu.impl.Normalizer2Impl.load(Normalizer2Impl.java:510) ~[?:?]
-	at com.ibm.icu.impl.Norm2AllModes$1.createInstance(Norm2AllModes.java:349) ~[?:?]
-	at com.ibm.icu.impl.Norm2AllModes$1.createInstance(Norm2AllModes.java:344) ~[?:?]
-	at com.ibm.icu.impl.SoftCache.getInstance(SoftCache.java:69) ~[?:?]
-	at com.ibm.icu.impl.Norm2AllModes.getInstance(Norm2AllModes.java:341) ~[?:?]
-	at com.ibm.icu.text.Normalizer2.getInstance(Normalizer2.java:202) ~[?:?]
-	at org.opensearch.index.analysis.IcuNormalizerTokenFilterFactory.<init>(IcuNormalizerTokenFilterFactory.java:54) ~[?:?]
-	at org.opensearch.index.analysis.AnalysisRegistry.buildMapping(AnalysisRegistry.java:523) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.index.analysis.AnalysisRegistry.buildTokenFilterFactories(AnalysisRegistry.java:339) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.index.analysis.AnalysisRegistry.build(AnalysisRegistry.java:242) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.index.IndexModule.newIndexService(IndexModule.java:530) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.indices.IndicesService.createIndexService(IndicesService.java:815) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.indices.IndicesService.withTempIndexService(IndicesService.java:757) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.metadata.MetadataCreateIndexService.applyCreateIndexWithTemporaryService(MetadataCreateIndexService.java:485) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.metadata.MetadataCreateIndexService.applyCreateIndexRequestWithV1Templates(MetadataCreateIndexService.java:590) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.metadata.MetadataCreateIndexService.applyCreateIndexRequest(MetadataCreateIndexService.java:447) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.metadata.MetadataCreateIndexService.applyCreateIndexRequest(MetadataCreateIndexService.java:454) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.metadata.MetadataCreateIndexService$1.execute(MetadataCreateIndexService.java:360) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.ClusterStateUpdateTask.execute(ClusterStateUpdateTask.java:65) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.service.MasterService.executeTasks(MasterService.java:874) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.service.MasterService.calculateTaskOutputs(MasterService.java:424) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.service.MasterService.runTasks(MasterService.java:295) [opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.service.MasterService$Batcher.run(MasterService.java:206) [opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.service.TaskBatcher.runIfNotProcessed(TaskBatcher.java:204) [opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.service.TaskBatcher$BatchedTask.run(TaskBatcher.java:242) [opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:747) [opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.common.util.concurrent.PrioritizedOpenSearchThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedOpenSearchThreadPoolExecutor.java:282) [opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.common.util.concurrent.PrioritizedOpenSearchThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedOpenSearchThreadPoolExecutor.java:245) [opensearch-2.8.0.jar:2.8.0]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-[2023-07-04T14:04:18,687][INFO ][o.o.i.i.ManagedIndexCoordinator] [node-1] Performing move cluster state metadata.
-[2023-07-04T14:04:18,688][INFO ][o.o.i.i.MetadataService  ] [node-1] ISM config index not exist, so we cancel the metadata migration job.
-[2023-07-04T14:04:40,689][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[test1/Cagi1yFkRD2bEBi-lGwGGg]
-[2023-07-04T14:04:40,692][INFO ][o.o.c.m.MetadataCreateIndexService] [node-1] failed on parsing mappings on index creation [test1]
-org.opensearch.index.mapper.MapperParsingException: Failed to parse mapping [_doc]: No handler for type [standard] declared on field [name]
-	at org.opensearch.index.mapper.MapperService.internalMerge(MapperService.java:443) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.index.mapper.MapperService.merge(MapperService.java:411) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.metadata.MetadataCreateIndexService.updateIndexMappingsAndBuildSortOrder(MetadataCreateIndexService.java:1257) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.metadata.MetadataCreateIndexService.lambda$applyCreateIndexWithTemporaryService$2(MetadataCreateIndexService.java:487) [opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.indices.IndicesService.withTempIndexService(IndicesService.java:766) [opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.metadata.MetadataCreateIndexService.applyCreateIndexWithTemporaryService(MetadataCreateIndexService.java:485) [opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.metadata.MetadataCreateIndexService.applyCreateIndexRequestWithV1Templates(MetadataCreateIndexService.java:590) [opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.metadata.MetadataCreateIndexService.applyCreateIndexRequest(MetadataCreateIndexService.java:447) [opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.metadata.MetadataCreateIndexService.applyCreateIndexRequest(MetadataCreateIndexService.java:454) [opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.metadata.MetadataCreateIndexService$1.execute(MetadataCreateIndexService.java:360) [opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.ClusterStateUpdateTask.execute(ClusterStateUpdateTask.java:65) [opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.service.MasterService.executeTasks(MasterService.java:874) [opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.service.MasterService.calculateTaskOutputs(MasterService.java:424) [opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.service.MasterService.runTasks(MasterService.java:295) [opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.service.MasterService$Batcher.run(MasterService.java:206) [opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.service.TaskBatcher.runIfNotProcessed(TaskBatcher.java:204) [opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.service.TaskBatcher$BatchedTask.run(TaskBatcher.java:242) [opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:747) [opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.common.util.concurrent.PrioritizedOpenSearchThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedOpenSearchThreadPoolExecutor.java:282) [opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.common.util.concurrent.PrioritizedOpenSearchThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedOpenSearchThreadPoolExecutor.java:245) [opensearch-2.8.0.jar:2.8.0]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-Caused by: org.opensearch.index.mapper.MapperParsingException: No handler for type [standard] declared on field [name]
-	at org.opensearch.index.mapper.ObjectMapper$TypeParser.parseProperties(ObjectMapper.java:380) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.index.mapper.ObjectMapper$TypeParser.parseObjectOrDocumentTypeProperties(ObjectMapper.java:295) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.index.mapper.RootObjectMapper$TypeParser.parse(RootObjectMapper.java:183) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.index.mapper.DocumentMapperParser.parse(DocumentMapperParser.java:143) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.index.mapper.DocumentMapperParser.parse(DocumentMapperParser.java:132) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.index.mapper.MapperService.internalMerge(MapperService.java:441) ~[opensearch-2.8.0.jar:2.8.0]
-	... 22 more
-[2023-07-04T14:04:49,385][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[test1/kvS8KRTBQxSs5GBfb6H-sw]
-[2023-07-04T14:04:49,390][INFO ][o.o.c.m.MetadataCreateIndexService] [node-1] [test1] creating index, cause [api], templates [], shards [1]/[1]
-[2023-07-04T14:04:49,414][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[test1/kvS8KRTBQxSs5GBfb6H-sw]
-[2023-07-04T14:04:49,427][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
-[2023-07-04T14:04:49,485][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
-[2023-07-04T14:05:18,688][INFO ][o.o.i.i.ManagedIndexCoordinator] [node-1] Cancel background move metadata process.
-[2023-07-04T14:05:18,689][INFO ][o.o.i.i.ManagedIndexCoordinator] [node-1] Performing move cluster state metadata.
-[2023-07-04T14:05:18,690][INFO ][o.o.i.i.MetadataService  ] [node-1] Move metadata has finished.
-[2023-07-04T14:05:51,133][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[auto_complete/-Oa_NvH5Qk2sk7j-SoX3qw]
-[2023-07-04T14:05:51,134][WARN ][r.suppressed             ] [node-1] path: /auto_complete, params: {pretty=true, index=auto_complete}
-java.util.MissingResourceException: could not locate data
-	at com.ibm.icu.impl.ICUData.getStream(ICUData.java:143) ~[?:?]
-	at com.ibm.icu.impl.ICUBinary.getData(ICUBinary.java:496) ~[?:?]
-	at com.ibm.icu.impl.ICUBinary.getRequiredData(ICUBinary.java:450) ~[?:?]
-	at com.ibm.icu.impl.Normalizer2Impl.load(Normalizer2Impl.java:510) ~[?:?]
-	at com.ibm.icu.impl.Norm2AllModes$1.createInstance(Norm2AllModes.java:349) ~[?:?]
-	at com.ibm.icu.impl.Norm2AllModes$1.createInstance(Norm2AllModes.java:344) ~[?:?]
-	at com.ibm.icu.impl.SoftCache.getInstance(SoftCache.java:69) ~[?:?]
-	at com.ibm.icu.impl.Norm2AllModes.getInstance(Norm2AllModes.java:341) ~[?:?]
-	at com.ibm.icu.text.Normalizer2.getInstance(Normalizer2.java:202) ~[?:?]
-	at org.opensearch.index.analysis.IcuNormalizerTokenFilterFactory.<init>(IcuNormalizerTokenFilterFactory.java:54) ~[?:?]
-	at org.opensearch.index.analysis.AnalysisRegistry.buildMapping(AnalysisRegistry.java:523) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.index.analysis.AnalysisRegistry.buildTokenFilterFactories(AnalysisRegistry.java:339) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.index.analysis.AnalysisRegistry.build(AnalysisRegistry.java:242) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.index.IndexModule.newIndexService(IndexModule.java:530) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.indices.IndicesService.createIndexService(IndicesService.java:815) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.indices.IndicesService.withTempIndexService(IndicesService.java:757) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.metadata.MetadataCreateIndexService.applyCreateIndexWithTemporaryService(MetadataCreateIndexService.java:485) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.metadata.MetadataCreateIndexService.applyCreateIndexRequestWithV1Templates(MetadataCreateIndexService.java:590) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.metadata.MetadataCreateIndexService.applyCreateIndexRequest(MetadataCreateIndexService.java:447) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.metadata.MetadataCreateIndexService.applyCreateIndexRequest(MetadataCreateIndexService.java:454) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.metadata.MetadataCreateIndexService$1.execute(MetadataCreateIndexService.java:360) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.ClusterStateUpdateTask.execute(ClusterStateUpdateTask.java:65) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.service.MasterService.executeTasks(MasterService.java:874) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.service.MasterService.calculateTaskOutputs(MasterService.java:424) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.service.MasterService.runTasks(MasterService.java:295) [opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.service.MasterService$Batcher.run(MasterService.java:206) [opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.service.TaskBatcher.runIfNotProcessed(TaskBatcher.java:204) [opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.service.TaskBatcher$BatchedTask.run(TaskBatcher.java:242) [opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:747) [opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.common.util.concurrent.PrioritizedOpenSearchThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedOpenSearchThreadPoolExecutor.java:282) [opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.common.util.concurrent.PrioritizedOpenSearchThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedOpenSearchThreadPoolExecutor.java:245) [opensearch-2.8.0.jar:2.8.0]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-[2023-07-04T14:06:22,768][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[auto_complete/T_0LhHw3QUKjnynTRS87_w]
-[2023-07-04T14:06:22,771][INFO ][o.o.c.m.MetadataCreateIndexService] [node-1] failed on parsing mappings on index creation [auto_complete]
-org.opensearch.index.mapper.MapperParsingException: Failed to parse mapping [_doc]: analyzer [nfd_analyzer] has not been configured in mappings
-	at org.opensearch.index.mapper.MapperService.internalMerge(MapperService.java:443) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.index.mapper.MapperService.merge(MapperService.java:411) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.metadata.MetadataCreateIndexService.updateIndexMappingsAndBuildSortOrder(MetadataCreateIndexService.java:1257) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.metadata.MetadataCreateIndexService.lambda$applyCreateIndexWithTemporaryService$2(MetadataCreateIndexService.java:487) [opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.indices.IndicesService.withTempIndexService(IndicesService.java:766) [opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.metadata.MetadataCreateIndexService.applyCreateIndexWithTemporaryService(MetadataCreateIndexService.java:485) [opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.metadata.MetadataCreateIndexService.applyCreateIndexRequestWithV1Templates(MetadataCreateIndexService.java:590) [opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.metadata.MetadataCreateIndexService.applyCreateIndexRequest(MetadataCreateIndexService.java:447) [opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.metadata.MetadataCreateIndexService.applyCreateIndexRequest(MetadataCreateIndexService.java:454) [opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.metadata.MetadataCreateIndexService$1.execute(MetadataCreateIndexService.java:360) [opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.ClusterStateUpdateTask.execute(ClusterStateUpdateTask.java:65) [opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.service.MasterService.executeTasks(MasterService.java:874) [opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.service.MasterService.calculateTaskOutputs(MasterService.java:424) [opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.service.MasterService.runTasks(MasterService.java:295) [opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.service.MasterService$Batcher.run(MasterService.java:206) [opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.service.TaskBatcher.runIfNotProcessed(TaskBatcher.java:204) [opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.service.TaskBatcher$BatchedTask.run(TaskBatcher.java:242) [opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:747) [opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.common.util.concurrent.PrioritizedOpenSearchThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedOpenSearchThreadPoolExecutor.java:282) [opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.common.util.concurrent.PrioritizedOpenSearchThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedOpenSearchThreadPoolExecutor.java:245) [opensearch-2.8.0.jar:2.8.0]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-Caused by: java.lang.IllegalArgumentException: analyzer [nfd_analyzer] has not been configured in mappings
-	at org.opensearch.index.mapper.ParametrizedFieldMapper$Parameter.lambda$analyzerParam$21(ParametrizedFieldMapper.java:512) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.index.mapper.ParametrizedFieldMapper$Parameter.parse(ParametrizedFieldMapper.java:329) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.index.mapper.ParametrizedFieldMapper$Builder.parse(ParametrizedFieldMapper.java:717) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.index.mapper.ParametrizedFieldMapper$TypeParser.parse(ParametrizedFieldMapper.java:755) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.index.mapper.ParametrizedFieldMapper$TypeParser.parse(ParametrizedFieldMapper.java:740) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.index.mapper.TypeParsers.parseMultiField(TypeParsers.java:263) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.index.mapper.ParametrizedFieldMapper$Builder.parse(ParametrizedFieldMapper.java:669) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.index.mapper.ParametrizedFieldMapper$TypeParser.parse(ParametrizedFieldMapper.java:755) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.index.mapper.ParametrizedFieldMapper$TypeParser.parse(ParametrizedFieldMapper.java:740) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.index.mapper.ObjectMapper$TypeParser.parseProperties(ObjectMapper.java:388) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.index.mapper.ObjectMapper$TypeParser.parseObjectOrDocumentTypeProperties(ObjectMapper.java:295) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.index.mapper.RootObjectMapper$TypeParser.parse(RootObjectMapper.java:183) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.index.mapper.DocumentMapperParser.parse(DocumentMapperParser.java:143) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.index.mapper.DocumentMapperParser.parse(DocumentMapperParser.java:132) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.index.mapper.MapperService.internalMerge(MapperService.java:441) ~[opensearch-2.8.0.jar:2.8.0]
-	... 22 more
-[2023-07-04T14:06:30,448][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[auto_complete/lA1h63amTzyx9044MBLCog]
-[2023-07-04T14:06:30,449][WARN ][r.suppressed             ] [node-1] path: /auto_complete, params: {pretty=true, index=auto_complete}
-java.util.MissingResourceException: could not locate data
-	at com.ibm.icu.impl.ICUData.getStream(ICUData.java:143) ~[?:?]
-	at com.ibm.icu.impl.ICUBinary.getData(ICUBinary.java:496) ~[?:?]
-	at com.ibm.icu.impl.ICUBinary.getRequiredData(ICUBinary.java:450) ~[?:?]
-	at com.ibm.icu.impl.Normalizer2Impl.load(Normalizer2Impl.java:510) ~[?:?]
-	at com.ibm.icu.impl.Norm2AllModes$1.createInstance(Norm2AllModes.java:349) ~[?:?]
-	at com.ibm.icu.impl.Norm2AllModes$1.createInstance(Norm2AllModes.java:344) ~[?:?]
-	at com.ibm.icu.impl.SoftCache.getInstance(SoftCache.java:69) ~[?:?]
-	at com.ibm.icu.impl.Norm2AllModes.getInstance(Norm2AllModes.java:341) ~[?:?]
-	at com.ibm.icu.text.Normalizer2.getInstance(Normalizer2.java:202) ~[?:?]
-	at org.opensearch.index.analysis.IcuNormalizerTokenFilterFactory.<init>(IcuNormalizerTokenFilterFactory.java:54) ~[?:?]
-	at org.opensearch.index.analysis.AnalysisRegistry.buildMapping(AnalysisRegistry.java:523) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.index.analysis.AnalysisRegistry.buildTokenFilterFactories(AnalysisRegistry.java:339) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.index.analysis.AnalysisRegistry.build(AnalysisRegistry.java:242) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.index.IndexModule.newIndexService(IndexModule.java:530) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.indices.IndicesService.createIndexService(IndicesService.java:815) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.indices.IndicesService.withTempIndexService(IndicesService.java:757) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.metadata.MetadataCreateIndexService.applyCreateIndexWithTemporaryService(MetadataCreateIndexService.java:485) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.metadata.MetadataCreateIndexService.applyCreateIndexRequestWithV1Templates(MetadataCreateIndexService.java:590) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.metadata.MetadataCreateIndexService.applyCreateIndexRequest(MetadataCreateIndexService.java:447) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.metadata.MetadataCreateIndexService.applyCreateIndexRequest(MetadataCreateIndexService.java:454) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.metadata.MetadataCreateIndexService$1.execute(MetadataCreateIndexService.java:360) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.ClusterStateUpdateTask.execute(ClusterStateUpdateTask.java:65) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.service.MasterService.executeTasks(MasterService.java:874) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.service.MasterService.calculateTaskOutputs(MasterService.java:424) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.service.MasterService.runTasks(MasterService.java:295) [opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.service.MasterService$Batcher.run(MasterService.java:206) [opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.service.TaskBatcher.runIfNotProcessed(TaskBatcher.java:204) [opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.service.TaskBatcher$BatchedTask.run(TaskBatcher.java:242) [opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:747) [opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.common.util.concurrent.PrioritizedOpenSearchThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedOpenSearchThreadPoolExecutor.java:282) [opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.common.util.concurrent.PrioritizedOpenSearchThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedOpenSearchThreadPoolExecutor.java:245) [opensearch-2.8.0.jar:2.8.0]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-[2023-07-04T14:07:51,277][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[auto_complete/MIsEecM9QnKkKqX6vJo5eg]
-[2023-07-04T14:07:51,280][INFO ][o.o.c.m.MetadataCreateIndexService] [node-1] [auto_complete] creating index, cause [api], templates [], shards [1]/[1]
-[2023-07-04T14:07:51,306][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[auto_complete/MIsEecM9QnKkKqX6vJo5eg]
-[2023-07-04T14:07:51,317][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
-[2023-07-04T14:07:51,371][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
-[2023-07-04T14:08:07,133][INFO ][o.o.c.m.MetadataDeleteIndexService] [node-1] [auto_complete/MIsEecM9QnKkKqX6vJo5eg] deleting index
-[2023-07-04T14:08:07,174][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
-[2023-07-04T14:08:07,178][ERROR][o.o.i.i.ManagedIndexCoordinator] [node-1] get managed-index failed: [.opendistro-ism-config] IndexNotFoundException[no such index [.opendistro-ism-config]]
-[2023-07-04T14:08:08,124][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[auto_complete/G3hdhjyJQ6i-yfPGQ8k-xQ]
-[2023-07-04T14:08:08,127][INFO ][o.o.c.m.MetadataCreateIndexService] [node-1] [auto_complete] creating index, cause [api], templates [], shards [1]/[1]
-[2023-07-04T14:08:08,151][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[auto_complete/G3hdhjyJQ6i-yfPGQ8k-xQ]
-[2023-07-04T14:08:08,162][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
-[2023-07-04T14:08:08,218][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
-[2023-07-04T14:08:12,686][INFO ][o.o.c.m.MetadataDeleteIndexService] [node-1] [auto_complete/G3hdhjyJQ6i-yfPGQ8k-xQ] deleting index
-[2023-07-04T14:08:12,716][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
-[2023-07-04T14:08:12,717][ERROR][o.o.i.i.ManagedIndexCoordinator] [node-1] get managed-index failed: [.opendistro-ism-config] IndexNotFoundException[no such index [.opendistro-ism-config]]
-[2023-07-04T14:08:18,477][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
-[2023-07-04T14:08:18,692][INFO ][o.o.i.i.PluginVersionSweepCoordinator] [node-1] Canceling sweep ism plugin version job
-[2023-07-04T14:13:18,480][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
-[2023-07-04T14:14:28,377][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[auto_complete/rSe4RqPFTD-dVaBkv1rK2A]
-[2023-07-04T14:14:28,379][INFO ][o.o.c.m.MetadataCreateIndexService] [node-1] [auto_complete] creating index, cause [auto(bulk api)], templates [], shards [1]/[1]
-[2023-07-04T14:14:28,401][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[auto_complete/rSe4RqPFTD-dVaBkv1rK2A]
-[2023-07-04T14:14:28,413][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
-[2023-07-04T14:14:28,511][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
-[2023-07-04T14:14:28,550][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[auto_complete/rSe4RqPFTD-dVaBkv1rK2A]
-[2023-07-04T14:14:28,554][INFO ][o.o.c.m.MetadataMappingService] [node-1] [auto_complete/rSe4RqPFTD-dVaBkv1rK2A] create_mapping
-[2023-07-04T14:14:28,576][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
-[2023-07-04T14:15:03,042][INFO ][o.o.c.m.MetadataDeleteIndexService] [node-1] [auto_complete/rSe4RqPFTD-dVaBkv1rK2A] deleting index
-[2023-07-04T14:15:03,069][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
-[2023-07-04T14:15:03,070][ERROR][o.o.i.i.ManagedIndexCoordinator] [node-1] get managed-index failed: [.opendistro-ism-config] IndexNotFoundException[no such index [.opendistro-ism-config]]
-[2023-07-04T14:18:18,481][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
-[2023-07-04T14:23:18,482][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
-[2023-07-04T14:28:18,484][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
-[2023-07-04T14:33:18,485][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
-[2023-07-04T14:38:18,487][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
-[2023-07-04T14:40:30,874][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[auto_complete/Vni1MWYqSnKX3K71Xkib0g]
-[2023-07-04T14:40:30,875][WARN ][r.suppressed             ] [node-1] path: /auto_complete, params: {pretty=true, index=auto_complete}
-java.util.MissingResourceException: could not locate data
-	at com.ibm.icu.impl.ICUData.getStream(ICUData.java:143) ~[?:?]
-	at com.ibm.icu.impl.ICUBinary.getData(ICUBinary.java:496) ~[?:?]
-	at com.ibm.icu.impl.ICUBinary.getRequiredData(ICUBinary.java:450) ~[?:?]
-	at com.ibm.icu.impl.Normalizer2Impl.load(Normalizer2Impl.java:510) ~[?:?]
-	at com.ibm.icu.impl.Norm2AllModes$1.createInstance(Norm2AllModes.java:349) ~[?:?]
-	at com.ibm.icu.impl.Norm2AllModes$1.createInstance(Norm2AllModes.java:344) ~[?:?]
-	at com.ibm.icu.impl.SoftCache.getInstance(SoftCache.java:69) ~[?:?]
-	at com.ibm.icu.impl.Norm2AllModes.getInstance(Norm2AllModes.java:341) ~[?:?]
-	at com.ibm.icu.text.Normalizer2.getInstance(Normalizer2.java:202) ~[?:?]
-	at org.opensearch.index.analysis.IcuNormalizerTokenFilterFactory.<init>(IcuNormalizerTokenFilterFactory.java:54) ~[?:?]
-	at org.opensearch.index.analysis.AnalysisRegistry.buildMapping(AnalysisRegistry.java:523) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.index.analysis.AnalysisRegistry.buildTokenFilterFactories(AnalysisRegistry.java:339) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.index.analysis.AnalysisRegistry.build(AnalysisRegistry.java:242) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.index.IndexModule.newIndexService(IndexModule.java:530) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.indices.IndicesService.createIndexService(IndicesService.java:815) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.indices.IndicesService.withTempIndexService(IndicesService.java:757) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.metadata.MetadataCreateIndexService.applyCreateIndexWithTemporaryService(MetadataCreateIndexService.java:485) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.metadata.MetadataCreateIndexService.applyCreateIndexRequestWithV1Templates(MetadataCreateIndexService.java:590) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.metadata.MetadataCreateIndexService.applyCreateIndexRequest(MetadataCreateIndexService.java:447) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.metadata.MetadataCreateIndexService.applyCreateIndexRequest(MetadataCreateIndexService.java:454) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.metadata.MetadataCreateIndexService$1.execute(MetadataCreateIndexService.java:360) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.ClusterStateUpdateTask.execute(ClusterStateUpdateTask.java:65) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.service.MasterService.executeTasks(MasterService.java:874) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.service.MasterService.calculateTaskOutputs(MasterService.java:424) ~[opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.service.MasterService.runTasks(MasterService.java:295) [opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.service.MasterService$Batcher.run(MasterService.java:206) [opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.service.TaskBatcher.runIfNotProcessed(TaskBatcher.java:204) [opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.cluster.service.TaskBatcher$BatchedTask.run(TaskBatcher.java:242) [opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:747) [opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.common.util.concurrent.PrioritizedOpenSearchThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedOpenSearchThreadPoolExecutor.java:282) [opensearch-2.8.0.jar:2.8.0]
-	at org.opensearch.common.util.concurrent.PrioritizedOpenSearchThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedOpenSearchThreadPoolExecutor.java:245) [opensearch-2.8.0.jar:2.8.0]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-[2023-07-04T14:40:36,224][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[auto_complete/uFo1D74TRUu8rQnmd77tcQ]
-[2023-07-04T14:40:36,228][INFO ][o.o.c.m.MetadataCreateIndexService] [node-1] [auto_complete] creating index, cause [api], templates [], shards [1]/[1]
-[2023-07-04T14:40:36,250][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[auto_complete/uFo1D74TRUu8rQnmd77tcQ]
-[2023-07-04T14:40:36,261][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
-[2023-07-04T14:40:36,323][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
-[2023-07-04T14:43:18,489][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
-[2023-07-04T14:43:58,087][WARN ][o.o.s.a.BackendRegistry  ] [node-1] No 'Authorization' header, send 401 and 'WWW-Authenticate Basic'
-[2023-07-04T14:43:58,096][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[security-auditlog-2023.07.04/RF0AYq5cRnC5lPJaiau2JQ]
-[2023-07-04T14:43:58,106][INFO ][o.o.c.m.MetadataMappingService] [node-1] [security-auditlog-2023.07.04/RF0AYq5cRnC5lPJaiau2JQ] update_mapping [_doc]
-[2023-07-04T14:43:58,138][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
-[2023-07-04T14:48:18,490][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
-[2023-07-04T14:48:53,986][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[naver_news/J_V6Eul8R0yJyU428tSy6A]
-[2023-07-04T14:50:46,200][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[naver_news/Eo1M9zmCRAqNlf-aYPXIBA]
-[2023-07-04T14:50:50,888][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[naver_news/XwLG8XSFReu8TMOA39lncQ]
+uncaught exception in thread [main]
+BindTransportException[Failed to bind to 0.0.0.0:8300]; nested: BindException[주소가 이미 사용 중입니다];
+Likely root cause: java.net.BindException: 주소가 이미 사용 중입니다
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:555)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:141)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:562)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:600)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:579)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:973)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:260)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:356)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+For complete error details, refer to the log at /home/opensearch/opensearch/opensearch-2.8.0/logs/opensearch-dev.log

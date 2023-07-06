@@ -332,3 +332,28 @@ Caused by: org.opensearch.index.mapper.MapperParsingException: unknown parameter
 [2023-07-06T14:19:03,513][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[test_seperate/VIS5_EPyRVi_Yrp_7I-GGg]
 [2023-07-06T14:19:03,524][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
 [2023-07-06T14:19:03,602][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-06T14:20:58,199][INFO ][o.o.c.m.MetadataDeleteIndexService] [node-1] [naver_news/MTi_7ONvSOaINsgfZLpifQ] deleting index
+[2023-07-06T14:20:58,230][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-06T14:20:58,230][ERROR][o.o.i.i.ManagedIndexCoordinator] [node-1] get managed-index failed: [.opendistro-ism-config] IndexNotFoundException[no such index [.opendistro-ism-config]]
+[2023-07-06T14:21:02,373][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[naver_news/hekG0I6IRwapGR8r4PTBUg]
+[2023-07-06T14:21:02,378][INFO ][o.o.c.m.MetadataCreateIndexService] [node-1] [naver_news] creating index, cause [api], templates [], shards [1]/[1]
+[2023-07-06T14:21:02,397][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[naver_news/hekG0I6IRwapGR8r4PTBUg]
+[2023-07-06T14:21:02,410][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-06T14:21:02,462][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-06T14:21:41,017][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[test_multi/OgDEZFA7STev-RVf3MGWLg]
+[2023-07-06T14:21:41,020][INFO ][o.o.c.m.MetadataMappingService] [node-1] [test_multi/OgDEZFA7STev-RVf3MGWLg] update_mapping [_doc]
+[2023-07-06T14:21:41,049][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-06T14:21:41,050][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[test_multi/OgDEZFA7STev-RVf3MGWLg]
+[2023-07-06T14:22:29,581][INFO ][o.o.c.m.MetadataDeleteIndexService] [node-1] [test_seperate/VIS5_EPyRVi_Yrp_7I-GGg] deleting index
+[2023-07-06T14:22:29,582][INFO ][o.o.c.m.MetadataDeleteIndexService] [node-1] [test_multi/OgDEZFA7STev-RVf3MGWLg] deleting index
+[2023-07-06T14:22:29,652][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-06T14:22:29,652][ERROR][o.o.i.i.ManagedIndexCoordinator] [node-1] get managed-index failed: [.opendistro-ism-config] IndexNotFoundException[no such index [.opendistro-ism-config]]
+[2023-07-06T14:22:31,176][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[test_multi/2BelJezpTi6VLSIHmkFMFA]
+[2023-07-06T14:22:31,178][INFO ][o.o.c.m.MetadataCreateIndexService] [node-1] [test_multi] creating index, cause [api], templates [], shards [1]/[1]
+[2023-07-06T14:22:31,205][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[test_multi/2BelJezpTi6VLSIHmkFMFA]
+[2023-07-06T14:22:31,226][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-06T14:22:31,314][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-06T14:23:38,342][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-06T14:24:40,708][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[naver_news/hekG0I6IRwapGR8r4PTBUg]
+[2023-07-06T14:24:40,712][INFO ][o.o.c.m.MetadataMappingService] [node-1] [naver_news/hekG0I6IRwapGR8r4PTBUg] update_mapping [_doc]
+[2023-07-06T14:24:40,732][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration

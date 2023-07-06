@@ -189,3 +189,7 @@
 [2023-07-06T10:08:38,307][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-06T10:13:38,307][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-06T10:18:38,308][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-06T10:22:44,799][INFO ][o.o.c.m.MetadataDeleteIndexService] [node-1] [test_index_1/pge0VHyoRJCTS5Xg_XKsEg] deleting index
+[2023-07-06T10:22:44,832][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-06T10:22:44,832][ERROR][o.o.i.i.ManagedIndexCoordinator] [node-1] get managed-index failed: [.opendistro-ism-config] IndexNotFoundException[no such index [.opendistro-ism-config]]
+[2023-07-06T10:23:38,309][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

@@ -292,3 +292,4 @@
 "at java.lang.Thread.run(Thread.java:833) [?:?]"] }
 {"type": "server", "timestamp": "2023-07-07T08:03:38,496+09:00", "level": "INFO", "component": "o.o.j.s.JobSweeper", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "Running full sweep", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
 {"type": "server", "timestamp": "2023-07-07T08:08:38,496+09:00", "level": "INFO", "component": "o.o.j.s.JobSweeper", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "Running full sweep", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-07T08:13:38,497+09:00", "level": "INFO", "component": "o.o.j.s.JobSweeper", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "Running full sweep", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }

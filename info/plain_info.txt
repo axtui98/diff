@@ -122,8 +122,8 @@
 /home/opensearch/opensearch/opensearch-2.8.0/logs/gc.log.15	9389275	
 /home/opensearch/opensearch/opensearch-2.8.0/logs/gc.log.16	2007	
 /home/opensearch/opensearch/opensearch-2.8.0/logs/gc.log	36324	
-/home/opensearch/opensearch/opensearch-2.8.0/logs/opensearch-dev_server.json	67976	
-/home/opensearch/opensearch/opensearch-2.8.0/logs/opensearch-dev.log	22450	
+/home/opensearch/opensearch/opensearch-2.8.0/logs/opensearch-dev_server.json	68264	
+/home/opensearch/opensearch/opensearch-2.8.0/logs/opensearch-dev.log	22538	
 /home/opensearch/opensearch/opensearch-2.8.0/modules/ingest-geoip/plugin-security.policy	1764	
 /home/opensearch/opensearch/opensearch-2.8.0/modules/lang-expression/plugin-security.policy	1856	
 /home/opensearch/opensearch/opensearch-2.8.0/modules/lang-mustache/plugin-security.policy	1202	
@@ -184,10 +184,10 @@
 /home/opensearch/opensearch/opensearch-2.8.0/.git/info/exclude	240	
 /home/opensearch/opensearch/opensearch-2.8.0/.git/refs/heads/master	41	
 /home/opensearch/opensearch/opensearch-2.8.0/.git/refs/remotes/origin/master	41	
-/home/opensearch/opensearch/opensearch-2.8.0/.git/logs/HEAD	76442	
-/home/opensearch/opensearch/opensearch-2.8.0/.git/logs/refs/heads/master	75730	
-/home/opensearch/opensearch/opensearch-2.8.0/.git/logs/refs/remotes/origin/master	60720	
-/home/opensearch/opensearch/opensearch-2.8.0/info/git_record.log	31860	
+/home/opensearch/opensearch/opensearch-2.8.0/.git/logs/HEAD	76744	
+/home/opensearch/opensearch/opensearch-2.8.0/.git/logs/refs/heads/master	76032	
+/home/opensearch/opensearch/opensearch-2.8.0/.git/logs/refs/remotes/origin/master	60996	
+/home/opensearch/opensearch/opensearch-2.8.0/info/git_record.log	32003	
 /home/opensearch/opensearch/opensearch-2.8.0/info/update_info.txt	65	
-/home/opensearch/opensearch/opensearch-2.8.0/info/other_info.txt	565626	
+/home/opensearch/opensearch/opensearch-2.8.0/info/other_info.txt	567084	
 /home/opensearch/opensearch/opensearch-2.8.0/info/plain_info.txt	16534	

@@ -122,3 +122,9 @@
 [2023-07-07T07:38:38,492][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-07T07:43:38,493][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-07T07:48:38,494][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-07T07:53:38,160][INFO ][o.o.a.t.CronTransportAction] [node-1] Start running AD hourly cron.
+[2023-07-07T07:53:38,161][INFO ][o.o.a.t.ADTaskManager    ] [node-1] Start to maintain running historical tasks
+[2023-07-07T07:53:38,162][INFO ][o.o.a.c.HourlyCron       ] [node-1] Hourly maintenance succeeds
+[2023-07-07T07:53:38,494][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-07T07:58:38,495][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-07T08:00:15,297][WARN ][o.o.s.a.BackendRegistry  ] [node-1] Authentication finally failed for amdin from 127.0.0.1:40640

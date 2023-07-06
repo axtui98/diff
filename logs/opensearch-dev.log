@@ -293,3 +293,41 @@ Caused by: java.net.BindException: 주소가 이미 사용 중입니다
 [2023-07-07T08:03:38,496][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-07T08:08:38,496][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-07T08:13:38,497][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-07T08:17:56,438][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[mtr/InxVUq4DRlqdyUl4sRSAGQ]
+[2023-07-07T08:17:56,450][INFO ][o.o.c.m.MetadataCreateIndexService] [node-1] failed on parsing mappings on index creation [mtr]
+org.opensearch.index.mapper.MapperParsingException: Failed to parse mapping [_doc]: Root mapping definition has unsupported parameters:  [name : {type=text}]
+	at org.opensearch.index.mapper.MapperService.internalMerge(MapperService.java:443) ~[opensearch-2.8.0.jar:2.8.0]
+	at org.opensearch.index.mapper.MapperService.merge(MapperService.java:411) ~[opensearch-2.8.0.jar:2.8.0]
+	at org.opensearch.cluster.metadata.MetadataCreateIndexService.updateIndexMappingsAndBuildSortOrder(MetadataCreateIndexService.java:1257) ~[opensearch-2.8.0.jar:2.8.0]
+	at org.opensearch.cluster.metadata.MetadataCreateIndexService.lambda$applyCreateIndexWithTemporaryService$2(MetadataCreateIndexService.java:487) [opensearch-2.8.0.jar:2.8.0]
+	at org.opensearch.indices.IndicesService.withTempIndexService(IndicesService.java:766) [opensearch-2.8.0.jar:2.8.0]
+	at org.opensearch.cluster.metadata.MetadataCreateIndexService.applyCreateIndexWithTemporaryService(MetadataCreateIndexService.java:485) [opensearch-2.8.0.jar:2.8.0]
+	at org.opensearch.cluster.metadata.MetadataCreateIndexService.applyCreateIndexRequestWithV1Templates(MetadataCreateIndexService.java:590) [opensearch-2.8.0.jar:2.8.0]
+	at org.opensearch.cluster.metadata.MetadataCreateIndexService.applyCreateIndexRequest(MetadataCreateIndexService.java:447) [opensearch-2.8.0.jar:2.8.0]
+	at org.opensearch.cluster.metadata.MetadataCreateIndexService.applyCreateIndexRequest(MetadataCreateIndexService.java:454) [opensearch-2.8.0.jar:2.8.0]
+	at org.opensearch.cluster.metadata.MetadataCreateIndexService$1.execute(MetadataCreateIndexService.java:360) [opensearch-2.8.0.jar:2.8.0]
+	at org.opensearch.cluster.ClusterStateUpdateTask.execute(ClusterStateUpdateTask.java:65) [opensearch-2.8.0.jar:2.8.0]
+	at org.opensearch.cluster.service.MasterService.executeTasks(MasterService.java:874) [opensearch-2.8.0.jar:2.8.0]
+	at org.opensearch.cluster.service.MasterService.calculateTaskOutputs(MasterService.java:424) [opensearch-2.8.0.jar:2.8.0]
+	at org.opensearch.cluster.service.MasterService.runTasks(MasterService.java:295) [opensearch-2.8.0.jar:2.8.0]
+	at org.opensearch.cluster.service.MasterService$Batcher.run(MasterService.java:206) [opensearch-2.8.0.jar:2.8.0]
+	at org.opensearch.cluster.service.TaskBatcher.runIfNotProcessed(TaskBatcher.java:204) [opensearch-2.8.0.jar:2.8.0]
+	at org.opensearch.cluster.service.TaskBatcher$BatchedTask.run(TaskBatcher.java:242) [opensearch-2.8.0.jar:2.8.0]
+	at org.opensearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:747) [opensearch-2.8.0.jar:2.8.0]
+	at org.opensearch.common.util.concurrent.PrioritizedOpenSearchThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedOpenSearchThreadPoolExecutor.java:282) [opensearch-2.8.0.jar:2.8.0]
+	at org.opensearch.common.util.concurrent.PrioritizedOpenSearchThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedOpenSearchThreadPoolExecutor.java:245) [opensearch-2.8.0.jar:2.8.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: org.opensearch.index.mapper.MapperParsingException: Root mapping definition has unsupported parameters:  [name : {type=text}]
+	at org.opensearch.index.mapper.DocumentMapperParser.checkNoRemainingFields(DocumentMapperParser.java:188) ~[opensearch-2.8.0.jar:2.8.0]
+	at org.opensearch.index.mapper.DocumentMapperParser.parse(DocumentMapperParser.java:173) ~[opensearch-2.8.0.jar:2.8.0]
+	at org.opensearch.index.mapper.DocumentMapperParser.parse(DocumentMapperParser.java:132) ~[opensearch-2.8.0.jar:2.8.0]
+	at org.opensearch.index.mapper.MapperService.internalMerge(MapperService.java:441) ~[opensearch-2.8.0.jar:2.8.0]
+	... 22 more
+[2023-07-07T08:18:09,900][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[mtr/CDlPpXnjQ-SbbPrEd54-rQ]
+[2023-07-07T08:18:09,904][INFO ][o.o.c.m.MetadataCreateIndexService] [node-1] [mtr] creating index, cause [api], templates [], shards [1]/[1]
+[2023-07-07T08:18:09,926][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[mtr/CDlPpXnjQ-SbbPrEd54-rQ]
+[2023-07-07T08:18:09,936][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-07T08:18:10,008][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-07T08:18:38,498][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

@@ -156,3 +156,18 @@
 [2023-07-06T09:53:38,149][INFO ][o.o.a.t.ADTaskManager    ] [node-1] Start to maintain running historical tasks
 [2023-07-06T09:53:38,150][INFO ][o.o.a.c.HourlyCron       ] [node-1] Hourly maintenance succeeds
 [2023-07-06T09:53:38,305][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-06T09:57:14,590][WARN ][o.o.s.a.BackendRegistry  ] [node-1] No 'Authorization' header, send 401 and 'WWW-Authenticate Basic'
+[2023-07-06T09:57:14,592][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[security-auditlog-2023.07.06/8oDkp_HMQVyh-OUXMpbL5g]
+[2023-07-06T09:57:14,601][INFO ][o.o.c.m.MetadataCreateIndexService] [node-1] [security-auditlog-2023.07.06] creating index, cause [auto(bulk api)], templates [], shards [1]/[1]
+[2023-07-06T09:57:14,622][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[security-auditlog-2023.07.06/8oDkp_HMQVyh-OUXMpbL5g]
+[2023-07-06T09:57:14,633][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-06T09:57:14,683][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-06T09:57:14,688][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[security-auditlog-2023.07.06/8oDkp_HMQVyh-OUXMpbL5g]
+[2023-07-06T09:57:14,691][INFO ][o.o.c.m.MetadataMappingService] [node-1] [security-auditlog-2023.07.06/8oDkp_HMQVyh-OUXMpbL5g] create_mapping
+[2023-07-06T09:57:14,714][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-06T09:58:11,587][WARN ][o.o.s.a.BackendRegistry  ] [node-1] No 'Authorization' header, send 401 and 'WWW-Authenticate Basic'
+[2023-07-06T09:58:38,305][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-06T09:58:59,246][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[security-auditlog-2023.07.06/8oDkp_HMQVyh-OUXMpbL5g]
+[2023-07-06T09:58:59,251][INFO ][o.o.c.m.MetadataMappingService] [node-1] [security-auditlog-2023.07.06/8oDkp_HMQVyh-OUXMpbL5g] update_mapping [_doc]
+[2023-07-06T09:58:59,276][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-06T09:58:59,277][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[security-auditlog-2023.07.06/8oDkp_HMQVyh-OUXMpbL5g]

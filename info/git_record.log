@@ -2274,3 +2274,14 @@
    M  logs/opensearch-dev.log
    M  logs/opensearch-dev_server.json
    
+[master c96cfdc] 2023-07-07 08:05:01
+ 8 files changed, 172331 insertions(+), 172744 deletions(-)
+   M  logs/gc.log
+   A  logs/gc.log.17
+   A  logs/gc.log.18
+   M  logs/opensearch-dev.log
+   M  logs/opensearch-dev_deprecation.json
+   M  logs/opensearch-dev_deprecation.log
+   M  logs/opensearch-dev_server.json
+   M  opensearch.out
+   

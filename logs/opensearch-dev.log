@@ -234,3 +234,5 @@
 [2023-07-06T12:53:38,329][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-06T12:58:38,330][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-06T13:03:38,331][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-06T13:08:04,766][WARN ][o.o.s.a.BackendRegistry  ] [node-1] No 'Authorization' header, send 401 and 'WWW-Authenticate Basic'
+[2023-07-06T13:08:38,331][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

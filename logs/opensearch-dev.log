@@ -1123,3 +1123,12 @@ io.netty.handler.codec.PrematureChannelClosureException: Channel closed while st
 [2023-07-06T17:03:38,363][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-06T17:08:38,364][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-06T17:13:38,365][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-06T17:17:55,722][INFO ][o.o.c.m.MetadataDeleteIndexService] [node-1] [naver_news/hekG0I6IRwapGR8r4PTBUg] deleting index
+[2023-07-06T17:17:55,760][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-06T17:17:55,761][ERROR][o.o.i.i.ManagedIndexCoordinator] [node-1] get managed-index failed: [.opendistro-ism-config] IndexNotFoundException[no such index [.opendistro-ism-config]]
+[2023-07-06T17:18:01,726][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[naver_news/jk3o_YdxS-SsnHJzL986YQ]
+[2023-07-06T17:18:01,735][INFO ][o.o.c.m.MetadataCreateIndexService] [node-1] [naver_news] creating index, cause [api], templates [], shards [1]/[1]
+[2023-07-06T17:18:01,767][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[naver_news/jk3o_YdxS-SsnHJzL986YQ]
+[2023-07-06T17:18:01,786][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-06T17:18:01,879][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-06T17:18:38,365][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

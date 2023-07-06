@@ -292,3 +292,4 @@ Caused by: org.opensearch.index.mapper.MapperParsingException: unknown parameter
 [2023-07-06T13:20:11,746][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[test_seperate/3Up68bXAQv-7HygRJaFSMg]
 [2023-07-06T13:20:11,759][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
 [2023-07-06T13:20:11,815][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-06T13:23:38,333][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

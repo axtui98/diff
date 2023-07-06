@@ -301,3 +301,4 @@ Caused by: org.opensearch.index.mapper.MapperParsingException: unknown parameter
 [2023-07-06T13:27:30,842][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
 [2023-07-06T13:27:30,848][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[test_multi/ScPDnCAnTouiUq6-i1BHIQ]
 [2023-07-06T13:28:38,334][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-06T13:33:38,335][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

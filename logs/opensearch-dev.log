@@ -382,3 +382,4 @@ Caused by: org.opensearch.index.mapper.MapperParsingException: Root mapping defi
 [2023-07-07T10:53:38,518][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-07T10:58:38,519][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-07T11:03:38,519][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-07T11:08:38,520][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

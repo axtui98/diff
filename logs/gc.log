@@ -782,3 +782,4 @@
 [2023-07-07T09:45:44.290+0000][29442][gc          ] GC(26) Pause Young (Normal) (G1 Evacuation Pause) 695M->82M(1024M) 5.335ms
 [2023-07-07T09:45:44.290+0000][29442][gc,cpu      ] GC(26) User=0.02s Sys=0.00s Real=0.00s
 [2023-07-07T09:45:44.290+0000][29442][safepoint   ] Safepoint "G1CollectForAllocation", Time since last: 1665140605661 ns, Reaching safepoint: 93925 ns, At safepoint: 5509150 ns, Total: 5603075 ns
+[2023-07-07T10:27:58.888+0000][29442][safepoint   ] Safepoint "Cleanup", Time since last: 2534597252844 ns, Reaching safepoint: 157581 ns, At safepoint: 22784 ns, Total: 180365 ns

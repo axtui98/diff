@@ -433,3 +433,5 @@ Caused by: org.opensearch.index.mapper.MapperParsingException: Root mapping defi
 [2023-07-07T12:58:38,534][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-07T13:03:38,535][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-07T13:08:38,535][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-07T13:13:38,536][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-07T13:18:38,536][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

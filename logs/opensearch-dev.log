@@ -556,3 +556,14 @@ Caused by: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificat
 [2023-07-07T15:27:36,172][INFO ][o.o.c.m.MetadataMappingService] [node-1] [security-auditlog-2023.07.07/iXHuh75FTT-jhVU8YTfqDQ] update_mapping [_doc]
 [2023-07-07T15:27:36,215][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
 [2023-07-07T15:28:38,554][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-07T15:33:38,555][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-07T15:38:38,556][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-07T15:43:38,556][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-07T15:48:38,557][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-07T15:53:38,164][INFO ][o.o.a.t.CronTransportAction] [node-1] Start running AD hourly cron.
+[2023-07-07T15:53:38,164][INFO ][o.o.a.t.ADTaskManager    ] [node-1] Start to maintain running historical tasks
+[2023-07-07T15:53:38,165][INFO ][o.o.a.c.HourlyCron       ] [node-1] Hourly maintenance succeeds
+[2023-07-07T15:53:38,558][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-07T15:58:38,559][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-07T16:03:38,559][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-07T16:08:38,560][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

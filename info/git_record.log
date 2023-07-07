@@ -2382,3 +2382,11 @@
    M  logs/opensearch-dev.log
    M  logs/opensearch-dev_server.json
    
+[master fe8ed90] 2023-07-07 12:05:01
+ 5 files changed, 306 insertions(+)
+   A  config/naver_news/user_dict2.txt
+   M  logs/gc.log
+   M  logs/gc.log.17
+   M  logs/opensearch-dev.log
+   M  logs/opensearch-dev_server.json
+   

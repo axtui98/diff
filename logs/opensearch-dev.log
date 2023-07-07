@@ -672,3 +672,4 @@ Caused by: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificat
 [2023-07-07T18:08:38,576][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-07T18:13:38,576][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-07T18:18:38,577][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-07T18:23:38,578][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

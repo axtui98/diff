@@ -548,3 +548,4 @@ Caused by: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificat
 [2023-07-07T15:09:29,061][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[security-auditlog-2023.07.07/iXHuh75FTT-jhVU8YTfqDQ]
 [2023-07-07T15:09:29,071][INFO ][o.o.c.m.MetadataMappingService] [node-1] [security-auditlog-2023.07.07/iXHuh75FTT-jhVU8YTfqDQ] update_mapping [_doc]
 [2023-07-07T15:09:29,089][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-07T15:13:38,553][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

@@ -1437,3 +1437,4 @@
 [2023-07-08T06:50:20.742+0000][29442][gc,marking  ] GC(52) Concurrent Cleanup for Next Mark
 [2023-07-08T06:50:20.744+0000][29442][gc,marking  ] GC(52) Concurrent Cleanup for Next Mark 1.522ms
 [2023-07-08T06:50:20.744+0000][29442][gc          ] GC(52) Concurrent Mark Cycle 146.976ms
+[2023-07-08T07:07:58.995+0000][29442][safepoint   ] Safepoint "Cleanup", Time since last: 1058252584741 ns, Reaching safepoint: 149843 ns, At safepoint: 22813 ns, Total: 172656 ns

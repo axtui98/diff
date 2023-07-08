@@ -153,3 +153,4 @@
 [2023-07-08T09:00:50,105][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
 [2023-07-08T09:00:50,111][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[security-auditlog-2023.07.08/5oA4YaboRJ6PLh4cD5pKCw]
 [2023-07-08T09:03:38,704][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-08T09:08:38,705][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

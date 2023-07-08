@@ -142,3 +142,14 @@
 [2023-07-08T08:53:38,174][INFO ][o.o.a.c.HourlyCron       ] [node-1] Hourly maintenance succeeds
 [2023-07-08T08:53:38,703][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-08T08:58:38,703][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-08T09:00:49,990][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[security-auditlog-2023.07.08/5oA4YaboRJ6PLh4cD5pKCw]
+[2023-07-08T09:00:49,998][INFO ][o.o.c.m.MetadataCreateIndexService] [node-1] [security-auditlog-2023.07.08] creating index, cause [auto(bulk api)], templates [], shards [1]/[1]
+[2023-07-08T09:00:50,019][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[security-auditlog-2023.07.08/5oA4YaboRJ6PLh4cD5pKCw]
+[2023-07-08T09:00:50,029][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-08T09:00:50,077][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-08T09:00:50,082][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[security-auditlog-2023.07.08/5oA4YaboRJ6PLh4cD5pKCw]
+[2023-07-08T09:00:50,084][INFO ][o.o.c.m.MetadataMappingService] [node-1] [security-auditlog-2023.07.08/5oA4YaboRJ6PLh4cD5pKCw] create_mapping
+[2023-07-08T09:00:50,086][INFO ][o.o.c.m.MetadataMappingService] [node-1] [security-auditlog-2023.07.08/5oA4YaboRJ6PLh4cD5pKCw] update_mapping [_doc]
+[2023-07-08T09:00:50,105][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-08T09:00:50,111][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[security-auditlog-2023.07.08/5oA4YaboRJ6PLh4cD5pKCw]
+[2023-07-08T09:03:38,704][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

@@ -192,3 +192,7 @@
 [2023-07-08T11:38:38,725][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-08T11:43:38,726][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-08T11:48:38,726][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-08T11:53:38,174][INFO ][o.o.a.t.CronTransportAction] [node-1] Start running AD hourly cron.
+[2023-07-08T11:53:38,175][INFO ][o.o.a.t.ADTaskManager    ] [node-1] Start to maintain running historical tasks
+[2023-07-08T11:53:38,176][INFO ][o.o.a.c.HourlyCron       ] [node-1] Hourly maintenance succeeds
+[2023-07-08T11:53:38,727][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

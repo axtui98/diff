@@ -141,3 +141,15 @@
 [2023-07-09T08:53:38,186][INFO ][o.o.a.t.ADTaskManager    ] [node-1] Start to maintain running historical tasks
 [2023-07-09T08:53:38,186][INFO ][o.o.a.c.HourlyCron       ] [node-1] Hourly maintenance succeeds
 [2023-07-09T08:53:38,900][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-09T08:58:38,901][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-09T09:00:27,238][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[security-auditlog-2023.07.09/TUFtl7DlQiKXszxLEyb2Yw]
+[2023-07-09T09:00:27,247][INFO ][o.o.c.m.MetadataCreateIndexService] [node-1] [security-auditlog-2023.07.09] creating index, cause [auto(bulk api)], templates [], shards [1]/[1]
+[2023-07-09T09:00:27,290][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[security-auditlog-2023.07.09/TUFtl7DlQiKXszxLEyb2Yw]
+[2023-07-09T09:00:27,299][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-09T09:00:27,346][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-09T09:00:27,351][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[security-auditlog-2023.07.09/TUFtl7DlQiKXszxLEyb2Yw]
+[2023-07-09T09:00:27,353][INFO ][o.o.c.m.MetadataMappingService] [node-1] [security-auditlog-2023.07.09/TUFtl7DlQiKXszxLEyb2Yw] create_mapping
+[2023-07-09T09:00:27,355][INFO ][o.o.c.m.MetadataMappingService] [node-1] [security-auditlog-2023.07.09/TUFtl7DlQiKXszxLEyb2Yw] update_mapping [_doc]
+[2023-07-09T09:00:27,373][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-09T09:00:27,374][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[security-auditlog-2023.07.09/TUFtl7DlQiKXszxLEyb2Yw]
+[2023-07-09T09:03:38,902][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

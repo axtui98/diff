@@ -366,3 +366,9 @@
 [2023-07-09T22:38:39,005][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-09T22:43:39,006][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-09T22:48:39,006][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-09T22:53:38,161][INFO ][o.o.i.i.IndexStateManagementHistory] [node-1] No Old History Indices to delete
+[2023-07-09T22:53:38,192][INFO ][o.o.a.t.CronTransportAction] [node-1] Start running AD hourly cron.
+[2023-07-09T22:53:38,193][INFO ][o.o.a.t.ADTaskManager    ] [node-1] Start to maintain running historical tasks
+[2023-07-09T22:53:38,193][INFO ][o.o.a.c.HourlyCron       ] [node-1] Hourly maintenance succeeds
+[2023-07-09T22:53:39,007][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-09T22:58:39,008][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

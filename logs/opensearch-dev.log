@@ -237,3 +237,16 @@
 [2023-07-09T14:38:38,946][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-09T14:43:38,946][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-09T14:48:38,947][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-09T14:53:38,154][ERROR][o.o.a.a.AlertIndices     ] [node-1] info deleteOldIndices
+[2023-07-09T14:53:38,154][ERROR][o.o.a.a.AlertIndices     ] [node-1] info deleteOldIndices
+[2023-07-09T14:53:38,154][INFO ][o.o.a.a.AlertIndices     ] [node-1] No Old Finding Indices to delete
+[2023-07-09T14:53:38,154][INFO ][o.o.a.a.AlertIndices     ] [node-1] No Old History Indices to delete
+[2023-07-09T14:53:38,160][INFO ][o.o.i.i.IndexStateManagementHistory] [node-1] No Old History Indices to delete
+[2023-07-09T14:53:38,166][ERROR][o.o.s.i.DetectorIndexManagementService] [node-1] info deleteOldIndices
+[2023-07-09T14:53:38,166][ERROR][o.o.s.i.DetectorIndexManagementService] [node-1] info deleteOldIndices
+[2023-07-09T14:53:38,167][INFO ][o.o.s.i.DetectorIndexManagementService] [node-1] No Old Alert Indices to delete
+[2023-07-09T14:53:38,167][INFO ][o.o.s.i.DetectorIndexManagementService] [node-1] No Old Finding Indices to delete
+[2023-07-09T14:53:38,188][INFO ][o.o.a.t.CronTransportAction] [node-1] Start running AD hourly cron.
+[2023-07-09T14:53:38,188][INFO ][o.o.a.t.ADTaskManager    ] [node-1] Start to maintain running historical tasks
+[2023-07-09T14:53:38,189][INFO ][o.o.a.c.HourlyCron       ] [node-1] Hourly maintenance succeeds
+[2023-07-09T14:53:38,948][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

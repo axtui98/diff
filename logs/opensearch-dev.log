@@ -340,3 +340,5 @@
 [2023-07-09T20:53:38,191][INFO ][o.o.a.t.ADTaskManager    ] [node-1] Start to maintain running historical tasks
 [2023-07-09T20:53:38,192][INFO ][o.o.a.c.HourlyCron       ] [node-1] Hourly maintenance succeeds
 [2023-07-09T20:53:38,993][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-09T20:58:38,993][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-09T21:03:38,993][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

@@ -4785,3 +4785,8 @@
    M  logs/opensearch-dev.log
    M  logs/opensearch-dev_server.json
    
+[master 96f23bb] 2023-07-09 12:10:02
+ 2 files changed, 2 insertions(+)
+   M  logs/opensearch-dev.log
+   M  logs/opensearch-dev_server.json
+   

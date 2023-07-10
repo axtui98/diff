@@ -125,8 +125,8 @@
 /home/opensearch/opensearch/opensearch-2.8.0/logs/gc.log.17	20013018	
 /home/opensearch/opensearch/opensearch-2.8.0/logs/gc.log.18	2031	
 /home/opensearch/opensearch/opensearch-2.8.0/logs/gc.log	298791	
-/home/opensearch/opensearch/opensearch-2.8.0/logs/opensearch-dev_server.json	102015	
-/home/opensearch/opensearch/opensearch-2.8.0/logs/opensearch-dev.log	32802	
+/home/opensearch/opensearch/opensearch-2.8.0/logs/opensearch-dev_server.json	102591	
+/home/opensearch/opensearch/opensearch-2.8.0/logs/opensearch-dev.log	32978	
 /home/opensearch/opensearch/opensearch-2.8.0/modules/ingest-geoip/plugin-security.policy	1764	
 /home/opensearch/opensearch/opensearch-2.8.0/modules/lang-expression/plugin-security.policy	1856	
 /home/opensearch/opensearch/opensearch-2.8.0/modules/lang-mustache/plugin-security.policy	1202	
@@ -189,10 +189,10 @@
 /home/opensearch/opensearch/opensearch-2.8.0/.git/refs/heads/master	41	
 /home/opensearch/opensearch/opensearch-2.8.0/.git/refs/remotes/origin/master	41	
 /home/opensearch/opensearch/opensearch-2.8.0/.git/objects/info/packs	54	
-/home/opensearch/opensearch/opensearch-2.8.0/.git/logs/HEAD	357906	
-/home/opensearch/opensearch/opensearch-2.8.0/.git/logs/refs/heads/master	357194	
-/home/opensearch/opensearch/opensearch-2.8.0/.git/logs/refs/remotes/origin/master	317952	
-/home/opensearch/opensearch/opensearch-2.8.0/info/git_record.log	176232	
+/home/opensearch/opensearch/opensearch-2.8.0/.git/logs/HEAD	358208	
+/home/opensearch/opensearch/opensearch-2.8.0/.git/logs/refs/heads/master	357496	
+/home/opensearch/opensearch/opensearch-2.8.0/.git/logs/refs/remotes/origin/master	318228	
+/home/opensearch/opensearch/opensearch-2.8.0/info/git_record.log	176416	
 /home/opensearch/opensearch/opensearch-2.8.0/info/update_info.txt	65	
-/home/opensearch/opensearch/opensearch-2.8.0/info/other_info.txt	1167080	
-/home/opensearch/opensearch/opensearch-2.8.0/info/plain_info.txt	16895	
+/home/opensearch/opensearch/opensearch-2.8.0/info/other_info.txt	1168154	
+/home/opensearch/opensearch/opensearch-2.8.0/info/plain_info.txt	16896	

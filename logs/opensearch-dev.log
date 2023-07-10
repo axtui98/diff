@@ -238,3 +238,25 @@
 [2023-07-10T14:13:39,128][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-10T14:18:39,129][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-10T14:23:39,129][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-10T14:28:39,130][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-10T14:33:39,130][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-10T14:38:39,130][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-10T14:43:39,131][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-10T14:48:39,131][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-10T14:53:38,159][ERROR][o.o.a.a.AlertIndices     ] [node-1] info deleteOldIndices
+[2023-07-10T14:53:38,159][ERROR][o.o.a.a.AlertIndices     ] [node-1] info deleteOldIndices
+[2023-07-10T14:53:38,160][INFO ][o.o.a.a.AlertIndices     ] [node-1] No Old History Indices to delete
+[2023-07-10T14:53:38,160][INFO ][o.o.a.a.AlertIndices     ] [node-1] No Old Finding Indices to delete
+[2023-07-10T14:53:38,163][INFO ][o.o.i.i.IndexStateManagementHistory] [node-1] No Old History Indices to delete
+[2023-07-10T14:53:38,168][ERROR][o.o.s.i.DetectorIndexManagementService] [node-1] info deleteOldIndices
+[2023-07-10T14:53:38,168][ERROR][o.o.s.i.DetectorIndexManagementService] [node-1] info deleteOldIndices
+[2023-07-10T14:53:38,169][INFO ][o.o.s.i.DetectorIndexManagementService] [node-1] No Old Alert Indices to delete
+[2023-07-10T14:53:38,169][INFO ][o.o.s.i.DetectorIndexManagementService] [node-1] No Old Finding Indices to delete
+[2023-07-10T14:53:38,201][INFO ][o.o.a.t.CronTransportAction] [node-1] Start running AD hourly cron.
+[2023-07-10T14:53:38,201][INFO ][o.o.a.t.ADTaskManager    ] [node-1] Start to maintain running historical tasks
+[2023-07-10T14:53:38,202][INFO ][o.o.a.c.HourlyCron       ] [node-1] Hourly maintenance succeeds
+[2023-07-10T14:53:39,132][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-10T14:58:39,132][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-10T15:03:39,133][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-10T15:08:39,133][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-10T15:13:39,134][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

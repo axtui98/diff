@@ -311,3 +311,21 @@
 [2023-07-10T18:02:50,230][WARN ][o.o.s.a.BackendRegistry  ] [node-1] No 'Authorization' header, send 401 and 'WWW-Authenticate Basic'
 [2023-07-10T18:03:39,154][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-10T18:08:39,155][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-10T18:13:39,155][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-10T18:18:39,156][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-10T18:23:39,156][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-10T18:28:39,157][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-10T18:33:39,157][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-10T18:38:39,158][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-10T18:43:39,158][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-10T18:48:39,159][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-10T18:53:38,202][INFO ][o.o.a.t.CronTransportAction] [node-1] Start running AD hourly cron.
+[2023-07-10T18:53:38,203][INFO ][o.o.a.t.ADTaskManager    ] [node-1] Start to maintain running historical tasks
+[2023-07-10T18:53:38,203][INFO ][o.o.a.c.HourlyCron       ] [node-1] Hourly maintenance succeeds
+[2023-07-10T18:53:39,160][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-10T18:58:39,160][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-10T19:03:39,160][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-10T19:08:39,161][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-10T19:13:39,161][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-10T19:18:39,162][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-10T19:23:39,163][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

@@ -202,3 +202,20 @@
 [2023-07-10T12:18:39,114][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-10T12:23:39,115][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-10T12:28:39,115][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-10T12:33:39,116][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-10T12:37:34,017][WARN ][o.o.s.a.BackendRegistry  ] [node-1] No 'Authorization' header, send 401 and 'WWW-Authenticate Basic'
+[2023-07-10T12:37:34,019][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[security-auditlog-2023.07.10/3IjFJBKIQBCKr7DTaZE-mQ]
+[2023-07-10T12:37:34,030][INFO ][o.o.c.m.MetadataMappingService] [node-1] [security-auditlog-2023.07.10/3IjFJBKIQBCKr7DTaZE-mQ] update_mapping [_doc]
+[2023-07-10T12:37:34,050][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-10T12:37:56,770][WARN ][o.o.s.a.BackendRegistry  ] [node-1] No 'Authorization' header, send 401 and 'WWW-Authenticate Basic'
+[2023-07-10T12:38:39,117][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-10T12:38:52,098][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-10T12:40:59,633][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-10T12:43:39,117][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-10T12:48:39,118][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-10T12:53:38,199][INFO ][o.o.a.t.CronTransportAction] [node-1] Start running AD hourly cron.
+[2023-07-10T12:53:38,200][INFO ][o.o.a.t.ADTaskManager    ] [node-1] Start to maintain running historical tasks
+[2023-07-10T12:53:38,200][INFO ][o.o.a.c.HourlyCron       ] [node-1] Hourly maintenance succeeds
+[2023-07-10T12:53:39,118][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-10T12:58:39,119][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-10T13:03:39,120][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

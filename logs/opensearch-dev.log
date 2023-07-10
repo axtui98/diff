@@ -296,3 +296,18 @@
 [2023-07-10T17:23:39,149][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-10T17:28:39,150][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-10T17:33:39,150][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-10T17:38:39,151][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-10T17:43:39,152][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-10T17:48:39,152][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-10T17:53:38,202][INFO ][o.o.a.t.CronTransportAction] [node-1] Start running AD hourly cron.
+[2023-07-10T17:53:38,202][INFO ][o.o.a.t.ADTaskManager    ] [node-1] Start to maintain running historical tasks
+[2023-07-10T17:53:38,202][INFO ][o.o.a.c.HourlyCron       ] [node-1] Hourly maintenance succeeds
+[2023-07-10T17:53:39,153][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-10T17:55:15,546][WARN ][o.o.s.a.BackendRegistry  ] [node-1] No 'Authorization' header, send 401 and 'WWW-Authenticate Basic'
+[2023-07-10T17:55:44,457][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[security-auditlog-2023.07.10/3IjFJBKIQBCKr7DTaZE-mQ]
+[2023-07-10T17:55:44,469][INFO ][o.o.c.m.MetadataMappingService] [node-1] [security-auditlog-2023.07.10/3IjFJBKIQBCKr7DTaZE-mQ] update_mapping [_doc]
+[2023-07-10T17:55:44,488][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-10T17:58:39,153][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-10T18:02:50,230][WARN ][o.o.s.a.BackendRegistry  ] [node-1] No 'Authorization' header, send 401 and 'WWW-Authenticate Basic'
+[2023-07-10T18:03:39,154][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-10T18:08:39,155][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

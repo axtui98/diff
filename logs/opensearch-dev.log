@@ -281,3 +281,13 @@
 [2023-07-10T16:31:46,934][WARN ][o.o.s.a.BackendRegistry  ] [node-1] No 'Authorization' header, send 401 and 'WWW-Authenticate Basic'
 [2023-07-10T16:31:51,536][WARN ][o.o.s.a.BackendRegistry  ] [node-1] Authentication finally failed for admin from 127.0.0.1:59306
 [2023-07-10T16:33:39,143][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-10T16:38:39,144][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-10T16:43:39,144][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-10T16:48:39,145][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-10T16:53:38,201][INFO ][o.o.a.t.CronTransportAction] [node-1] Start running AD hourly cron.
+[2023-07-10T16:53:38,202][INFO ][o.o.a.t.ADTaskManager    ] [node-1] Start to maintain running historical tasks
+[2023-07-10T16:53:38,203][INFO ][o.o.a.c.HourlyCron       ] [node-1] Hourly maintenance succeeds
+[2023-07-10T16:53:39,146][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-10T16:58:39,146][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-10T17:03:39,147][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-10T17:08:39,147][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

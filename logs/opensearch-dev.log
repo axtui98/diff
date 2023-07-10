@@ -278,3 +278,6 @@
 [2023-07-10T16:18:39,142][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-10T16:23:39,142][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-10T16:28:39,143][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-10T16:31:46,934][WARN ][o.o.s.a.BackendRegistry  ] [node-1] No 'Authorization' header, send 401 and 'WWW-Authenticate Basic'
+[2023-07-10T16:31:51,536][WARN ][o.o.s.a.BackendRegistry  ] [node-1] Authentication finally failed for admin from 127.0.0.1:59306
+[2023-07-10T16:33:39,143][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

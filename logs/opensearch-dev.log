@@ -157,3 +157,4 @@
 [2023-07-11T09:00:42,934][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[security-auditlog-2023.07.11/7gjNLaPkS8O6WcoCiWF94g]
 [2023-07-11T09:03:39,266][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-11T09:08:39,267][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-11T09:13:39,268][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

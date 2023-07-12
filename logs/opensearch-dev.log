@@ -534,3 +534,23 @@ Caused by: javax.net.ssl.SSLException: Received fatal alert: internal_error
 [2023-07-12T14:08:39,467][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-12T14:13:39,468][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-12T14:18:39,468][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-12T14:21:29,415][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[luxry_aky/7aTeZfH8R-O6hs-pkrmUWg]
+[2023-07-12T14:21:29,420][INFO ][o.o.c.m.MetadataCreateIndexService] [node-1] [luxry_aky] creating index, cause [auto(bulk api)], templates [], shards [1]/[1]
+[2023-07-12T14:21:29,446][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[luxry_aky/7aTeZfH8R-O6hs-pkrmUWg]
+[2023-07-12T14:21:29,457][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-12T14:21:29,459][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[security-auditlog-2023.07.12/nfXI_zDtRniotRE-nim3Gw]
+[2023-07-12T14:21:29,461][INFO ][o.o.c.m.MetadataMappingService] [node-1] [security-auditlog-2023.07.12/nfXI_zDtRniotRE-nim3Gw] update_mapping [_doc]
+[2023-07-12T14:21:29,495][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-12T14:21:29,519][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-12T14:21:29,521][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[security-auditlog-2023.07.12/nfXI_zDtRniotRE-nim3Gw]
+[2023-07-12T14:21:29,527][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[luxry_aky/7aTeZfH8R-O6hs-pkrmUWg]
+[2023-07-12T14:21:29,529][INFO ][o.o.c.m.MetadataMappingService] [node-1] [luxry_aky/7aTeZfH8R-O6hs-pkrmUWg] create_mapping
+[2023-07-12T14:21:29,534][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[security-auditlog-2023.07.12/nfXI_zDtRniotRE-nim3Gw]
+[2023-07-12T14:21:29,544][INFO ][o.o.c.m.MetadataMappingService] [node-1] [security-auditlog-2023.07.12/nfXI_zDtRniotRE-nim3Gw] update_mapping [_doc]
+[2023-07-12T14:21:29,575][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-12T14:21:29,577][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[luxry_aky/7aTeZfH8R-O6hs-pkrmUWg]
+[2023-07-12T14:21:29,583][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[security-auditlog-2023.07.12/nfXI_zDtRniotRE-nim3Gw]
+[2023-07-12T14:21:29,587][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[luxry_aky/7aTeZfH8R-O6hs-pkrmUWg]
+[2023-07-12T14:21:29,589][INFO ][o.o.c.m.MetadataMappingService] [node-1] [luxry_aky/7aTeZfH8R-O6hs-pkrmUWg] update_mapping [_doc]
+[2023-07-12T14:21:29,616][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-12T14:23:39,469][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

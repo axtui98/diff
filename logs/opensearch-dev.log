@@ -796,3 +796,4 @@ Caused by: javax.net.ssl.SSLProtocolException: Received close_notify during hand
 [2023-07-12T17:53:38,223][INFO ][o.o.a.t.ADTaskManager    ] [node-1] Start to maintain running historical tasks
 [2023-07-12T17:53:38,224][INFO ][o.o.a.c.HourlyCron       ] [node-1] Hourly maintenance succeeds
 [2023-07-12T17:53:39,491][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-12T17:58:39,492][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

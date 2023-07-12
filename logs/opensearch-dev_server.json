@@ -785,3 +785,4 @@
 "at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]",
 "... 16 more"] }
 {"type": "server", "timestamp": "2023-07-12T17:13:39,487+09:00", "level": "INFO", "component": "o.o.j.s.JobSweeper", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "Running full sweep", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-12T17:18:39,487+09:00", "level": "INFO", "component": "o.o.j.s.JobSweeper", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "Running full sweep", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }

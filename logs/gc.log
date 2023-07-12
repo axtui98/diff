@@ -3869,3 +3869,22 @@
 [2023-07-12T02:35:07.534+0000][29442][gc,marking  ] GC(163) Concurrent Cleanup for Next Mark
 [2023-07-12T02:35:07.536+0000][29442][gc,marking  ] GC(163) Concurrent Cleanup for Next Mark 1.613ms
 [2023-07-12T02:35:07.536+0000][29442][gc          ] GC(163) Concurrent Mark Cycle 139.089ms
+[2023-07-12T03:49:32.350+0000][29442][gc,start    ] GC(164) Pause Young (Normal) (G1 Evacuation Pause)
+[2023-07-12T03:49:32.350+0000][29442][gc,task     ] GC(164) Using 4 workers of 4 for evacuation
+[2023-07-12T03:49:32.350+0000][29442][gc,age      ] GC(164) Desired survivor size 40370176 bytes, new threshold 15 (max threshold 15)
+[2023-07-12T03:49:32.351+0000][29442][gc,age      ] GC(164) Age table with threshold 15 (max threshold 15)
+[2023-07-12T03:49:32.351+0000][29442][gc,age      ] GC(164) - age   1:       4080 bytes,       4080 total
+[2023-07-12T03:49:32.351+0000][29442][gc,phases   ] GC(164)   Pre Evacuate Collection Set: 0.1ms
+[2023-07-12T03:49:32.351+0000][29442][gc,phases   ] GC(164)   Merge Heap Roots: 0.1ms
+[2023-07-12T03:49:32.351+0000][29442][gc,phases   ] GC(164)   Evacuate Collection Set: 0.5ms
+[2023-07-12T03:49:32.351+0000][29442][gc,phases   ] GC(164)   Post Evacuate Collection Set: 0.4ms
+[2023-07-12T03:49:32.351+0000][29442][gc,phases   ] GC(164)   Other: 0.1ms
+[2023-07-12T03:49:32.351+0000][29442][gc,heap     ] GC(164) Eden regions: 613->0(613)
+[2023-07-12T03:49:32.351+0000][29442][gc,heap     ] GC(164) Survivor regions: 1->1(77)
+[2023-07-12T03:49:32.351+0000][29442][gc,heap     ] GC(164) Old regions: 81->81
+[2023-07-12T03:49:32.351+0000][29442][gc,heap     ] GC(164) Archive regions: 2->2
+[2023-07-12T03:49:32.351+0000][29442][gc,heap     ] GC(164) Humongous regions: 1->1
+[2023-07-12T03:49:32.351+0000][29442][gc,metaspace] GC(164) Metaspace: 102522K(104064K)->102522K(104064K) NonClass: 89529K(90496K)->89529K(90496K) Class: 12993K(13568K)->12993K(13568K)
+[2023-07-12T03:49:32.351+0000][29442][gc          ] GC(164) Pause Young (Normal) (G1 Evacuation Pause) 695M->82M(1024M) 1.225ms
+[2023-07-12T03:49:32.351+0000][29442][gc,cpu      ] GC(164) User=0.00s Sys=0.00s Real=0.00s
+[2023-07-12T03:49:32.351+0000][29442][safepoint   ] Safepoint "G1CollectForAllocation", Time since last: 4464815104904 ns, Reaching safepoint: 58844 ns, At safepoint: 1285741 ns, Total: 1344585 ns

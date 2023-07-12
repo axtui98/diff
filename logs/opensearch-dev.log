@@ -531,3 +531,4 @@ Caused by: javax.net.ssl.SSLException: Received fatal alert: internal_error
 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468) ~[netty-codec-4.1.91.Final.jar:4.1.91.Final]
 	... 16 more
 [2023-07-12T14:03:39,467][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-12T14:08:39,467][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

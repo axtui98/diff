@@ -268,3 +268,4 @@ Caused by: javax.net.ssl.SSLException: Received fatal alert: internal_error
 	... 16 more
 [2023-07-12T11:09:02,501][INFO ][o.o.c.m.MetadataMappingService] [node-1] [security-auditlog-2023.07.12/nfXI_zDtRniotRE-nim3Gw] update_mapping [_doc]
 [2023-07-12T11:09:02,526][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-12T11:13:39,450][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

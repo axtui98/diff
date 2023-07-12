@@ -800,3 +800,4 @@ Caused by: javax.net.ssl.SSLProtocolException: Received close_notify during hand
 [2023-07-12T18:03:39,492][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-12T18:08:39,493][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-12T18:13:39,493][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-12T18:18:39,494][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

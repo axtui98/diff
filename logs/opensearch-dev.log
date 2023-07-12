@@ -554,3 +554,4 @@ Caused by: javax.net.ssl.SSLException: Received fatal alert: internal_error
 [2023-07-12T14:21:29,589][INFO ][o.o.c.m.MetadataMappingService] [node-1] [luxry_aky/7aTeZfH8R-O6hs-pkrmUWg] update_mapping [_doc]
 [2023-07-12T14:21:29,616][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
 [2023-07-12T14:23:39,469][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-12T14:28:39,469][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

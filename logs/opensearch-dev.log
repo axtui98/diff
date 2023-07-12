@@ -583,3 +583,15 @@ Caused by: javax.net.ssl.SSLException: Received fatal alert: internal_error
 [2023-07-12T15:38:39,476][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-12T15:43:39,476][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-12T15:48:39,477][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-12T15:51:33,333][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[luxry_aky_test/a36b9uX3QKy7LNCrWHP5qg]
+[2023-07-12T15:51:33,353][INFO ][o.o.c.m.MetadataCreateIndexService] [node-1] [luxry_aky_test] creating index, cause [auto(bulk api)], templates [], shards [1]/[1]
+[2023-07-12T15:51:33,380][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[luxry_aky_test/a36b9uX3QKy7LNCrWHP5qg]
+[2023-07-12T15:51:33,391][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-12T15:51:33,446][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-12T15:51:33,453][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[luxry_aky_test/a36b9uX3QKy7LNCrWHP5qg]
+[2023-07-12T15:51:33,456][INFO ][o.o.c.m.MetadataMappingService] [node-1] [luxry_aky_test/a36b9uX3QKy7LNCrWHP5qg] create_mapping
+[2023-07-12T15:51:33,488][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-12T15:53:38,223][INFO ][o.o.a.t.CronTransportAction] [node-1] Start running AD hourly cron.
+[2023-07-12T15:53:38,223][INFO ][o.o.a.t.ADTaskManager    ] [node-1] Start to maintain running historical tasks
+[2023-07-12T15:53:38,224][INFO ][o.o.a.c.HourlyCron       ] [node-1] Hourly maintenance succeeds
+[2023-07-12T15:53:39,478][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

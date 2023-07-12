@@ -185,3 +185,8 @@
 [2023-07-12T10:46:50,984][INFO ][o.o.c.m.MetadataMappingService] [node-1] [security-auditlog-2023.07.12/nfXI_zDtRniotRE-nim3Gw] update_mapping [_doc]
 [2023-07-12T10:46:51,005][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
 [2023-07-12T10:48:39,447][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-12T10:53:38,220][INFO ][o.o.a.t.CronTransportAction] [node-1] Start running AD hourly cron.
+[2023-07-12T10:53:38,221][INFO ][o.o.a.t.ADTaskManager    ] [node-1] Start to maintain running historical tasks
+[2023-07-12T10:53:38,221][INFO ][o.o.a.c.HourlyCron       ] [node-1] Hourly maintenance succeeds
+[2023-07-12T10:53:39,448][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-12T10:58:39,448][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

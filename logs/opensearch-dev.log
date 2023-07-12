@@ -141,3 +141,17 @@
 [2023-07-12T08:53:38,220][INFO ][o.o.a.t.ADTaskManager    ] [node-1] Start to maintain running historical tasks
 [2023-07-12T08:53:38,220][INFO ][o.o.a.c.HourlyCron       ] [node-1] Hourly maintenance succeeds
 [2023-07-12T08:53:39,435][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-12T08:58:39,435][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-12T09:00:25,054][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[security-auditlog-2023.07.12/nfXI_zDtRniotRE-nim3Gw]
+[2023-07-12T09:00:25,062][INFO ][o.o.c.m.MetadataCreateIndexService] [node-1] [security-auditlog-2023.07.12] creating index, cause [auto(bulk api)], templates [], shards [1]/[1]
+[2023-07-12T09:00:25,082][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[security-auditlog-2023.07.12/nfXI_zDtRniotRE-nim3Gw]
+[2023-07-12T09:00:25,095][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-12T09:00:25,143][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-12T09:00:25,148][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[security-auditlog-2023.07.12/nfXI_zDtRniotRE-nim3Gw]
+[2023-07-12T09:00:25,150][INFO ][o.o.c.m.MetadataMappingService] [node-1] [security-auditlog-2023.07.12/nfXI_zDtRniotRE-nim3Gw] create_mapping
+[2023-07-12T09:00:25,170][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-12T09:00:25,176][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[security-auditlog-2023.07.12/nfXI_zDtRniotRE-nim3Gw]
+[2023-07-12T09:00:25,180][INFO ][o.o.c.m.MetadataMappingService] [node-1] [security-auditlog-2023.07.12/nfXI_zDtRniotRE-nim3Gw] update_mapping [_doc]
+[2023-07-12T09:00:25,204][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-12T09:00:25,205][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[security-auditlog-2023.07.12/nfXI_zDtRniotRE-nim3Gw]
+[2023-07-12T09:03:39,436][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

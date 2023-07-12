@@ -786,3 +786,4 @@ Caused by: javax.net.ssl.SSLProtocolException: Received close_notify during hand
 	... 16 more
 [2023-07-12T17:13:39,487][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-12T17:18:39,487][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-12T17:23:39,488][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

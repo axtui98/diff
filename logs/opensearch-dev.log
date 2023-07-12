@@ -559,3 +559,16 @@ Caused by: javax.net.ssl.SSLException: Received fatal alert: internal_error
 [2023-07-12T14:38:39,470][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-12T14:43:39,471][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-12T14:48:39,471][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-12T14:53:38,168][INFO ][o.o.i.i.IndexStateManagementHistory] [node-1] No Old History Indices to delete
+[2023-07-12T14:53:38,169][ERROR][o.o.a.a.AlertIndices     ] [node-1] info deleteOldIndices
+[2023-07-12T14:53:38,169][ERROR][o.o.a.a.AlertIndices     ] [node-1] info deleteOldIndices
+[2023-07-12T14:53:38,169][INFO ][o.o.a.a.AlertIndices     ] [node-1] No Old History Indices to delete
+[2023-07-12T14:53:38,169][INFO ][o.o.a.a.AlertIndices     ] [node-1] No Old Finding Indices to delete
+[2023-07-12T14:53:38,173][ERROR][o.o.s.i.DetectorIndexManagementService] [node-1] info deleteOldIndices
+[2023-07-12T14:53:38,173][ERROR][o.o.s.i.DetectorIndexManagementService] [node-1] info deleteOldIndices
+[2023-07-12T14:53:38,174][INFO ][o.o.s.i.DetectorIndexManagementService] [node-1] No Old Alert Indices to delete
+[2023-07-12T14:53:38,174][INFO ][o.o.s.i.DetectorIndexManagementService] [node-1] No Old Finding Indices to delete
+[2023-07-12T14:53:38,222][INFO ][o.o.a.t.CronTransportAction] [node-1] Start running AD hourly cron.
+[2023-07-12T14:53:38,222][INFO ][o.o.a.t.ADTaskManager    ] [node-1] Start to maintain running historical tasks
+[2023-07-12T14:53:38,223][INFO ][o.o.a.c.HourlyCron       ] [node-1] Hourly maintenance succeeds
+[2023-07-12T14:53:39,472][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

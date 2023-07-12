@@ -368,3 +368,4 @@ Caused by: javax.net.ssl.SSLException: Received fatal alert: internal_error
 [2023-07-12T12:53:38,222][INFO ][o.o.a.t.ADTaskManager    ] [node-1] Start to maintain running historical tasks
 [2023-07-12T12:53:38,222][INFO ][o.o.a.c.HourlyCron       ] [node-1] Hourly maintenance succeeds
 [2023-07-12T12:53:39,460][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-12T12:58:39,460][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

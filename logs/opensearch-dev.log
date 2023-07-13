@@ -353,3 +353,7 @@
 [2023-07-13T16:23:17,277][INFO ][o.o.c.m.MetadataMappingService] [node-1] [luxury_panda-2023.07.13/Gsc2iZlaSruwyi-Rv9bfbA] update_mapping [_doc]
 [2023-07-13T16:23:17,300][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
 [2023-07-13T16:23:39,677][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-13T16:25:20,969][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[luxury_panda-2023.07.13/Gsc2iZlaSruwyi-Rv9bfbA]
+[2023-07-13T16:25:20,971][INFO ][o.o.c.m.MetadataMappingService] [node-1] [luxury_panda-2023.07.13/Gsc2iZlaSruwyi-Rv9bfbA] update_mapping [_doc]
+[2023-07-13T16:25:20,993][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-13T16:28:39,677][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

@@ -403,3 +403,4 @@
 [2023-07-13T18:12:39,007][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
 [2023-07-13T18:13:11,023][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
 [2023-07-13T18:13:39,690][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-13T18:18:39,690][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

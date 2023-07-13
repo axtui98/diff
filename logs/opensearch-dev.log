@@ -317,3 +317,19 @@
 [2023-07-13T16:03:39,675][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-13T16:08:39,675][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-13T16:13:39,676][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-13T16:15:49,312][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[validate-template-opjiul4qqqogn4_zr6wzyg/_BK1SgzMR8KbhF3Gd4KhaQ]
+[2023-07-13T16:15:54,996][INFO ][o.o.c.m.MetadataDeleteIndexService] [node-1] [luxury_panda/A0dDqujkS-2MGRp1Q98JTg] deleting index
+[2023-07-13T16:15:55,022][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-13T16:15:55,023][ERROR][o.o.i.i.ManagedIndexCoordinator] [node-1] get managed-index failed: [.opendistro-ism-config] IndexNotFoundException[no such index [.opendistro-ism-config]]
+[2023-07-13T16:15:56,899][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[validate-template-egnpxvvstkqczhsfquo-cg/hfajF4x2Qj6RxuaKy1YqFw]
+[2023-07-13T16:15:56,900][INFO ][o.o.c.m.MetadataIndexTemplateService] [node-1] adding index template [luxury_panda] for index patterns [luxury_panda*]
+[2023-07-13T16:15:56,923][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-13T16:16:55,898][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[luxury_pandai-2023.07.13/ojL_OuMdRjKD-2b5YplFRA]
+[2023-07-13T16:16:55,900][INFO ][o.o.c.m.MetadataCreateIndexService] [node-1] [luxury_pandai-2023.07.13] creating index, cause [auto(bulk api)], templates [luxury_panda], shards [1]/[1]
+[2023-07-13T16:16:55,923][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[luxury_pandai-2023.07.13/ojL_OuMdRjKD-2b5YplFRA]
+[2023-07-13T16:16:55,935][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-13T16:16:55,992][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-13T16:16:55,997][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[luxury_pandai-2023.07.13/ojL_OuMdRjKD-2b5YplFRA]
+[2023-07-13T16:16:56,000][INFO ][o.o.c.m.MetadataMappingService] [node-1] [luxury_pandai-2023.07.13/ojL_OuMdRjKD-2b5YplFRA] create_mapping
+[2023-07-13T16:16:56,022][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-13T16:18:39,676][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

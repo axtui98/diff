@@ -256,3 +256,5 @@
 [2023-07-13T12:53:38,240][INFO ][o.o.a.c.HourlyCron       ] [node-1] Hourly maintenance succeeds
 [2023-07-13T12:53:39,651][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-13T12:58:39,652][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-13T13:01:37,295][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-13T13:03:39,652][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

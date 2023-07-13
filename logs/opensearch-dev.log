@@ -258,3 +258,4 @@
 [2023-07-13T12:58:39,652][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-13T13:01:37,295][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
 [2023-07-13T13:03:39,652][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-13T13:08:39,653][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

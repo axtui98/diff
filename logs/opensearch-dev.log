@@ -167,3 +167,38 @@
 [2023-07-13T10:33:39,635][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-13T10:38:39,636][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-13T10:43:39,636][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-13T10:48:12,483][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[security-auditlog-2023.07.13/-Hb6C04_QuOKgKM_knE0QA]
+[2023-07-13T10:48:12,502][INFO ][o.o.c.m.MetadataCreateIndexService] [node-1] [security-auditlog-2023.07.13] creating index, cause [auto(bulk api)], templates [], shards [1]/[1]
+[2023-07-13T10:48:12,525][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[security-auditlog-2023.07.13/-Hb6C04_QuOKgKM_knE0QA]
+[2023-07-13T10:48:12,538][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-13T10:48:12,599][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-13T10:48:12,604][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[security-auditlog-2023.07.13/-Hb6C04_QuOKgKM_knE0QA]
+[2023-07-13T10:48:12,606][INFO ][o.o.c.m.MetadataMappingService] [node-1] [security-auditlog-2023.07.13/-Hb6C04_QuOKgKM_knE0QA] create_mapping
+[2023-07-13T10:48:12,627][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-13T10:48:13,565][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[luxury_panda/A0dDqujkS-2MGRp1Q98JTg]
+[2023-07-13T10:48:13,571][INFO ][o.o.c.m.MetadataCreateIndexService] [node-1] [luxury_panda] creating index, cause [auto(bulk api)], templates [], shards [1]/[1]
+[2023-07-13T10:48:13,596][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[luxury_panda/A0dDqujkS-2MGRp1Q98JTg]
+[2023-07-13T10:48:13,610][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-13T10:48:13,611][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[security-auditlog-2023.07.13/-Hb6C04_QuOKgKM_knE0QA]
+[2023-07-13T10:48:13,614][INFO ][o.o.c.m.MetadataMappingService] [node-1] [security-auditlog-2023.07.13/-Hb6C04_QuOKgKM_knE0QA] update_mapping [_doc]
+[2023-07-13T10:48:13,652][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-13T10:48:13,653][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[security-auditlog-2023.07.13/-Hb6C04_QuOKgKM_knE0QA]
+[2023-07-13T10:48:13,682][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-13T10:48:13,691][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[luxury_panda/A0dDqujkS-2MGRp1Q98JTg]
+[2023-07-13T10:48:13,694][INFO ][o.o.c.m.MetadataMappingService] [node-1] [luxury_panda/A0dDqujkS-2MGRp1Q98JTg] create_mapping
+[2023-07-13T10:48:13,715][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-13T10:48:13,716][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[luxury_panda/A0dDqujkS-2MGRp1Q98JTg]
+[2023-07-13T10:48:13,719][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[security-auditlog-2023.07.13/-Hb6C04_QuOKgKM_knE0QA]
+[2023-07-13T10:48:13,722][INFO ][o.o.c.m.MetadataMappingService] [node-1] [security-auditlog-2023.07.13/-Hb6C04_QuOKgKM_knE0QA] update_mapping [_doc]
+[2023-07-13T10:48:13,752][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-13T10:48:13,758][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[luxury_panda/A0dDqujkS-2MGRp1Q98JTg]
+[2023-07-13T10:48:13,762][INFO ][o.o.c.m.MetadataMappingService] [node-1] [luxury_panda/A0dDqujkS-2MGRp1Q98JTg] update_mapping [_doc]
+[2023-07-13T10:48:13,762][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[security-auditlog-2023.07.13/-Hb6C04_QuOKgKM_knE0QA]
+[2023-07-13T10:48:13,797][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-13T10:48:13,798][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[luxury_panda/A0dDqujkS-2MGRp1Q98JTg]
+[2023-07-13T10:48:13,802][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[luxury_panda/A0dDqujkS-2MGRp1Q98JTg]
+[2023-07-13T10:48:15,296][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[security-auditlog-2023.07.13/-Hb6C04_QuOKgKM_knE0QA]
+[2023-07-13T10:48:15,301][INFO ][o.o.c.m.MetadataMappingService] [node-1] [security-auditlog-2023.07.13/-Hb6C04_QuOKgKM_knE0QA] update_mapping [_doc]
+[2023-07-13T10:48:15,326][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-13T10:48:15,328][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[security-auditlog-2023.07.13/-Hb6C04_QuOKgKM_knE0QA]
+[2023-07-13T10:48:39,637][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

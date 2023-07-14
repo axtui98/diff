@@ -249,3 +249,77 @@
 [2023-07-14T14:38:39,843][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-14T14:43:39,843][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-14T14:48:39,844][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-14T14:53:38,174][INFO ][o.o.i.i.IndexStateManagementHistory] [node-1] No Old History Indices to delete
+[2023-07-14T14:53:38,178][ERROR][o.o.s.i.DetectorIndexManagementService] [node-1] info deleteOldIndices
+[2023-07-14T14:53:38,178][ERROR][o.o.s.i.DetectorIndexManagementService] [node-1] info deleteOldIndices
+[2023-07-14T14:53:38,178][INFO ][o.o.s.i.DetectorIndexManagementService] [node-1] No Old Finding Indices to delete
+[2023-07-14T14:53:38,179][INFO ][o.o.s.i.DetectorIndexManagementService] [node-1] No Old Alert Indices to delete
+[2023-07-14T14:53:38,187][ERROR][o.o.a.a.AlertIndices     ] [node-1] info deleteOldIndices
+[2023-07-14T14:53:38,187][ERROR][o.o.a.a.AlertIndices     ] [node-1] info deleteOldIndices
+[2023-07-14T14:53:38,187][INFO ][o.o.a.a.AlertIndices     ] [node-1] No Old History Indices to delete
+[2023-07-14T14:53:38,187][INFO ][o.o.a.a.AlertIndices     ] [node-1] No Old Finding Indices to delete
+[2023-07-14T14:53:38,251][INFO ][o.o.a.t.CronTransportAction] [node-1] Start running AD hourly cron.
+[2023-07-14T14:53:38,252][INFO ][o.o.a.t.ADTaskManager    ] [node-1] Start to maintain running historical tasks
+[2023-07-14T14:53:38,253][INFO ][o.o.a.c.HourlyCron       ] [node-1] Hourly maintenance succeeds
+[2023-07-14T14:53:39,844][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-14T14:55:29,657][INFO ][o.o.c.m.MetadataDeleteIndexService] [node-1] [test/SiQpO8K6RX6ubeY0nhGFhA] deleting index
+[2023-07-14T14:55:29,691][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-14T14:55:29,692][ERROR][o.o.i.i.ManagedIndexCoordinator] [node-1] get managed-index failed: [.opendistro-ism-config] IndexNotFoundException[no such index [.opendistro-ism-config]]
+[2023-07-14T14:56:01,160][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[test/dzMGh4fxR868HlN88VKKXg]
+[2023-07-14T14:56:01,163][INFO ][o.o.c.m.MetadataCreateIndexService] [node-1] [test] creating index, cause [auto(bulk api)], templates [], shards [1]/[1]
+[2023-07-14T14:56:01,186][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[test/dzMGh4fxR868HlN88VKKXg]
+[2023-07-14T14:56:01,200][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-14T14:56:01,201][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[security-auditlog-2023.07.14/vviqblbeReOL-2ATJF4rog]
+[2023-07-14T14:56:01,203][INFO ][o.o.c.m.MetadataMappingService] [node-1] [security-auditlog-2023.07.14/vviqblbeReOL-2ATJF4rog] update_mapping [_doc]
+[2023-07-14T14:56:01,240][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-14T14:56:01,243][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[security-auditlog-2023.07.14/vviqblbeReOL-2ATJF4rog]
+[2023-07-14T14:56:01,294][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-14T14:56:01,298][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[test/dzMGh4fxR868HlN88VKKXg]
+[2023-07-14T14:56:01,300][INFO ][o.o.c.m.MetadataMappingService] [node-1] [test/dzMGh4fxR868HlN88VKKXg] create_mapping
+[2023-07-14T14:56:01,326][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-14T14:56:01,328][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[security-auditlog-2023.07.14/vviqblbeReOL-2ATJF4rog]
+[2023-07-14T14:56:01,331][INFO ][o.o.c.m.MetadataMappingService] [node-1] [security-auditlog-2023.07.14/vviqblbeReOL-2ATJF4rog] update_mapping [_doc]
+[2023-07-14T14:56:01,351][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-14T14:56:01,352][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[security-auditlog-2023.07.14/vviqblbeReOL-2ATJF4rog]
+[2023-07-14T14:56:33,977][INFO ][o.o.c.m.MetadataDeleteIndexService] [node-1] [test/dzMGh4fxR868HlN88VKKXg] deleting index
+[2023-07-14T14:56:34,004][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-14T14:56:34,005][ERROR][o.o.i.i.ManagedIndexCoordinator] [node-1] get managed-index failed: [.opendistro-ism-config] IndexNotFoundException[no such index [.opendistro-ism-config]]
+[2023-07-14T14:56:53,487][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[test/OS3PKRRaS3O8oDr7NB0i6A]
+[2023-07-14T14:56:53,489][INFO ][o.o.c.m.MetadataCreateIndexService] [node-1] [test] creating index, cause [auto(bulk api)], templates [], shards [1]/[1]
+[2023-07-14T14:56:53,514][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[test/OS3PKRRaS3O8oDr7NB0i6A]
+[2023-07-14T14:56:53,530][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-14T14:56:53,617][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-14T14:56:53,625][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[test/OS3PKRRaS3O8oDr7NB0i6A]
+[2023-07-14T14:56:53,630][INFO ][o.o.c.m.MetadataMappingService] [node-1] [test/OS3PKRRaS3O8oDr7NB0i6A] create_mapping
+[2023-07-14T14:56:53,679][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-14T14:58:39,844][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-14T15:01:57,466][INFO ][o.o.c.m.MetadataDeleteIndexService] [node-1] [test/OS3PKRRaS3O8oDr7NB0i6A] deleting index
+[2023-07-14T15:01:57,491][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-14T15:01:57,491][ERROR][o.o.i.i.ManagedIndexCoordinator] [node-1] get managed-index failed: [.opendistro-ism-config] IndexNotFoundException[no such index [.opendistro-ism-config]]
+[2023-07-14T15:02:45,766][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[test/M6D3DvABTBKJbJrjbg9fVA]
+[2023-07-14T15:02:45,769][INFO ][o.o.c.m.MetadataCreateIndexService] [node-1] [test] creating index, cause [auto(bulk api)], templates [], shards [1]/[1]
+[2023-07-14T15:02:45,795][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[test/M6D3DvABTBKJbJrjbg9fVA]
+[2023-07-14T15:02:45,809][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-14T15:02:45,874][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-14T15:03:00,268][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[test/M6D3DvABTBKJbJrjbg9fVA]
+[2023-07-14T15:03:00,269][INFO ][o.o.c.m.MetadataMappingService] [node-1] [test/M6D3DvABTBKJbJrjbg9fVA] create_mapping
+[2023-07-14T15:03:00,293][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-14T15:03:39,845][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-14T15:04:20,622][INFO ][o.o.c.m.MetadataDeleteIndexService] [node-1] [test/M6D3DvABTBKJbJrjbg9fVA] deleting index
+[2023-07-14T15:04:20,650][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-14T15:04:20,650][ERROR][o.o.i.i.ManagedIndexCoordinator] [node-1] get managed-index failed: [.opendistro-ism-config] IndexNotFoundException[no such index [.opendistro-ism-config]]
+[2023-07-14T15:05:07,843][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[test/TtTnzJeUSwibiLj0UpWA2g]
+[2023-07-14T15:05:07,844][INFO ][o.o.c.m.MetadataCreateIndexService] [node-1] [test] creating index, cause [api], templates [], shards [1]/[1]
+[2023-07-14T15:05:07,866][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[test/TtTnzJeUSwibiLj0UpWA2g]
+[2023-07-14T15:05:07,876][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-14T15:05:07,928][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-14T15:08:39,845][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-14T15:11:45,970][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[test1/lDpDezNXQw2V3Hexrn1Zjg]
+[2023-07-14T15:11:45,972][INFO ][o.o.c.m.MetadataCreateIndexService] [node-1] [test1] creating index, cause [auto(bulk api)], templates [], shards [1]/[1]
+[2023-07-14T15:11:45,998][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[test1/lDpDezNXQw2V3Hexrn1Zjg]
+[2023-07-14T15:11:46,010][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-14T15:11:46,098][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-14T15:11:46,105][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[test1/lDpDezNXQw2V3Hexrn1Zjg]
+[2023-07-14T15:11:46,107][INFO ][o.o.c.m.MetadataMappingService] [node-1] [test1/lDpDezNXQw2V3Hexrn1Zjg] create_mapping
+[2023-07-14T15:11:46,129][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-14T15:13:39,845][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

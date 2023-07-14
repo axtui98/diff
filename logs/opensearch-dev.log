@@ -227,3 +227,9 @@
 [2023-07-14T13:46:45,405][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
 [2023-07-14T13:47:26,743][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
 [2023-07-14T13:48:39,837][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-14T13:53:38,251][INFO ][o.o.a.t.CronTransportAction] [node-1] Start running AD hourly cron.
+[2023-07-14T13:53:38,252][INFO ][o.o.a.t.ADTaskManager    ] [node-1] Start to maintain running historical tasks
+[2023-07-14T13:53:38,252][INFO ][o.o.a.c.HourlyCron       ] [node-1] Hourly maintenance succeeds
+[2023-07-14T13:53:39,838][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-14T13:54:05,385][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-14T13:54:23,332][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration

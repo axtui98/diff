@@ -241,3 +241,7 @@
 [2023-07-14T14:20:42,240][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
 [2023-07-14T14:23:18,240][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
 [2023-07-14T14:23:39,841][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-14T14:28:24,609][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[security-auditlog-2023.07.14/vviqblbeReOL-2ATJF4rog]
+[2023-07-14T14:28:24,620][INFO ][o.o.c.m.MetadataMappingService] [node-1] [security-auditlog-2023.07.14/vviqblbeReOL-2ATJF4rog] update_mapping [_doc]
+[2023-07-14T14:28:24,640][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-14T14:28:39,841][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

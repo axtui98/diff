@@ -371,3 +371,6 @@
 [2023-07-15T22:53:38,268][INFO ][o.o.a.c.HourlyCron       ] [node-1] Hourly maintenance succeeds
 [2023-07-15T22:53:40,066][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-15T22:58:40,066][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-15T23:03:40,067][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-15T23:08:40,067][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-15T23:13:40,067][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

@@ -152,3 +152,4 @@
 [2023-07-15T09:00:19,861][INFO ][o.o.c.m.MetadataMappingService] [node-1] [security-auditlog-2023.07.15/tDKNOHINRKeRqngqMcsV5A] update_mapping [_doc]
 [2023-07-15T09:00:19,885][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
 [2023-07-15T09:03:39,974][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-15T09:08:39,974][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

@@ -132,3 +132,23 @@
 [2023-07-15T08:13:39,968][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-15T08:18:39,968][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-15T08:23:39,969][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-15T08:28:39,969][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-15T08:33:39,970][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-15T08:38:39,971][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-15T08:43:39,971][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-15T08:48:39,972][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-15T08:53:38,261][INFO ][o.o.a.t.CronTransportAction] [node-1] Start running AD hourly cron.
+[2023-07-15T08:53:38,261][INFO ][o.o.a.t.ADTaskManager    ] [node-1] Start to maintain running historical tasks
+[2023-07-15T08:53:38,261][INFO ][o.o.a.c.HourlyCron       ] [node-1] Hourly maintenance succeeds
+[2023-07-15T08:53:39,972][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-15T08:58:39,973][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-15T09:00:19,756][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[security-auditlog-2023.07.15/tDKNOHINRKeRqngqMcsV5A]
+[2023-07-15T09:00:19,766][INFO ][o.o.c.m.MetadataCreateIndexService] [node-1] [security-auditlog-2023.07.15] creating index, cause [auto(bulk api)], templates [], shards [1]/[1]
+[2023-07-15T09:00:19,788][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[security-auditlog-2023.07.15/tDKNOHINRKeRqngqMcsV5A]
+[2023-07-15T09:00:19,800][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-15T09:00:19,851][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-15T09:00:19,857][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[security-auditlog-2023.07.15/tDKNOHINRKeRqngqMcsV5A]
+[2023-07-15T09:00:19,859][INFO ][o.o.c.m.MetadataMappingService] [node-1] [security-auditlog-2023.07.15/tDKNOHINRKeRqngqMcsV5A] create_mapping
+[2023-07-15T09:00:19,861][INFO ][o.o.c.m.MetadataMappingService] [node-1] [security-auditlog-2023.07.15/tDKNOHINRKeRqngqMcsV5A] update_mapping [_doc]
+[2023-07-15T09:00:19,885][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-15T09:03:39,974][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

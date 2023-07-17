@@ -2878,3 +2878,7 @@ Caused by: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificat
 [2023-07-17T20:38:40,375][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-17T20:43:40,375][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-17T20:48:40,376][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-17T20:53:38,290][INFO ][o.o.a.t.CronTransportAction] [node-1] Start running AD hourly cron.
+[2023-07-17T20:53:38,290][INFO ][o.o.a.t.ADTaskManager    ] [node-1] Start to maintain running historical tasks
+[2023-07-17T20:53:38,291][INFO ][o.o.a.c.HourlyCron       ] [node-1] Hourly maintenance succeeds
+[2023-07-17T20:53:40,376][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

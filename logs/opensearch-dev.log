@@ -1553,3 +1553,13 @@ Caused by: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificat
 [2023-07-17T15:27:11,054][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
 [2023-07-17T15:27:11,078][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[security-auditlog-2023.07.17/YlPoCGlQTQeyvZnAGmWDJw]
 [2023-07-17T15:28:40,346][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-17T15:33:40,346][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-17T15:38:40,347][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-17T15:43:40,347][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-17T15:48:40,347][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-17T15:53:38,288][INFO ][o.o.a.t.CronTransportAction] [node-1] Start running AD hourly cron.
+[2023-07-17T15:53:38,292][INFO ][o.o.a.t.ADTaskManager    ] [node-1] Start to maintain running historical tasks
+[2023-07-17T15:53:38,297][INFO ][o.o.a.c.HourlyCron       ] [node-1] Hourly maintenance succeeds
+[2023-07-17T15:53:40,348][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-17T15:58:40,348][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-17T16:03:40,348][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

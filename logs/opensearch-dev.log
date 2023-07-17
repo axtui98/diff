@@ -276,3 +276,5 @@
 [2023-07-17T13:53:38,286][INFO ][o.o.a.t.ADTaskManager    ] [node-1] Start to maintain running historical tasks
 [2023-07-17T13:53:38,287][INFO ][o.o.a.c.HourlyCron       ] [node-1] Hourly maintenance succeeds
 [2023-07-17T13:53:40,326][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-17T13:58:40,326][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-17T13:59:31,584][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration

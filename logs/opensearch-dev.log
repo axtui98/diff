@@ -194,3 +194,17 @@
 [2023-07-17T09:36:26,322][INFO ][o.o.c.m.MetadataMappingService] [node-1] [test1/V4tJW4JlQVOJx5Lf-AddFg] create_mapping
 [2023-07-17T09:36:26,348][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
 [2023-07-17T09:38:40,305][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-17T09:43:40,305][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-17T09:44:52,013][INFO ][o.o.c.m.MetadataDeleteIndexService] [node-1] [test1/V4tJW4JlQVOJx5Lf-AddFg] deleting index
+[2023-07-17T09:44:52,039][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-17T09:44:52,039][ERROR][o.o.i.i.ManagedIndexCoordinator] [node-1] get managed-index failed: [.opendistro-ism-config] IndexNotFoundException[no such index [.opendistro-ism-config]]
+[2023-07-17T09:44:55,388][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[test1/hnoxjwXnR1OoX70LsnetXw]
+[2023-07-17T09:44:55,390][INFO ][o.o.c.m.MetadataCreateIndexService] [node-1] [test1] creating index, cause [auto(bulk api)], templates [], shards [1]/[1]
+[2023-07-17T09:44:55,412][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[test1/hnoxjwXnR1OoX70LsnetXw]
+[2023-07-17T09:44:55,423][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-17T09:44:55,476][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-17T09:44:55,478][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[test1/hnoxjwXnR1OoX70LsnetXw]
+[2023-07-17T09:44:55,480][INFO ][o.o.c.m.MetadataMappingService] [node-1] [test1/hnoxjwXnR1OoX70LsnetXw] create_mapping
+[2023-07-17T09:44:55,501][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-17T09:48:19,328][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-17T09:48:40,306][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

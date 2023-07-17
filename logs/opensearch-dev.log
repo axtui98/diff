@@ -279,3 +279,12 @@
 [2023-07-17T13:58:40,326][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-17T13:59:31,584][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
 [2023-07-17T14:03:40,327][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-17T14:08:40,327][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-17T14:13:40,327][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-17T14:18:40,328][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-17T14:23:40,328][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-17T14:28:40,328][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-17T14:33:40,329][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-17T14:38:40,329][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-17T14:43:40,330][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-17T14:48:40,330][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

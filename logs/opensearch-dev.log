@@ -2823,3 +2823,4 @@ Caused by: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificat
 [2023-07-17T17:00:16,749][INFO ][o.o.c.m.MetadataMappingService] [node-1] [security-auditlog-2023.07.17/YlPoCGlQTQeyvZnAGmWDJw] update_mapping [_doc]
 [2023-07-17T17:00:16,773][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
 [2023-07-17T17:00:22,435][WARN ][o.o.s.a.BackendRegistry  ] [node-1] Authentication finally failed for admin from 127.0.0.1:50986
+[2023-07-17T17:03:40,355][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

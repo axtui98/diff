@@ -2812,3 +2812,14 @@ Caused by: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificat
 [2023-07-17T16:33:40,351][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-17T16:38:40,352][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-17T16:43:40,352][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-17T16:48:40,353][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-17T16:53:38,289][INFO ][o.o.a.t.CronTransportAction] [node-1] Start running AD hourly cron.
+[2023-07-17T16:53:38,290][INFO ][o.o.a.t.ADTaskManager    ] [node-1] Start to maintain running historical tasks
+[2023-07-17T16:53:38,291][INFO ][o.o.a.c.HourlyCron       ] [node-1] Hourly maintenance succeeds
+[2023-07-17T16:53:40,353][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-17T16:58:40,354][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-17T17:00:16,735][WARN ][o.o.s.a.BackendRegistry  ] [node-1] No 'Authorization' header, send 401 and 'WWW-Authenticate Basic'
+[2023-07-17T17:00:16,739][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[security-auditlog-2023.07.17/YlPoCGlQTQeyvZnAGmWDJw]
+[2023-07-17T17:00:16,749][INFO ][o.o.c.m.MetadataMappingService] [node-1] [security-auditlog-2023.07.17/YlPoCGlQTQeyvZnAGmWDJw] update_mapping [_doc]
+[2023-07-17T17:00:16,773][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-17T17:00:22,435][WARN ][o.o.s.a.BackendRegistry  ] [node-1] Authentication finally failed for admin from 127.0.0.1:50986

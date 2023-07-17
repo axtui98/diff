@@ -15536,3 +15536,10 @@
    M  logs/opensearch-dev.log
    M  logs/opensearch-dev_server.json
    
+[master 0cc97406] 2023-07-17 18:05:01
+ 4 files changed, 77 insertions(+)
+   M  logs/gc.log
+   M  logs/gc.log.17
+   M  logs/opensearch-dev.log
+   M  logs/opensearch-dev_server.json
+   

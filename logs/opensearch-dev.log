@@ -280,3 +280,4 @@
 [2023-07-18T14:55:50,598][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[luxry_aky_test/RvhE7btoQACCNkI6htoCoA]
 [2023-07-18T14:58:40,507][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-18T15:03:40,507][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-18T15:08:40,508][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

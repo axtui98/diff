@@ -7024,3 +7024,22 @@
 [2023-07-18T13:34:43.888+0000][29442][gc          ] GC(315) Pause Young (Normal) (G1 Evacuation Pause) 695M->82M(1024M) 3.811ms
 [2023-07-18T13:34:43.888+0000][29442][gc,cpu      ] GC(315) User=0.01s Sys=0.00s Real=0.00s
 [2023-07-18T13:34:43.888+0000][29442][safepoint   ] Safepoint "G1CollectForAllocation", Time since last: 4461924580602 ns, Reaching safepoint: 134056 ns, At safepoint: 3980694 ns, Total: 4114750 ns
+[2023-07-18T14:49:09.601+0000][29442][gc,start    ] GC(316) Pause Young (Normal) (G1 Evacuation Pause)
+[2023-07-18T14:49:09.601+0000][29442][gc,task     ] GC(316) Using 4 workers of 4 for evacuation
+[2023-07-18T14:49:09.601+0000][29442][gc,age      ] GC(316) Desired survivor size 40370176 bytes, new threshold 15 (max threshold 15)
+[2023-07-18T14:49:09.604+0000][29442][gc,age      ] GC(316) Age table with threshold 15 (max threshold 15)
+[2023-07-18T14:49:09.604+0000][29442][gc,age      ] GC(316) - age   1:       4384 bytes,       4384 total
+[2023-07-18T14:49:09.604+0000][29442][gc,phases   ] GC(316)   Pre Evacuate Collection Set: 0.3ms
+[2023-07-18T14:49:09.604+0000][29442][gc,phases   ] GC(316)   Merge Heap Roots: 0.4ms
+[2023-07-18T14:49:09.604+0000][29442][gc,phases   ] GC(316)   Evacuate Collection Set: 0.7ms
+[2023-07-18T14:49:09.604+0000][29442][gc,phases   ] GC(316)   Post Evacuate Collection Set: 1.8ms
+[2023-07-18T14:49:09.604+0000][29442][gc,phases   ] GC(316)   Other: 0.4ms
+[2023-07-18T14:49:09.604+0000][29442][gc,heap     ] GC(316) Eden regions: 613->0(613)
+[2023-07-18T14:49:09.604+0000][29442][gc,heap     ] GC(316) Survivor regions: 1->1(77)
+[2023-07-18T14:49:09.604+0000][29442][gc,heap     ] GC(316) Old regions: 81->81
+[2023-07-18T14:49:09.604+0000][29442][gc,heap     ] GC(316) Archive regions: 2->2
+[2023-07-18T14:49:09.604+0000][29442][gc,heap     ] GC(316) Humongous regions: 1->1
+[2023-07-18T14:49:09.605+0000][29442][gc,metaspace] GC(316) Metaspace: 102524K(104064K)->102524K(104064K) NonClass: 89531K(90496K)->89531K(90496K) Class: 12993K(13568K)->12993K(13568K)
+[2023-07-18T14:49:09.605+0000][29442][gc          ] GC(316) Pause Young (Normal) (G1 Evacuation Pause) 695M->82M(1024M) 3.930ms
+[2023-07-18T14:49:09.605+0000][29442][gc,cpu      ] GC(316) User=0.01s Sys=0.00s Real=0.01s
+[2023-07-18T14:49:09.605+0000][29442][safepoint   ] Safepoint "G1CollectForAllocation", Time since last: 4465712145902 ns, Reaching safepoint: 125524 ns, At safepoint: 4095960 ns, Total: 4221484 ns

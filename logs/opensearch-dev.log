@@ -231,3 +231,52 @@
 [2023-07-18T14:08:40,502][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-18T14:13:40,502][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-18T14:18:40,503][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-18T14:23:40,503][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-18T14:28:40,504][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-18T14:33:40,504][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-18T14:38:40,505][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-18T14:43:40,505][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-18T14:48:40,506][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-18T14:53:38,185][INFO ][o.o.i.i.IndexStateManagementHistory] [node-1] No Old History Indices to delete
+[2023-07-18T14:53:38,191][ERROR][o.o.s.i.DetectorIndexManagementService] [node-1] info deleteOldIndices
+[2023-07-18T14:53:38,191][ERROR][o.o.s.i.DetectorIndexManagementService] [node-1] info deleteOldIndices
+[2023-07-18T14:53:38,192][INFO ][o.o.s.i.DetectorIndexManagementService] [node-1] No Old Finding Indices to delete
+[2023-07-18T14:53:38,192][INFO ][o.o.s.i.DetectorIndexManagementService] [node-1] No Old Alert Indices to delete
+[2023-07-18T14:53:38,220][ERROR][o.o.a.a.AlertIndices     ] [node-1] info deleteOldIndices
+[2023-07-18T14:53:38,220][ERROR][o.o.a.a.AlertIndices     ] [node-1] info deleteOldIndices
+[2023-07-18T14:53:38,221][INFO ][o.o.a.a.AlertIndices     ] [node-1] No Old History Indices to delete
+[2023-07-18T14:53:38,221][INFO ][o.o.a.a.AlertIndices     ] [node-1] No Old Finding Indices to delete
+[2023-07-18T14:53:38,301][INFO ][o.o.a.t.CronTransportAction] [node-1] Start running AD hourly cron.
+[2023-07-18T14:53:38,303][INFO ][o.o.a.t.ADTaskManager    ] [node-1] Start to maintain running historical tasks
+[2023-07-18T14:53:38,304][INFO ][o.o.a.c.HourlyCron       ] [node-1] Hourly maintenance succeeds
+[2023-07-18T14:53:40,506][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-18T14:55:30,419][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[security-auditlog-2023.07.18/RCiyGvvIRbqnIco7NAgStQ]
+[2023-07-18T14:55:30,446][INFO ][o.o.c.m.MetadataMappingService] [node-1] [security-auditlog-2023.07.18/RCiyGvvIRbqnIco7NAgStQ] update_mapping [_doc]
+[2023-07-18T14:55:30,477][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-18T14:55:33,648][INFO ][o.o.c.m.MetadataDeleteIndexService] [node-1] [luxry_aky_test/a36b9uX3QKy7LNCrWHP5qg] deleting index
+[2023-07-18T14:55:33,683][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-18T14:55:33,684][ERROR][o.o.i.i.ManagedIndexCoordinator] [node-1] get managed-index failed: [.opendistro-ism-config] IndexNotFoundException[no such index [.opendistro-ism-config]]
+[2023-07-18T14:55:49,514][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[security-auditlog-2023.07.18/RCiyGvvIRbqnIco7NAgStQ]
+[2023-07-18T14:55:49,517][INFO ][o.o.c.m.MetadataMappingService] [node-1] [security-auditlog-2023.07.18/RCiyGvvIRbqnIco7NAgStQ] update_mapping [_doc]
+[2023-07-18T14:55:49,540][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-18T14:55:50,394][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[luxry_aky_test/RvhE7btoQACCNkI6htoCoA]
+[2023-07-18T14:55:50,395][INFO ][o.o.c.m.MetadataCreateIndexService] [node-1] [luxry_aky_test] creating index, cause [auto(bulk api)], templates [], shards [1]/[1]
+[2023-07-18T14:55:50,417][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[luxry_aky_test/RvhE7btoQACCNkI6htoCoA]
+[2023-07-18T14:55:50,427][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-18T14:55:50,429][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[security-auditlog-2023.07.18/RCiyGvvIRbqnIco7NAgStQ]
+[2023-07-18T14:55:50,431][INFO ][o.o.c.m.MetadataMappingService] [node-1] [security-auditlog-2023.07.18/RCiyGvvIRbqnIco7NAgStQ] update_mapping [_doc]
+[2023-07-18T14:55:50,477][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-18T14:55:50,498][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-18T14:55:50,504][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[security-auditlog-2023.07.18/RCiyGvvIRbqnIco7NAgStQ]
+[2023-07-18T14:55:50,509][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[luxry_aky_test/RvhE7btoQACCNkI6htoCoA]
+[2023-07-18T14:55:50,511][INFO ][o.o.c.m.MetadataMappingService] [node-1] [luxry_aky_test/RvhE7btoQACCNkI6htoCoA] create_mapping
+[2023-07-18T14:55:50,512][INFO ][o.o.c.m.MetadataMappingService] [node-1] [security-auditlog-2023.07.18/RCiyGvvIRbqnIco7NAgStQ] update_mapping [_doc]
+[2023-07-18T14:55:50,537][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-18T14:55:50,540][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[security-auditlog-2023.07.18/RCiyGvvIRbqnIco7NAgStQ]
+[2023-07-18T14:55:50,551][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[luxry_aky_test/RvhE7btoQACCNkI6htoCoA]
+[2023-07-18T14:55:50,559][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[luxry_aky_test/RvhE7btoQACCNkI6htoCoA]
+[2023-07-18T14:55:50,565][INFO ][o.o.c.m.MetadataMappingService] [node-1] [luxry_aky_test/RvhE7btoQACCNkI6htoCoA] update_mapping [_doc]
+[2023-07-18T14:55:50,595][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-18T14:55:50,598][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[luxry_aky_test/RvhE7btoQACCNkI6htoCoA]
+[2023-07-18T14:58:40,507][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-18T15:03:40,507][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

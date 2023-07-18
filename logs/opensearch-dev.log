@@ -384,3 +384,18 @@
 [2023-07-18T16:35:30,531][INFO ][o.o.c.m.MetadataMappingService] [node-1] [lux_test/9MWVUz1LRaOGaYdbzZv5vg] create_mapping
 [2023-07-18T16:35:30,554][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
 [2023-07-18T16:38:40,516][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-18T16:43:40,516][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-18T16:48:40,517][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-18T16:53:38,301][INFO ][o.o.a.t.CronTransportAction] [node-1] Start running AD hourly cron.
+[2023-07-18T16:53:38,302][INFO ][o.o.a.t.ADTaskManager    ] [node-1] Start to maintain running historical tasks
+[2023-07-18T16:53:38,303][INFO ][o.o.a.c.HourlyCron       ] [node-1] Hourly maintenance succeeds
+[2023-07-18T16:53:40,517][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-18T16:58:40,518][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-18T17:03:40,518][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-18T17:08:40,518][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-18T17:13:40,519][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-18T17:18:40,520][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-18T17:23:40,520][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-18T17:28:40,520][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-18T17:33:40,521][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-18T17:38:40,522][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

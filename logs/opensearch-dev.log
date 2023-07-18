@@ -282,3 +282,81 @@
 [2023-07-18T15:03:40,507][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-18T15:08:40,508][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-18T15:13:40,508][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-18T15:18:40,509][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-18T15:23:40,509][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-18T15:28:40,510][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-18T15:33:40,510][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-18T15:38:40,511][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-18T15:43:40,511][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-18T15:48:40,511][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-18T15:52:46,824][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[luxry_aky_test/RvhE7btoQACCNkI6htoCoA]
+[2023-07-18T15:52:46,835][INFO ][o.o.c.m.MetadataMappingService] [node-1] [luxry_aky_test/RvhE7btoQACCNkI6htoCoA] update_mapping [_doc]
+[2023-07-18T15:52:46,872][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-18T15:52:46,875][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[luxry_aky_test/RvhE7btoQACCNkI6htoCoA]
+[2023-07-18T15:52:46,878][INFO ][o.o.c.m.MetadataMappingService] [node-1] [luxry_aky_test/RvhE7btoQACCNkI6htoCoA] update_mapping [_doc]
+[2023-07-18T15:52:46,879][INFO ][o.o.c.m.MetadataMappingService] [node-1] [luxry_aky_test/RvhE7btoQACCNkI6htoCoA] update_mapping [_doc]
+[2023-07-18T15:52:46,880][INFO ][o.o.c.m.MetadataMappingService] [node-1] [luxry_aky_test/RvhE7btoQACCNkI6htoCoA] update_mapping [_doc]
+[2023-07-18T15:52:46,910][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-18T15:52:46,911][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[luxry_aky_test/RvhE7btoQACCNkI6htoCoA]
+[2023-07-18T15:52:46,913][INFO ][o.o.c.m.MetadataMappingService] [node-1] [luxry_aky_test/RvhE7btoQACCNkI6htoCoA] update_mapping [_doc]
+[2023-07-18T15:52:46,917][INFO ][o.o.c.m.MetadataMappingService] [node-1] [luxry_aky_test/RvhE7btoQACCNkI6htoCoA] update_mapping [_doc]
+[2023-07-18T15:52:46,941][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-18T15:52:46,942][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[luxry_aky_test/RvhE7btoQACCNkI6htoCoA]
+[2023-07-18T15:52:46,946][INFO ][o.o.c.m.MetadataMappingService] [node-1] [luxry_aky_test/RvhE7btoQACCNkI6htoCoA] update_mapping [_doc]
+[2023-07-18T15:52:46,977][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-18T15:52:46,978][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[luxry_aky_test/RvhE7btoQACCNkI6htoCoA]
+[2023-07-18T15:52:46,983][INFO ][o.o.c.m.MetadataMappingService] [node-1] [luxry_aky_test/RvhE7btoQACCNkI6htoCoA] update_mapping [_doc]
+[2023-07-18T15:52:46,984][INFO ][o.o.c.m.MetadataMappingService] [node-1] [luxry_aky_test/RvhE7btoQACCNkI6htoCoA] update_mapping [_doc]
+[2023-07-18T15:52:47,014][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-18T15:52:47,015][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[luxry_aky_test/RvhE7btoQACCNkI6htoCoA]
+[2023-07-18T15:52:47,020][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[luxry_aky_test/RvhE7btoQACCNkI6htoCoA]
+[2023-07-18T15:52:47,023][INFO ][o.o.c.m.MetadataMappingService] [node-1] [luxry_aky_test/RvhE7btoQACCNkI6htoCoA] update_mapping [_doc]
+[2023-07-18T15:52:47,068][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-18T15:52:47,069][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[luxry_aky_test/RvhE7btoQACCNkI6htoCoA]
+[2023-07-18T15:52:47,072][INFO ][o.o.c.m.MetadataMappingService] [node-1] [luxry_aky_test/RvhE7btoQACCNkI6htoCoA] update_mapping [_doc]
+[2023-07-18T15:52:47,077][INFO ][o.o.c.m.MetadataMappingService] [node-1] [luxry_aky_test/RvhE7btoQACCNkI6htoCoA] update_mapping [_doc]
+[2023-07-18T15:52:47,127][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-18T15:52:47,128][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[luxry_aky_test/RvhE7btoQACCNkI6htoCoA]
+[2023-07-18T15:53:38,301][INFO ][o.o.a.t.CronTransportAction] [node-1] Start running AD hourly cron.
+[2023-07-18T15:53:38,301][INFO ][o.o.a.t.ADTaskManager    ] [node-1] Start to maintain running historical tasks
+[2023-07-18T15:53:38,301][INFO ][o.o.a.c.HourlyCron       ] [node-1] Hourly maintenance succeeds
+[2023-07-18T15:53:40,512][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-18T15:55:28,023][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[luxry_aky_test/RvhE7btoQACCNkI6htoCoA]
+[2023-07-18T15:55:28,026][INFO ][o.o.c.m.MetadataMappingService] [node-1] [luxry_aky_test/RvhE7btoQACCNkI6htoCoA] update_mapping [_doc]
+[2023-07-18T15:55:28,055][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-18T15:55:28,056][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[luxry_aky_test/RvhE7btoQACCNkI6htoCoA]
+[2023-07-18T15:55:28,061][INFO ][o.o.c.m.MetadataMappingService] [node-1] [luxry_aky_test/RvhE7btoQACCNkI6htoCoA] update_mapping [_doc]
+[2023-07-18T15:55:28,063][INFO ][o.o.c.m.MetadataMappingService] [node-1] [luxry_aky_test/RvhE7btoQACCNkI6htoCoA] update_mapping [_doc]
+[2023-07-18T15:55:28,065][INFO ][o.o.c.m.MetadataMappingService] [node-1] [luxry_aky_test/RvhE7btoQACCNkI6htoCoA] update_mapping [_doc]
+[2023-07-18T15:55:28,100][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-18T15:55:28,104][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[luxry_aky_test/RvhE7btoQACCNkI6htoCoA]
+[2023-07-18T15:57:00,814][INFO ][o.o.c.m.MetadataDeleteIndexService] [node-1] [luxry_aky_test/RvhE7btoQACCNkI6htoCoA] deleting index
+[2023-07-18T15:57:00,869][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-18T15:57:00,870][ERROR][o.o.i.i.ManagedIndexCoordinator] [node-1] get managed-index failed: [.opendistro-ism-config] IndexNotFoundException[no such index [.opendistro-ism-config]]
+[2023-07-18T15:57:16,692][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[luxry_aky_test/x020rLtgTjGoKqzb91cvpA]
+[2023-07-18T15:57:16,694][INFO ][o.o.c.m.MetadataCreateIndexService] [node-1] [luxry_aky_test] creating index, cause [auto(bulk api)], templates [], shards [1]/[1]
+[2023-07-18T15:57:16,722][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[luxry_aky_test/x020rLtgTjGoKqzb91cvpA]
+[2023-07-18T15:57:16,734][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-18T15:57:16,793][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-18T15:57:16,796][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[luxry_aky_test/x020rLtgTjGoKqzb91cvpA]
+[2023-07-18T15:57:16,804][INFO ][o.o.c.m.MetadataMappingService] [node-1] [luxry_aky_test/x020rLtgTjGoKqzb91cvpA] create_mapping
+[2023-07-18T15:57:16,828][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-18T15:57:16,829][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[luxry_aky_test/x020rLtgTjGoKqzb91cvpA]
+[2023-07-18T15:57:16,831][INFO ][o.o.c.m.MetadataMappingService] [node-1] [luxry_aky_test/x020rLtgTjGoKqzb91cvpA] update_mapping [_doc]
+[2023-07-18T15:57:16,833][INFO ][o.o.c.m.MetadataMappingService] [node-1] [luxry_aky_test/x020rLtgTjGoKqzb91cvpA] update_mapping [_doc]
+[2023-07-18T15:57:16,834][INFO ][o.o.c.m.MetadataMappingService] [node-1] [luxry_aky_test/x020rLtgTjGoKqzb91cvpA] update_mapping [_doc]
+[2023-07-18T15:57:16,861][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-18T15:57:16,862][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[luxry_aky_test/x020rLtgTjGoKqzb91cvpA]
+[2023-07-18T15:57:16,867][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[luxry_aky_test/x020rLtgTjGoKqzb91cvpA]
+[2023-07-18T15:57:16,870][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[luxry_aky_test/x020rLtgTjGoKqzb91cvpA]
+[2023-07-18T15:57:16,872][INFO ][o.o.c.m.MetadataMappingService] [node-1] [luxry_aky_test/x020rLtgTjGoKqzb91cvpA] update_mapping [_doc]
+[2023-07-18T15:57:16,873][INFO ][o.o.c.m.MetadataMappingService] [node-1] [luxry_aky_test/x020rLtgTjGoKqzb91cvpA] update_mapping [_doc]
+[2023-07-18T15:57:16,900][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-18T15:57:16,901][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[luxry_aky_test/x020rLtgTjGoKqzb91cvpA]
+[2023-07-18T15:57:16,904][INFO ][o.o.c.m.MetadataMappingService] [node-1] [luxry_aky_test/x020rLtgTjGoKqzb91cvpA] update_mapping [_doc]
+[2023-07-18T15:57:16,933][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-18T15:57:16,934][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[luxry_aky_test/x020rLtgTjGoKqzb91cvpA]
+[2023-07-18T15:58:40,512][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-18T16:03:40,512][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-18T16:08:40,513][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-18T16:13:40,514][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

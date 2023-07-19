@@ -1141,3 +1141,5 @@ Caused by: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificat
 [2023-07-19T23:37:43,556][INFO ][o.o.c.m.MetadataMappingService] [node-1] [security-auditlog-2023.07.19/PN8A_rpORsSuvfsJ96dChw] update_mapping [_doc]
 [2023-07-19T23:37:43,577][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
 [2023-07-19T23:38:40,707][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-19T23:43:40,707][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-19T23:48:40,707][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

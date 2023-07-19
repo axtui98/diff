@@ -333,3 +333,52 @@
 [2023-07-19T14:23:40,653][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-19T14:28:23,669][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
 [2023-07-19T14:28:40,654][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-19T14:31:46,264][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[luxry_aky0719/EDjgmw2LTh2VoY0YYpE6Cw]
+[2023-07-19T14:31:46,269][INFO ][o.o.c.m.MetadataCreateIndexService] [node-1] [luxry_aky0719] creating index, cause [auto(bulk api)], templates [], shards [1]/[1]
+[2023-07-19T14:31:46,308][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[luxry_aky0719/EDjgmw2LTh2VoY0YYpE6Cw]
+[2023-07-19T14:31:46,320][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-19T14:31:46,388][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-19T14:31:46,398][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[luxry_aky0719/EDjgmw2LTh2VoY0YYpE6Cw]
+[2023-07-19T14:31:46,400][INFO ][o.o.c.m.MetadataMappingService] [node-1] [luxry_aky0719/EDjgmw2LTh2VoY0YYpE6Cw] create_mapping
+[2023-07-19T14:31:46,429][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-19T14:31:46,431][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[luxry_aky0719/EDjgmw2LTh2VoY0YYpE6Cw]
+[2023-07-19T14:31:46,443][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[luxry_aky0719/EDjgmw2LTh2VoY0YYpE6Cw]
+[2023-07-19T14:31:46,446][INFO ][o.o.c.m.MetadataMappingService] [node-1] [luxry_aky0719/EDjgmw2LTh2VoY0YYpE6Cw] update_mapping [_doc]
+[2023-07-19T14:31:46,497][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-19T14:31:46,498][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[luxry_aky0719/EDjgmw2LTh2VoY0YYpE6Cw]
+[2023-07-19T14:31:46,500][INFO ][o.o.c.m.MetadataMappingService] [node-1] [luxry_aky0719/EDjgmw2LTh2VoY0YYpE6Cw] update_mapping [_doc]
+[2023-07-19T14:31:46,533][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-19T14:31:46,534][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[luxry_aky0719/EDjgmw2LTh2VoY0YYpE6Cw]
+[2023-07-19T14:31:46,537][INFO ][o.o.c.m.MetadataMappingService] [node-1] [luxry_aky0719/EDjgmw2LTh2VoY0YYpE6Cw] update_mapping [_doc]
+[2023-07-19T14:31:46,572][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-19T14:31:47,061][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[luxry_aky0719/EDjgmw2LTh2VoY0YYpE6Cw]
+[2023-07-19T14:31:47,064][INFO ][o.o.c.m.MetadataMappingService] [node-1] [luxry_aky0719/EDjgmw2LTh2VoY0YYpE6Cw] update_mapping [_doc]
+[2023-07-19T14:31:47,099][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-19T14:32:00,340][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[luxry_aky0719/EDjgmw2LTh2VoY0YYpE6Cw]
+[2023-07-19T14:32:00,343][INFO ][o.o.c.m.MetadataMappingService] [node-1] [luxry_aky0719/EDjgmw2LTh2VoY0YYpE6Cw] update_mapping [_doc]
+[2023-07-19T14:32:00,370][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-19T14:32:00,627][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[luxry_aky0719/EDjgmw2LTh2VoY0YYpE6Cw]
+[2023-07-19T14:32:00,630][INFO ][o.o.c.m.MetadataMappingService] [node-1] [luxry_aky0719/EDjgmw2LTh2VoY0YYpE6Cw] update_mapping [_doc]
+[2023-07-19T14:32:00,670][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-19T14:32:01,463][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[luxry_aky0719/EDjgmw2LTh2VoY0YYpE6Cw]
+[2023-07-19T14:32:01,465][INFO ][o.o.c.m.MetadataMappingService] [node-1] [luxry_aky0719/EDjgmw2LTh2VoY0YYpE6Cw] update_mapping [_doc]
+[2023-07-19T14:32:01,516][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-19T14:32:01,532][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[luxry_aky0719/EDjgmw2LTh2VoY0YYpE6Cw]
+[2023-07-19T14:32:01,551][INFO ][o.o.c.m.MetadataMappingService] [node-1] [luxry_aky0719/EDjgmw2LTh2VoY0YYpE6Cw] update_mapping [_doc]
+[2023-07-19T14:32:01,580][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-19T14:32:10,459][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[luxry_aky0719/EDjgmw2LTh2VoY0YYpE6Cw]
+[2023-07-19T14:32:10,463][INFO ][o.o.c.m.MetadataMappingService] [node-1] [luxry_aky0719/EDjgmw2LTh2VoY0YYpE6Cw] update_mapping [_doc]
+[2023-07-19T14:32:10,487][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-19T14:32:27,423][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[luxry_aky0719/EDjgmw2LTh2VoY0YYpE6Cw]
+[2023-07-19T14:32:27,426][INFO ][o.o.c.m.MetadataMappingService] [node-1] [luxry_aky0719/EDjgmw2LTh2VoY0YYpE6Cw] update_mapping [_doc]
+[2023-07-19T14:32:27,461][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-19T14:32:40,018][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[luxry_aky0719/EDjgmw2LTh2VoY0YYpE6Cw]
+[2023-07-19T14:32:40,026][INFO ][o.o.c.m.MetadataMappingService] [node-1] [luxry_aky0719/EDjgmw2LTh2VoY0YYpE6Cw] update_mapping [_doc]
+[2023-07-19T14:32:40,068][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-19T14:32:41,914][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[luxry_aky0719/EDjgmw2LTh2VoY0YYpE6Cw]
+[2023-07-19T14:32:41,917][INFO ][o.o.c.m.MetadataMappingService] [node-1] [luxry_aky0719/EDjgmw2LTh2VoY0YYpE6Cw] update_mapping [_doc]
+[2023-07-19T14:32:41,961][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-19T14:33:40,654][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-19T14:38:13,921][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-19T14:38:40,655][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-19T14:39:31,776][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration

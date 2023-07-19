@@ -957,3 +957,13 @@ Caused by: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificat
 [2023-07-19T21:13:40,691][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-19T21:18:40,692][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-19T21:23:40,692][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-19T21:28:40,693][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-19T21:33:40,693][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-19T21:38:40,694][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-19T21:43:40,694][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-19T21:48:40,695][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-19T21:53:38,315][INFO ][o.o.a.t.CronTransportAction] [node-1] Start running AD hourly cron.
+[2023-07-19T21:53:38,316][INFO ][o.o.a.t.ADTaskManager    ] [node-1] Start to maintain running historical tasks
+[2023-07-19T21:53:38,316][INFO ][o.o.a.c.HourlyCron       ] [node-1] Hourly maintenance succeeds
+[2023-07-19T21:53:40,696][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-19T21:58:40,696][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

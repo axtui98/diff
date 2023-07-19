@@ -299,3 +299,15 @@ Caused by: org.opensearch.index.mapper.MapperParsingException: unknown parameter
 [2023-07-20T08:45:57,740][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
 [2023-07-20T08:45:57,829][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
 [2023-07-20T08:48:40,773][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-20T08:50:36,478][INFO ][o.o.c.m.MetadataDeleteIndexService] [node-1] [group_test/0A7DWHfJTqSuSuzli0eaqw] deleting index
+[2023-07-20T08:50:36,522][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-20T08:50:36,522][ERROR][o.o.i.i.ManagedIndexCoordinator] [node-1] get managed-index failed: [.opendistro-ism-config] IndexNotFoundException[no such index [.opendistro-ism-config]]
+[2023-07-20T08:50:37,467][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[group_test/NcJftmJKRp2x9WwegGhxRw]
+[2023-07-20T08:50:37,468][INFO ][o.o.c.m.MetadataCreateIndexService] [node-1] [group_test] creating index, cause [api], templates [], shards [1]/[1]
+[2023-07-20T08:50:37,491][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[group_test/NcJftmJKRp2x9WwegGhxRw]
+[2023-07-20T08:50:37,503][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-20T08:50:37,586][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-20T08:53:38,321][INFO ][o.o.a.t.CronTransportAction] [node-1] Start running AD hourly cron.
+[2023-07-20T08:53:38,321][INFO ][o.o.a.t.ADTaskManager    ] [node-1] Start to maintain running historical tasks
+[2023-07-20T08:53:38,322][INFO ][o.o.a.c.HourlyCron       ] [node-1] Hourly maintenance succeeds
+[2023-07-20T08:53:40,774][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

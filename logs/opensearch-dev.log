@@ -293,3 +293,30 @@
 [2023-07-19T12:18:40,643][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-19T12:23:40,643][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-19T12:28:40,644][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-19T12:33:40,644][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-19T12:38:40,645][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-19T12:43:40,645][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-19T12:48:40,646][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-19T12:53:38,311][INFO ][o.o.a.t.CronTransportAction] [node-1] Start running AD hourly cron.
+[2023-07-19T12:53:38,312][INFO ][o.o.a.t.ADTaskManager    ] [node-1] Start to maintain running historical tasks
+[2023-07-19T12:53:38,312][INFO ][o.o.a.c.HourlyCron       ] [node-1] Hourly maintenance succeeds
+[2023-07-19T12:53:40,646][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-19T12:55:09,867][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-19T12:55:29,234][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-19T12:56:07,420][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-19T12:57:11,018][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-19T12:57:57,807][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-19T12:58:40,647][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-19T13:03:40,647][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-19T13:08:40,648][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-19T13:12:10,993][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-19T13:13:40,648][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-19T13:15:12,044][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-19T13:18:40,648][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-19T13:23:40,648][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-19T13:27:03,986][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-19T13:28:40,648][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-19T13:33:40,649][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-19T13:38:16,491][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-19T13:38:40,649][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-19T13:43:40,650][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

@@ -7,3 +7,12 @@
 [2023-07-20T00:33:30,522][INFO ][o.o.c.r.a.DiskThresholdMonitor] [node-1] low disk watermark [85%] exceeded on [bIuegqYFQrKey5OWASG4gg][node-1][/home/opensearch/opensearch/opensearch-2.8.0/data/nodes/0] free: 25.6gb[14.7%], replicas will not be assigned to this node
 [2023-07-20T00:33:40,724][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
 [2023-07-20T00:38:40,724][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-20T00:42:01,896][WARN ][o.o.c.r.a.DiskThresholdMonitor] [node-1] high disk watermark [90%] exceeded on [bIuegqYFQrKey5OWASG4gg][node-1][/home/opensearch/opensearch/opensearch-2.8.0/data/nodes/0] free: 16.1gb[9.3%], shards will be relocated away from this node; currently relocating away shards totalling [0] bytes; the node is expected to continue to exceed the high disk watermark when these relocations are complete
+[2023-07-20T00:42:05,903][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-20T00:42:34,740][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-20T00:43:09,992][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-20T00:43:34,800][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-20T00:43:40,725][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-20T00:44:06,405][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-20T00:44:34,683][INFO ][o.o.c.r.a.DiskThresholdMonitor] [node-1] high disk watermark [90%] no longer exceeded on [bIuegqYFQrKey5OWASG4gg][node-1][/home/opensearch/opensearch/opensearch-2.8.0/data/nodes/0] free: 17.6gb[10.1%], but low disk watermark [85%] is still exceeded
+[2023-07-20T00:44:34,745][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration

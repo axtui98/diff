@@ -468,3 +468,265 @@
 {"type": "server", "timestamp": "2023-07-19T16:18:40,664+09:00", "level": "INFO", "component": "o.o.j.s.JobSweeper", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "Running full sweep", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
 {"type": "server", "timestamp": "2023-07-19T16:23:40,665+09:00", "level": "INFO", "component": "o.o.j.s.JobSweeper", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "Running full sweep", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
 {"type": "server", "timestamp": "2023-07-19T16:28:40,665+09:00", "level": "INFO", "component": "o.o.j.s.JobSweeper", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "Running full sweep", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:33:40,666+09:00", "level": "INFO", "component": "o.o.j.s.JobSweeper", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "Running full sweep", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:33:47,477+09:00", "level": "INFO", "component": "o.o.a.u.d.DestinationMigrationCoordinator", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "Detected cluster change event for destination migration", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:38:08,008+09:00", "level": "INFO", "component": "o.o.a.u.d.DestinationMigrationCoordinator", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "Detected cluster change event for destination migration", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:38:14,541+09:00", "level": "INFO", "component": "o.o.a.u.d.DestinationMigrationCoordinator", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "Detected cluster change event for destination migration", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:38:40,666+09:00", "level": "INFO", "component": "o.o.j.s.JobSweeper", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "Running full sweep", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:39:09,648+09:00", "level": "INFO", "component": "o.o.a.u.d.DestinationMigrationCoordinator", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "Detected cluster change event for destination migration", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:39:48,871+09:00", "level": "INFO", "component": "o.o.i.c.n.f.IndexOperationActionFilter", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "Add notification action listener for tasks: bIuegqYFQrKey5OWASG4gg:4881531 and action: indices:data/write/reindex ", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:39:48,879+09:00", "level": "INFO", "component": "o.o.p.PluginsService", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "PluginService:onIndexModule index:[.tasks/ZKH3ExsCRLW5z5Jl6ObZFQ]", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:39:48,888+09:00", "level": "INFO", "component": "o.o.c.m.MetadataCreateIndexService", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "[.tasks] creating index, cause [auto(task api)], templates [], shards [1]/[1]", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:39:48,889+09:00", "level": "INFO", "component": "o.o.c.r.a.AllocationService", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "updating number_of_replicas to [0] for indices [.tasks]", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:39:48,938+09:00", "level": "INFO", "component": "o.o.p.PluginsService", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "PluginService:onIndexModule index:[.tasks/ZKH3ExsCRLW5z5Jl6ObZFQ]", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:39:48,951+09:00", "level": "INFO", "component": "o.o.a.u.d.DestinationMigrationCoordinator", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "Detected cluster change event for destination migration", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:39:49,004+09:00", "level": "INFO", "component": "o.o.a.u.d.DestinationMigrationCoordinator", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "Detected cluster change event for destination migration", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:39:49,014+09:00", "level": "WARN", "component": "o.o.t.LoggingTaskListener", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "4881531 failed with exception", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg" , 
+"stacktrace": ["org.opensearch.index.IndexNotFoundException: no such index [luxry_aky_0719]",
+"at org.opensearch.cluster.metadata.IndexNameExpressionResolver$WildcardExpressionResolver.indexNotFoundException(IndexNameExpressionResolver.java:1064) ~[opensearch-2.8.0.jar:2.8.0]",
+"at org.opensearch.cluster.metadata.IndexNameExpressionResolver$WildcardExpressionResolver.innerResolve(IndexNameExpressionResolver.java:1001) ~[opensearch-2.8.0.jar:2.8.0]",
+"at org.opensearch.cluster.metadata.IndexNameExpressionResolver$WildcardExpressionResolver.resolve(IndexNameExpressionResolver.java:957) ~[opensearch-2.8.0.jar:2.8.0]",
+"at org.opensearch.cluster.metadata.IndexNameExpressionResolver.concreteIndices(IndexNameExpressionResolver.java:254) ~[opensearch-2.8.0.jar:2.8.0]",
+"at org.opensearch.cluster.metadata.IndexNameExpressionResolver.concreteIndexNames(IndexNameExpressionResolver.java:234) ~[opensearch-2.8.0.jar:2.8.0]",
+"at org.opensearch.cluster.metadata.IndexNameExpressionResolver.concreteIndexNames(IndexNameExpressionResolver.java:114) ~[opensearch-2.8.0.jar:2.8.0]",
+"at org.opensearch.index.reindex.ReindexValidator.validateAgainstAliases(ReindexValidator.java:162) ~[?:?]",
+"at org.opensearch.index.reindex.ReindexValidator.initialValidation(ReindexValidator.java:82) ~[?:?]",
+"at org.opensearch.index.reindex.TransportReindexAction.doExecute(TransportReindexAction.java:99) ~[?:?]",
+"at org.opensearch.index.reindex.TransportReindexAction.doExecute(TransportReindexAction.java:58) ~[?:?]",
+"at org.opensearch.action.support.TransportAction$RequestFilterChain.proceed(TransportAction.java:218) ~[opensearch-2.8.0.jar:2.8.0]",
+"at org.opensearch.indexmanagement.rollup.actionfilter.FieldCapsFilter.apply(FieldCapsFilter.kt:118) ~[?:?]",
+"at org.opensearch.action.support.TransportAction$RequestFilterChain.proceed(TransportAction.java:216) ~[opensearch-2.8.0.jar:2.8.0]",
+"at org.opensearch.indexmanagement.controlcenter.notification.filter.IndexOperationActionFilter.apply(IndexOperationActionFilter.kt:39) ~[?:?]",
+"at org.opensearch.action.support.TransportAction$RequestFilterChain.proceed(TransportAction.java:216) ~[opensearch-2.8.0.jar:2.8.0]",
+"at org.opensearch.performanceanalyzer.action.PerformanceAnalyzerActionFilter.apply(PerformanceAnalyzerActionFilter.java:78) ~[?:?]",
+"at org.opensearch.action.support.TransportAction$RequestFilterChain.proceed(TransportAction.java:216) ~[opensearch-2.8.0.jar:2.8.0]",
+"at org.opensearch.security.filter.SecurityFilter.apply0(SecurityFilter.java:317) ~[?:?]",
+"at org.opensearch.security.filter.SecurityFilter.apply(SecurityFilter.java:149) ~[?:?]",
+"at org.opensearch.action.support.TransportAction$RequestFilterChain.proceed(TransportAction.java:216) ~[opensearch-2.8.0.jar:2.8.0]",
+"at org.opensearch.action.support.TransportAction.execute(TransportAction.java:188) ~[opensearch-2.8.0.jar:2.8.0]",
+"at org.opensearch.action.support.TransportAction.execute(TransportAction.java:148) ~[opensearch-2.8.0.jar:2.8.0]",
+"at org.opensearch.client.node.NodeClient.executeLocally(NodeClient.java:122) ~[opensearch-2.8.0.jar:2.8.0]",
+"at org.opensearch.index.reindex.AbstractBaseReindexRestHandler.doPrepareRequest(AbstractBaseReindexRestHandler.java:83) ~[?:?]",
+"at org.opensearch.index.reindex.RestReindexAction.prepareRequest(RestReindexAction.java:72) ~[?:?]",
+"at org.opensearch.rest.BaseRestHandler.handleRequest(BaseRestHandler.java:104) ~[opensearch-2.8.0.jar:2.8.0]",
+"at org.opensearch.security.filter.SecurityRestFilter$1.handleRequest(SecurityRestFilter.java:127) ~[?:?]",
+"at org.opensearch.rest.RestController.dispatchRequest(RestController.java:320) ~[opensearch-2.8.0.jar:2.8.0]",
+"at org.opensearch.rest.RestController.tryAllHandlers(RestController.java:411) ~[opensearch-2.8.0.jar:2.8.0]",
+"at org.opensearch.rest.RestController.dispatchRequest(RestController.java:249) ~[opensearch-2.8.0.jar:2.8.0]",
+"at org.opensearch.security.ssl.http.netty.ValidatingDispatcher.dispatchRequest(ValidatingDispatcher.java:63) ~[?:?]",
+"at org.opensearch.http.AbstractHttpServerTransport.dispatchRequest(AbstractHttpServerTransport.java:366) ~[opensearch-2.8.0.jar:2.8.0]",
+"at org.opensearch.http.AbstractHttpServerTransport.handleIncomingRequest(AbstractHttpServerTransport.java:445) ~[opensearch-2.8.0.jar:2.8.0]",
+"at org.opensearch.http.AbstractHttpServerTransport.incomingRequest(AbstractHttpServerTransport.java:356) ~[opensearch-2.8.0.jar:2.8.0]",
+"at org.opensearch.http.netty4.Netty4HttpRequestHandler.channelRead0(Netty4HttpRequestHandler.java:55) ~[?:?]",
+"at org.opensearch.http.netty4.Netty4HttpRequestHandler.channelRead0(Netty4HttpRequestHandler.java:41) ~[?:?]",
+"at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:99) ~[?:?]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[?:?]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[?:?]",
+"at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[?:?]",
+"at org.opensearch.http.netty4.Netty4HttpPipeliningHandler.channelRead(Netty4HttpPipeliningHandler.java:71) ~[?:?]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[?:?]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[?:?]",
+"at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[?:?]",
+"at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) ~[?:?]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[?:?]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[?:?]",
+"at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[?:?]",
+"at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) ~[?:?]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[?:?]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[?:?]",
+"at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[?:?]",
+"at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) ~[?:?]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[?:?]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[?:?]",
+"at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[?:?]",
+"at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[?:?]",
+"at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318) ~[?:?]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[?:?]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[?:?]",
+"at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[?:?]",
+"at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) ~[?:?]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[?:?]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[?:?]",
+"at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[?:?]",
+"at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) ~[?:?]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[?:?]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[?:?]",
+"at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[?:?]",
+"at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1383) ~[?:?]",
+"at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1246) ~[?:?]",
+"at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1295) ~[?:?]",
+"at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529) ~[?:?]",
+"at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468) ~[?:?]",
+"at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[?:?]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[?:?]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[?:?]",
+"at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[?:?]",
+"at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[?:?]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[?:?]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[?:?]",
+"at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[?:?]",
+"at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) ~[?:?]",
+"at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[?:?]",
+"at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:689) ~[?:?]",
+"at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:652) ~[?:?]",
+"at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[?:?]",
+"at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[?:?]",
+"at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[?:?]",
+"at java.lang.Thread.run(Thread.java:833) [?:?]"] }
+{"type": "server", "timestamp": "2023-07-19T16:42:04,763+09:00", "level": "INFO", "component": "o.o.c.m.MetadataDeleteIndexService", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "[luxury_panda-2023.07.13/Gsc2iZlaSruwyi-Rv9bfbA] deleting index", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:42:04,837+09:00", "level": "INFO", "component": "o.o.a.u.d.DestinationMigrationCoordinator", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "Detected cluster change event for destination migration", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:42:04,838+09:00", "level": "ERROR", "component": "o.o.i.i.ManagedIndexCoordinator", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "get managed-index failed: [.opendistro-ism-config] IndexNotFoundException[no such index [.opendistro-ism-config]]", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:42:12,039+09:00", "level": "INFO", "component": "o.o.i.c.n.f.IndexOperationActionFilter", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "Add notification action listener for tasks: bIuegqYFQrKey5OWASG4gg:4882677 and action: indices:data/write/reindex ", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:42:12,056+09:00", "level": "WARN", "component": "o.o.t.LoggingTaskListener", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "4882677 failed with exception", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg" , 
+"stacktrace": ["org.opensearch.index.IndexNotFoundException: no such index [luxry_aky_0719]",
+"at org.opensearch.cluster.metadata.IndexNameExpressionResolver$WildcardExpressionResolver.indexNotFoundException(IndexNameExpressionResolver.java:1064) ~[opensearch-2.8.0.jar:2.8.0]",
+"at org.opensearch.cluster.metadata.IndexNameExpressionResolver$WildcardExpressionResolver.innerResolve(IndexNameExpressionResolver.java:1001) ~[opensearch-2.8.0.jar:2.8.0]",
+"at org.opensearch.cluster.metadata.IndexNameExpressionResolver$WildcardExpressionResolver.resolve(IndexNameExpressionResolver.java:957) ~[opensearch-2.8.0.jar:2.8.0]",
+"at org.opensearch.cluster.metadata.IndexNameExpressionResolver.concreteIndices(IndexNameExpressionResolver.java:254) ~[opensearch-2.8.0.jar:2.8.0]",
+"at org.opensearch.cluster.metadata.IndexNameExpressionResolver.concreteIndexNames(IndexNameExpressionResolver.java:234) ~[opensearch-2.8.0.jar:2.8.0]",
+"at org.opensearch.cluster.metadata.IndexNameExpressionResolver.concreteIndexNames(IndexNameExpressionResolver.java:114) ~[opensearch-2.8.0.jar:2.8.0]",
+"at org.opensearch.index.reindex.ReindexValidator.validateAgainstAliases(ReindexValidator.java:162) ~[?:?]",
+"at org.opensearch.index.reindex.ReindexValidator.initialValidation(ReindexValidator.java:82) ~[?:?]",
+"at org.opensearch.index.reindex.TransportReindexAction.doExecute(TransportReindexAction.java:99) ~[?:?]",
+"at org.opensearch.index.reindex.TransportReindexAction.doExecute(TransportReindexAction.java:58) ~[?:?]",
+"at org.opensearch.action.support.TransportAction$RequestFilterChain.proceed(TransportAction.java:218) ~[opensearch-2.8.0.jar:2.8.0]",
+"at org.opensearch.indexmanagement.rollup.actionfilter.FieldCapsFilter.apply(FieldCapsFilter.kt:118) ~[?:?]",
+"at org.opensearch.action.support.TransportAction$RequestFilterChain.proceed(TransportAction.java:216) ~[opensearch-2.8.0.jar:2.8.0]",
+"at org.opensearch.indexmanagement.controlcenter.notification.filter.IndexOperationActionFilter.apply(IndexOperationActionFilter.kt:39) ~[?:?]",
+"at org.opensearch.action.support.TransportAction$RequestFilterChain.proceed(TransportAction.java:216) ~[opensearch-2.8.0.jar:2.8.0]",
+"at org.opensearch.performanceanalyzer.action.PerformanceAnalyzerActionFilter.apply(PerformanceAnalyzerActionFilter.java:78) ~[?:?]",
+"at org.opensearch.action.support.TransportAction$RequestFilterChain.proceed(TransportAction.java:216) ~[opensearch-2.8.0.jar:2.8.0]",
+"at org.opensearch.security.filter.SecurityFilter.apply0(SecurityFilter.java:317) ~[?:?]",
+"at org.opensearch.security.filter.SecurityFilter.apply(SecurityFilter.java:149) ~[?:?]",
+"at org.opensearch.action.support.TransportAction$RequestFilterChain.proceed(TransportAction.java:216) ~[opensearch-2.8.0.jar:2.8.0]",
+"at org.opensearch.action.support.TransportAction.execute(TransportAction.java:188) ~[opensearch-2.8.0.jar:2.8.0]",
+"at org.opensearch.action.support.TransportAction.execute(TransportAction.java:148) ~[opensearch-2.8.0.jar:2.8.0]",
+"at org.opensearch.client.node.NodeClient.executeLocally(NodeClient.java:122) ~[opensearch-2.8.0.jar:2.8.0]",
+"at org.opensearch.index.reindex.AbstractBaseReindexRestHandler.doPrepareRequest(AbstractBaseReindexRestHandler.java:83) ~[?:?]",
+"at org.opensearch.index.reindex.RestReindexAction.prepareRequest(RestReindexAction.java:72) ~[?:?]",
+"at org.opensearch.rest.BaseRestHandler.handleRequest(BaseRestHandler.java:104) ~[opensearch-2.8.0.jar:2.8.0]",
+"at org.opensearch.security.filter.SecurityRestFilter$1.handleRequest(SecurityRestFilter.java:127) ~[?:?]",
+"at org.opensearch.rest.RestController.dispatchRequest(RestController.java:320) ~[opensearch-2.8.0.jar:2.8.0]",
+"at org.opensearch.rest.RestController.tryAllHandlers(RestController.java:411) ~[opensearch-2.8.0.jar:2.8.0]",
+"at org.opensearch.rest.RestController.dispatchRequest(RestController.java:249) ~[opensearch-2.8.0.jar:2.8.0]",
+"at org.opensearch.security.ssl.http.netty.ValidatingDispatcher.dispatchRequest(ValidatingDispatcher.java:63) ~[?:?]",
+"at org.opensearch.http.AbstractHttpServerTransport.dispatchRequest(AbstractHttpServerTransport.java:366) ~[opensearch-2.8.0.jar:2.8.0]",
+"at org.opensearch.http.AbstractHttpServerTransport.handleIncomingRequest(AbstractHttpServerTransport.java:445) ~[opensearch-2.8.0.jar:2.8.0]",
+"at org.opensearch.http.AbstractHttpServerTransport.incomingRequest(AbstractHttpServerTransport.java:356) ~[opensearch-2.8.0.jar:2.8.0]",
+"at org.opensearch.http.netty4.Netty4HttpRequestHandler.channelRead0(Netty4HttpRequestHandler.java:55) ~[?:?]",
+"at org.opensearch.http.netty4.Netty4HttpRequestHandler.channelRead0(Netty4HttpRequestHandler.java:41) ~[?:?]",
+"at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:99) ~[?:?]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[?:?]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[?:?]",
+"at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[?:?]",
+"at org.opensearch.http.netty4.Netty4HttpPipeliningHandler.channelRead(Netty4HttpPipeliningHandler.java:71) ~[?:?]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[?:?]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[?:?]",
+"at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[?:?]",
+"at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) ~[?:?]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[?:?]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[?:?]",
+"at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[?:?]",
+"at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) ~[?:?]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[?:?]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[?:?]",
+"at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[?:?]",
+"at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) ~[?:?]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[?:?]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[?:?]",
+"at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[?:?]",
+"at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[?:?]",
+"at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318) ~[?:?]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[?:?]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[?:?]",
+"at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[?:?]",
+"at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) ~[?:?]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[?:?]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[?:?]",
+"at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[?:?]",
+"at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) ~[?:?]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[?:?]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[?:?]",
+"at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[?:?]",
+"at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1383) ~[?:?]",
+"at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1246) ~[?:?]",
+"at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1295) ~[?:?]",
+"at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529) ~[?:?]",
+"at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468) ~[?:?]",
+"at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[?:?]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[?:?]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[?:?]",
+"at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[?:?]",
+"at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[?:?]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[?:?]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[?:?]",
+"at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[?:?]",
+"at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) ~[?:?]",
+"at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[?:?]",
+"at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:689) ~[?:?]",
+"at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:652) ~[?:?]",
+"at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[?:?]",
+"at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[?:?]",
+"at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[?:?]",
+"at java.lang.Thread.run(Thread.java:833) [?:?]"] }
+{"type": "server", "timestamp": "2023-07-19T16:42:47,231+09:00", "level": "INFO", "component": "o.o.i.c.n.f.IndexOperationActionFilter", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "Add notification action listener for tasks: bIuegqYFQrKey5OWASG4gg:4882859 and action: indices:data/write/reindex ", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:42:47,276+09:00", "level": "INFO", "component": "o.o.p.PluginsService", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "PluginService:onIndexModule index:[luxury_panda-2023.07.19/TA3reZoZRl2PK2wTURcYgg]", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:42:47,278+09:00", "level": "INFO", "component": "o.o.c.m.MetadataCreateIndexService", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "[luxury_panda-2023.07.19] creating index, cause [auto(bulk api)], templates [luxury_panda], shards [1]/[1]", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:42:47,314+09:00", "level": "INFO", "component": "o.o.p.PluginsService", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "PluginService:onIndexModule index:[luxury_panda-2023.07.19/TA3reZoZRl2PK2wTURcYgg]", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:42:47,335+09:00", "level": "INFO", "component": "o.o.a.u.d.DestinationMigrationCoordinator", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "Detected cluster change event for destination migration", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:42:47,447+09:00", "level": "INFO", "component": "o.o.a.u.d.DestinationMigrationCoordinator", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "Detected cluster change event for destination migration", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:42:47,465+09:00", "level": "INFO", "component": "o.o.p.PluginsService", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "PluginService:onIndexModule index:[luxury_panda-2023.07.19/TA3reZoZRl2PK2wTURcYgg]", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:42:47,473+09:00", "level": "INFO", "component": "o.o.c.m.MetadataMappingService", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "[luxury_panda-2023.07.19/TA3reZoZRl2PK2wTURcYgg] create_mapping", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:42:47,515+09:00", "level": "INFO", "component": "o.o.a.u.d.DestinationMigrationCoordinator", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "Detected cluster change event for destination migration", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:42:47,747+09:00", "level": "INFO", "component": "o.o.p.PluginsService", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "PluginService:onIndexModule index:[luxury_panda-2023.07.19/TA3reZoZRl2PK2wTURcYgg]", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:42:47,750+09:00", "level": "INFO", "component": "o.o.c.m.MetadataMappingService", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "[luxury_panda-2023.07.19/TA3reZoZRl2PK2wTURcYgg] update_mapping [_doc]", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:42:47,785+09:00", "level": "INFO", "component": "o.o.a.u.d.DestinationMigrationCoordinator", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "Detected cluster change event for destination migration", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:42:47,858+09:00", "level": "INFO", "component": "o.o.p.PluginsService", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "PluginService:onIndexModule index:[luxury_panda-2023.07.19/TA3reZoZRl2PK2wTURcYgg]", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:42:47,861+09:00", "level": "INFO", "component": "o.o.c.m.MetadataMappingService", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "[luxury_panda-2023.07.19/TA3reZoZRl2PK2wTURcYgg] update_mapping [_doc]", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:42:47,897+09:00", "level": "INFO", "component": "o.o.a.u.d.DestinationMigrationCoordinator", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "Detected cluster change event for destination migration", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:42:47,915+09:00", "level": "INFO", "component": "o.o.p.PluginsService", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "PluginService:onIndexModule index:[luxury_panda-2023.07.19/TA3reZoZRl2PK2wTURcYgg]", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:42:47,917+09:00", "level": "INFO", "component": "o.o.c.m.MetadataMappingService", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "[luxury_panda-2023.07.19/TA3reZoZRl2PK2wTURcYgg] update_mapping [_doc]", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:42:47,951+09:00", "level": "INFO", "component": "o.o.a.u.d.DestinationMigrationCoordinator", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "Detected cluster change event for destination migration", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:42:47,954+09:00", "level": "INFO", "component": "o.o.p.PluginsService", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "PluginService:onIndexModule index:[luxury_panda-2023.07.19/TA3reZoZRl2PK2wTURcYgg]", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:42:47,956+09:00", "level": "INFO", "component": "o.o.c.m.MetadataMappingService", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "[luxury_panda-2023.07.19/TA3reZoZRl2PK2wTURcYgg] update_mapping [_doc]", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:42:47,992+09:00", "level": "INFO", "component": "o.o.a.u.d.DestinationMigrationCoordinator", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "Detected cluster change event for destination migration", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:42:50,877+09:00", "level": "INFO", "component": "o.o.p.PluginsService", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "PluginService:onIndexModule index:[luxury_panda-2023.07.19/TA3reZoZRl2PK2wTURcYgg]", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:42:50,880+09:00", "level": "INFO", "component": "o.o.c.m.MetadataMappingService", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "[luxury_panda-2023.07.19/TA3reZoZRl2PK2wTURcYgg] update_mapping [_doc]", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:42:50,916+09:00", "level": "INFO", "component": "o.o.a.u.d.DestinationMigrationCoordinator", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "Detected cluster change event for destination migration", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:42:50,992+09:00", "level": "INFO", "component": "o.o.p.PluginsService", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "PluginService:onIndexModule index:[luxury_panda-2023.07.19/TA3reZoZRl2PK2wTURcYgg]", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:42:50,995+09:00", "level": "INFO", "component": "o.o.c.m.MetadataMappingService", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "[luxury_panda-2023.07.19/TA3reZoZRl2PK2wTURcYgg] update_mapping [_doc]", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:42:51,033+09:00", "level": "INFO", "component": "o.o.a.u.d.DestinationMigrationCoordinator", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "Detected cluster change event for destination migration", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:42:51,332+09:00", "level": "INFO", "component": "o.o.p.PluginsService", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "PluginService:onIndexModule index:[luxury_panda-2023.07.19/TA3reZoZRl2PK2wTURcYgg]", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:42:51,335+09:00", "level": "INFO", "component": "o.o.c.m.MetadataMappingService", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "[luxury_panda-2023.07.19/TA3reZoZRl2PK2wTURcYgg] update_mapping [_doc]", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:42:51,373+09:00", "level": "INFO", "component": "o.o.a.u.d.DestinationMigrationCoordinator", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "Detected cluster change event for destination migration", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:42:52,716+09:00", "level": "INFO", "component": "o.o.p.PluginsService", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "PluginService:onIndexModule index:[luxury_panda-2023.07.19/TA3reZoZRl2PK2wTURcYgg]", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:42:52,719+09:00", "level": "INFO", "component": "o.o.c.m.MetadataMappingService", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "[luxury_panda-2023.07.19/TA3reZoZRl2PK2wTURcYgg] update_mapping [_doc]", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:42:52,754+09:00", "level": "INFO", "component": "o.o.a.u.d.DestinationMigrationCoordinator", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "Detected cluster change event for destination migration", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:43:09,967+09:00", "level": "INFO", "component": "o.o.a.u.d.DestinationMigrationCoordinator", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "Detected cluster change event for destination migration", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:43:38,743+09:00", "level": "INFO", "component": "o.o.p.PluginsService", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "PluginService:onIndexModule index:[luxury_panda-2023.07.19/TA3reZoZRl2PK2wTURcYgg]", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:43:38,746+09:00", "level": "INFO", "component": "o.o.c.m.MetadataMappingService", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "[luxury_panda-2023.07.19/TA3reZoZRl2PK2wTURcYgg] update_mapping [_doc]", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:43:38,781+09:00", "level": "INFO", "component": "o.o.a.u.d.DestinationMigrationCoordinator", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "Detected cluster change event for destination migration", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:43:40,667+09:00", "level": "INFO", "component": "o.o.j.s.JobSweeper", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "Running full sweep", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:43:40,766+09:00", "level": "INFO", "component": "o.o.p.PluginsService", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "PluginService:onIndexModule index:[luxury_panda-2023.07.19/TA3reZoZRl2PK2wTURcYgg]", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:43:40,769+09:00", "level": "INFO", "component": "o.o.c.m.MetadataMappingService", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "[luxury_panda-2023.07.19/TA3reZoZRl2PK2wTURcYgg] update_mapping [_doc]", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:43:40,806+09:00", "level": "INFO", "component": "o.o.a.u.d.DestinationMigrationCoordinator", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "Detected cluster change event for destination migration", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:44:09,316+09:00", "level": "INFO", "component": "o.o.t.LoggingTaskListener", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "4882859 finished with response BulkByScrollResponse[took=1.3m,timed_out=false,sliceId=null,updated=0,created=403902,deleted=0,batches=404,versionConflicts=0,noops=0,retries=0,throttledUntil=0s,bulk_failures=[],search_failures=[]]", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:48:40,667+09:00", "level": "INFO", "component": "o.o.j.s.JobSweeper", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "Running full sweep", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:52:51,978+09:00", "level": "INFO", "component": "o.o.c.m.MetadataDeleteIndexService", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "[lux_test1/2vRFb2p4RnemqO3TdZTgyQ] deleting index", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:52:52,044+09:00", "level": "INFO", "component": "o.o.a.u.d.DestinationMigrationCoordinator", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "Detected cluster change event for destination migration", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:52:52,044+09:00", "level": "ERROR", "component": "o.o.i.i.ManagedIndexCoordinator", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "get managed-index failed: [.opendistro-ism-config] IndexNotFoundException[no such index [.opendistro-ism-config]]", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:53:38,313+09:00", "level": "INFO", "component": "o.o.a.t.CronTransportAction", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "Start running AD hourly cron.", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:53:38,313+09:00", "level": "INFO", "component": "o.o.a.t.ADTaskManager", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "Start to maintain running historical tasks", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:53:38,314+09:00", "level": "INFO", "component": "o.o.a.c.HourlyCron", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "Hourly maintenance succeeds", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:53:40,667+09:00", "level": "INFO", "component": "o.o.j.s.JobSweeper", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "Running full sweep", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:53:46,121+09:00", "level": "INFO", "component": "o.o.p.PluginsService", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "PluginService:onIndexModule index:[lux_test1/6lFaEG4eTAGlHnznG-Vo3A]", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:53:46,125+09:00", "level": "INFO", "component": "o.o.c.m.MetadataCreateIndexService", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "[lux_test1] creating index, cause [auto(bulk api)], templates [], shards [1]/[1]", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:53:46,181+09:00", "level": "INFO", "component": "o.o.p.PluginsService", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "PluginService:onIndexModule index:[lux_test1/6lFaEG4eTAGlHnznG-Vo3A]", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:53:46,196+09:00", "level": "INFO", "component": "o.o.a.u.d.DestinationMigrationCoordinator", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "Detected cluster change event for destination migration", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:53:46,286+09:00", "level": "INFO", "component": "o.o.a.u.d.DestinationMigrationCoordinator", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "Detected cluster change event for destination migration", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:53:46,291+09:00", "level": "INFO", "component": "o.o.p.PluginsService", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "PluginService:onIndexModule index:[lux_test1/6lFaEG4eTAGlHnznG-Vo3A]", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:53:46,294+09:00", "level": "INFO", "component": "o.o.c.m.MetadataMappingService", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "[lux_test1/6lFaEG4eTAGlHnznG-Vo3A] create_mapping", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:53:46,345+09:00", "level": "INFO", "component": "o.o.a.u.d.DestinationMigrationCoordinator", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "Detected cluster change event for destination migration", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T16:58:40,668+09:00", "level": "INFO", "component": "o.o.j.s.JobSweeper", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "Running full sweep", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T17:03:40,668+09:00", "level": "INFO", "component": "o.o.j.s.JobSweeper", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "Running full sweep", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }
+{"type": "server", "timestamp": "2023-07-19T17:08:40,668+09:00", "level": "INFO", "component": "o.o.j.s.JobSweeper", "cluster.name": "opensearch-dev", "node.name": "node-1", "message": "Running full sweep", "cluster.uuid": "pBZgM37UTziNWhMM_pFoEw", "node.id": "bIuegqYFQrKey5OWASG4gg"  }

@@ -455,3 +455,9 @@ Caused by: org.opensearch.index.mapper.MapperParsingException: Root mapping defi
 [2023-07-20T09:18:52,128][INFO ][o.o.c.m.MetadataMappingService] [node-1] [security-auditlog-2023.07.20/l___C6-xT1WN_T1m7xPM1g] update_mapping [_doc]
 [2023-07-20T09:18:52,149][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
 [2023-07-20T09:18:52,149][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[security-auditlog-2023.07.20/l___C6-xT1WN_T1m7xPM1g]
+[2023-07-20T09:23:40,777][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-20T09:28:40,777][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-20T09:33:40,778][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-20T09:38:40,778][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-20T09:43:40,779][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-20T09:48:40,779][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep

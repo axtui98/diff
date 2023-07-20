@@ -1765,3 +1765,14 @@ Caused by: org.opensearch.index.mapper.MapperParsingException: Root mapping defi
 [2023-07-20T19:04:11,072][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
 [2023-07-20T19:04:41,045][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
 [2023-07-20T19:05:11,047][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-20T19:05:41,052][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-20T19:06:11,080][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-20T19:06:41,063][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-20T19:07:11,096][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-20T19:07:41,102][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-20T19:08:11,097][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-20T19:08:40,829][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-20T19:08:41,107][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-20T19:09:11,111][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-20T19:09:41,119][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-20T19:10:11,092][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration

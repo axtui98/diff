@@ -1083,3 +1083,22 @@ Caused by: org.opensearch.index.mapper.MapperParsingException: Root mapping defi
 [2023-07-20T14:14:25,516][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
 [2023-07-20T14:14:39,429][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
 [2023-07-20T14:15:09,440][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-20T14:15:39,473][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-20T14:16:09,452][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-20T14:16:15,752][INFO ][o.o.c.m.MetadataDeleteIndexService] [node-1] [test5235/dtEM-8vxTHCQSs7hSh0VKg] deleting index
+[2023-07-20T14:16:15,806][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-20T14:16:15,807][ERROR][o.o.i.i.ManagedIndexCoordinator] [node-1] get managed-index failed: [.opendistro-ism-config] IndexNotFoundException[no such index [.opendistro-ism-config]]
+[2023-07-20T14:16:16,483][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[test5235/vATPAaCyR5SMxgi-zw1mOQ]
+[2023-07-20T14:16:16,484][INFO ][o.o.c.m.MetadataCreateIndexService] [node-1] [test5235] creating index, cause [api], templates [], shards [1]/[1]
+[2023-07-20T14:16:16,519][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[test5235/vATPAaCyR5SMxgi-zw1mOQ]
+[2023-07-20T14:16:16,536][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-20T14:16:16,652][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-20T14:16:39,465][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-20T14:17:09,473][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-20T14:17:39,480][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-20T14:18:09,504][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-20T14:18:39,483][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-20T14:18:40,806][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-20T14:19:09,491][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-20T14:19:39,493][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-20T14:20:09,486][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration

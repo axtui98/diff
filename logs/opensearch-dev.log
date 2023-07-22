@@ -2368,3 +2368,14 @@
 [2023-07-22T17:19:27,285][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
 [2023-07-22T17:19:57,283][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
 [2023-07-22T17:20:27,299][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-22T17:20:57,290][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-22T17:21:27,297][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-22T17:21:57,304][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-22T17:22:27,305][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-22T17:22:57,295][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-22T17:23:27,305][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-22T17:23:41,073][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-22T17:23:57,314][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-22T17:24:27,313][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-22T17:24:57,319][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-22T17:25:27,326][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration

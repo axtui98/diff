@@ -1212,3 +1212,37 @@
 [2023-07-22T08:54:24,102][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
 [2023-07-22T08:54:54,104][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
 [2023-07-22T08:55:24,130][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-22T08:55:54,120][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-22T08:56:24,103][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-22T08:56:54,111][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-22T08:57:24,111][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-22T08:57:54,116][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-22T08:58:24,127][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-22T08:58:41,025][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-22T08:58:54,127][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-22T08:59:24,127][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-22T08:59:54,138][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-22T09:00:24,133][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-22T09:00:25,100][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[security-auditlog-2023.07.22/jrsrXDtDR_6rD7mN2IoMQw]
+[2023-07-22T09:00:25,109][INFO ][o.o.c.m.MetadataCreateIndexService] [node-1] [security-auditlog-2023.07.22] creating index, cause [auto(bulk api)], templates [], shards [1]/[1]
+[2023-07-22T09:00:25,144][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[security-auditlog-2023.07.22/jrsrXDtDR_6rD7mN2IoMQw]
+[2023-07-22T09:00:25,160][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-22T09:00:25,245][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-22T09:00:25,248][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[security-auditlog-2023.07.22/jrsrXDtDR_6rD7mN2IoMQw]
+[2023-07-22T09:00:25,250][INFO ][o.o.c.m.MetadataMappingService] [node-1] [security-auditlog-2023.07.22/jrsrXDtDR_6rD7mN2IoMQw] create_mapping
+[2023-07-22T09:00:25,278][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-22T09:00:25,279][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[security-auditlog-2023.07.22/jrsrXDtDR_6rD7mN2IoMQw]
+[2023-07-22T09:00:25,296][INFO ][o.o.c.m.MetadataMappingService] [node-1] [security-auditlog-2023.07.22/jrsrXDtDR_6rD7mN2IoMQw] update_mapping [_doc]
+[2023-07-22T09:00:25,336][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-22T09:00:25,336][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[security-auditlog-2023.07.22/jrsrXDtDR_6rD7mN2IoMQw]
+[2023-07-22T09:00:54,134][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-22T09:01:24,133][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-22T09:01:54,132][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-22T09:02:24,135][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-22T09:02:54,137][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-22T09:03:24,139][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-22T09:03:41,026][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-22T09:03:54,143][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-22T09:04:24,146][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-22T09:04:54,139][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-22T09:05:24,156][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration

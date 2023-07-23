@@ -125,8 +125,8 @@
 /home/opensearch/opensearch/opensearch-2.8.0/logs/gc.log.17	29154150	
 /home/opensearch/opensearch/opensearch-2.8.0/logs/gc.log.18	2031	
 /home/opensearch/opensearch/opensearch-2.8.0/logs/gc.log	940321	
-/home/opensearch/opensearch/opensearch-2.8.0/logs/opensearch-dev_server.json	15420	
-/home/opensearch/opensearch/opensearch-2.8.0/logs/opensearch-dev.log	6133	
+/home/opensearch/opensearch/opensearch-2.8.0/logs/opensearch-dev_server.json	19188	
+/home/opensearch/opensearch/opensearch-2.8.0/logs/opensearch-dev.log	7631	
 /home/opensearch/opensearch/opensearch-2.8.0/modules/ingest-geoip/plugin-security.policy	1764	
 /home/opensearch/opensearch/opensearch-2.8.0/modules/lang-expression/plugin-security.policy	1856	
 /home/opensearch/opensearch/opensearch-2.8.0/modules/lang-mustache/plugin-security.policy	1202	
@@ -189,10 +189,10 @@
 /home/opensearch/opensearch/opensearch-2.8.0/.git/refs/heads/master	41	
 /home/opensearch/opensearch/opensearch-2.8.0/.git/refs/remotes/origin/master	41	
 /home/opensearch/opensearch/opensearch-2.8.0/.git/objects/info/packs	319	
-/home/opensearch/opensearch/opensearch-2.8.0/.git/logs/HEAD	1100524	
-/home/opensearch/opensearch/opensearch-2.8.0/.git/logs/refs/heads/master	1099812	
-/home/opensearch/opensearch/opensearch-2.8.0/.git/logs/refs/remotes/origin/master	996636	
-/home/opensearch/opensearch/opensearch-2.8.0/info/git_record.log	559300	
+/home/opensearch/opensearch/opensearch-2.8.0/.git/logs/HEAD	1100826	
+/home/opensearch/opensearch/opensearch-2.8.0/.git/logs/refs/heads/master	1100114	
+/home/opensearch/opensearch/opensearch-2.8.0/.git/logs/refs/remotes/origin/master	996912	
+/home/opensearch/opensearch/opensearch-2.8.0/info/git_record.log	559504	
 /home/opensearch/opensearch/opensearch-2.8.0/info/update_info.txt	65	
-/home/opensearch/opensearch/opensearch-2.8.0/info/other_info.txt	510481	
-/home/opensearch/opensearch/opensearch-2.8.0/info/plain_info.txt	16900	
+/home/opensearch/opensearch/opensearch-2.8.0/info/other_info.txt	511012	
+/home/opensearch/opensearch/opensearch-2.8.0/info/plain_info.txt	16896	

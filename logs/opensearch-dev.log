@@ -1342,3 +1342,42 @@
 [2023-07-24T09:49:11,874][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
 [2023-07-24T09:49:41,878][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
 [2023-07-24T09:50:11,862][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-24T09:50:41,877][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-24T09:51:11,880][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-24T09:51:25,051][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[security-auditlog-2023.07.24/p4IjK8AZQO-s4I0uRVdaTw]
+[2023-07-24T09:51:25,057][INFO ][o.o.c.m.MetadataMappingService] [node-1] [security-auditlog-2023.07.24/p4IjK8AZQO-s4I0uRVdaTw] update_mapping [_doc]
+[2023-07-24T09:51:25,075][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-24T09:51:41,906][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-24T09:52:11,890][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-24T09:52:41,897][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-24T09:52:57,573][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[luxury_panda-2023.07.24/1-WtGbHtQGK-4Q7T2te7ig]
+[2023-07-24T09:52:57,579][INFO ][o.o.c.m.MetadataCreateIndexService] [node-1] [luxury_panda-2023.07.24] creating index, cause [api], templates [luxury_panda], shards [1]/[1]
+[2023-07-24T09:52:57,605][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[luxury_panda-2023.07.24/1-WtGbHtQGK-4Q7T2te7ig]
+[2023-07-24T09:52:57,620][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-24T09:52:57,708][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-24T09:53:11,902][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-24T09:53:38,363][INFO ][o.o.a.t.CronTransportAction] [node-1] Start running AD hourly cron.
+[2023-07-24T09:53:38,364][INFO ][o.o.a.t.ADTaskManager    ] [node-1] Start to maintain running historical tasks
+[2023-07-24T09:53:38,364][INFO ][o.o.a.c.HourlyCron       ] [node-1] Hourly maintenance succeeds
+[2023-07-24T09:53:41,306][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-24T09:53:41,903][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-24T09:54:02,432][INFO ][o.o.p.PluginsService     ] [node-1] PluginService:onIndexModule index:[security-auditlog-2023.07.24/p4IjK8AZQO-s4I0uRVdaTw]
+[2023-07-24T09:54:02,436][INFO ][o.o.c.m.MetadataMappingService] [node-1] [security-auditlog-2023.07.24/p4IjK8AZQO-s4I0uRVdaTw] update_mapping [_doc]
+[2023-07-24T09:54:02,457][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-24T09:54:11,932][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-24T09:54:41,911][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-24T09:55:11,913][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-24T09:55:41,964][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-24T09:56:11,929][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-24T09:56:41,933][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-24T09:57:11,937][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-24T09:57:41,936][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-24T09:58:11,940][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-24T09:58:41,307][INFO ][o.o.j.s.JobSweeper       ] [node-1] Running full sweep
+[2023-07-24T09:58:41,947][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-24T09:58:53,531][INFO ][o.o.c.m.MetadataDeleteIndexService] [node-1] [luxury_panda-2023.07.21/nOuZcn38QOGRjP0SYl2kFQ] deleting index
+[2023-07-24T09:58:53,560][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-24T09:58:53,561][ERROR][o.o.i.i.ManagedIndexCoordinator] [node-1] get managed-index failed: [.opendistro-ism-config] IndexNotFoundException[no such index [.opendistro-ism-config]]
+[2023-07-24T09:59:11,960][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-24T09:59:41,949][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
+[2023-07-24T10:00:11,951][INFO ][o.o.a.u.d.DestinationMigrationCoordinator] [node-1] Detected cluster change event for destination migration
